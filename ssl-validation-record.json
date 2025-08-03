@@ -1,0 +1,18 @@
+{
+  "Comment": "Create DNS validation record for SSL certificate",
+  "Changes": [
+    {
+      "Action": "CREATE",
+      "ResourceRecordSet": {
+        "Name": "_9f03214fde5bc2e8f98efe5b20794f62.s3vectorstest.vibhup.sa.aws.dev.",
+        "Type": "CNAME",
+        "TTL": 300,
+        "ResourceRecords": [
+          {
+            "Value": "_aa6e548e68511365c4bb0b6d07e4dbe3.xlfgrmvvlj.acm-validations.aws."
+          }
+        ]
+      }
+    }
+  ]
+}

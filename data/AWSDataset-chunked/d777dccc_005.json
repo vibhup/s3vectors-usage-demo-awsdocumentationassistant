@@ -1,0 +1,19 @@
+{
+  "chunk_id": "d777dccc_005",
+  "source_file": "aws_lambda_intro.md",
+  "title": "What is AWS Lambda?",
+  "section": "Key features",
+  "content": "## Key features\n\n**Configure, control, and deploy secure applications:**\n\n* [Environment variables](./configuration-envvars.html \"./configuration-envvars.html\") modify application behavior without new code deployments.\n* [Versions](./configuration-versions.html \"./configuration-versions.html\") safely test new features while maintaining stable production environments.\n* [Lambda layers](./chapter-layers.html \"./chapter-layers.html\") optimize code reuse and maintenance by sharing common components across multiple functions.\n* [Code signing](./configuration-codesigning.html \"./configuration-codesigning.html\") enforce security compliance by ensuring only approved code reaches production systems.\n\n**Scale and perform reliably:**\n\n* [Concurrency and scaling controls](./lambda-concurrency.html \"./lambda-concurrency.html\") precisely manage application responsiveness and resource utilization during traffic spikes.\n* [Lambda SnapStart](./snapstart.html \"./snapstart.html\") significantly reduce cold start times. Lambda SnapStart can provide as low as sub-second startup performance, typically with no changes to your function code.\n* [Response streaming](./configuration-response-streaming.html \"./configuration-response-streaming.html\") optimize function performance by delivering large payloads incrementally for real-time processing.\n* [Container images](./images-create.html \"./images-create.html\") package functions with complex dependencies using container workflows.\n\n**Connect and integrate seamlessly:**\n\n* [VPC networks](./configuration-vpc.html \"./configuration-vpc.html\") secure sensitive resources and internal services.\n* [File system](./configuration-filesystem.html \"./configuration-filesystem.html\") integration that shares persistent data and manage stateful operations across function invocations.\n* [Function URLs](./urls-configuration.html \"./urls-configuration.html\") create public-facing APIs and endpoints without additional services.\n* [Lambda extensions](./lambda-extensions.html \"./lambda-extensions.html\") augment functions with monitoring, security, and operational tools.",
+  "token_count": 374,
+  "char_count": 2104,
+  "chunk_index": 5,
+  "total_chunks": 6,
+  "overlap_with_previous": false,
+  "metadata": {
+    "service_name": "Aws Lambda",
+    "document_type": "introduction",
+    "header_level": 1,
+    "file_size_chars": 7547,
+    "processing_timestamp": "2025-08-02"
+  }
+}

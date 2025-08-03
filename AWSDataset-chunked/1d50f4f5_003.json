@@ -1,0 +1,19 @@
+{
+  "chunk_id": "1d50f4f5_003",
+  "source_file": "amazon_rds_intro.md",
+  "title": "What is Amazon Relational Database Service (Amazon RDS)?",
+  "section": "Comparison of responsibilities with Amazon EC2 and on-premises deployments",
+  "content": "## Comparison of responsibilities with Amazon EC2 and on-premises deployments\n\nWe recommend Amazon RDS as your default choice for most relational database deployments.\nThe following alternatives have the disadvantage of making you spend more time managing\nsoftware and hardware:\n\n**On-premises deployment**\n:   When you buy an on-premises server, you get CPU, memory, storage, and\n    IOPS, all bundled together. You assume full responsibility for the server,\n    operating system, and database software.\n\n**Amazon EC2**\n:   Amazon Elastic Compute Cloud (Amazon EC2) provides scalable computing capacity in the AWS Cloud.\n    Unlike in an on-premises server, CPU, memory, storage, and IOPS are\n    separated so that you can scale them independently. AWS manages the\n    hardware layers, which eliminates some of the burden of managing an\n    on-premises database server.\n\n    The disadvantage to running a database on Amazon EC2 is that you're more prone to user errors.\n    For example, when you update the operating system or database software\n    manually, you might accidentally cause application downtime.\n\nThe following table compares the management models for on-premises databases, Amazon EC2,\nand Amazon RDS.\n\n| Feature | On-premises management | Amazon EC2 management | Amazon RDS management |\n| --- | --- | --- | --- |\n| Application optimization | Customer | Customer | Customer |\n| Scaling | Customer | Customer | AWS |\n| High availability | Customer | Customer | AWS |\n| Database backups | Customer | Customer | AWS |\n| Database software patching | Customer | Customer | AWS |\n| Database software install | Customer | Customer | AWS |\n| Operating system (OS) patching | Customer | Customer | AWS |\n| OS installation | Customer | Customer | AWS |\n| Server maintenance | Customer | AWS | AWS |\n| Hardware lifecycle | Customer | AWS | AWS |\n| Power, network, and cooling | Customer | AWS | AWS |",
+  "token_count": 400,
+  "char_count": 1905,
+  "chunk_index": 3,
+  "total_chunks": 10,
+  "overlap_with_previous": false,
+  "metadata": {
+    "service_name": "Amazon Rds",
+    "document_type": "introduction",
+    "header_level": 1,
+    "file_size_chars": 7781,
+    "processing_timestamp": "2025-08-02"
+  }
+}

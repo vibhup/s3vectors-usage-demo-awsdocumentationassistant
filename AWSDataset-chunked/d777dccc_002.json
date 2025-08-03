@@ -1,0 +1,19 @@
+{
+  "chunk_id": "d777dccc_002",
+  "source_file": "aws_lambda_intro.md",
+  "title": "What is AWS Lambda?",
+  "section": "When to use Lambda",
+  "content": "## When to use Lambda\n\nLambda is an ideal compute service for application scenarios that need to scale up rapidly, and scale down to\nzero when not in demand. For example, you can use Lambda for:\n\n* **Stream processing:** Use Lambda and Amazon Kinesis to process real-time streaming data for application activity tracking, transaction order processing, clickstream analysis, data cleansing, log filtering, indexing, social media analysis, Internet of Things (IoT) device data telemetry, and metering.\n* **Web applications:** Combine Lambda with other AWS services to build powerful web applications that automatically scale up and down and run in a highly available configuration across multiple data centers.\n  To build web applications with AWS services, developers can use infrastructure as code (IaC) and orchestration tools such as [AWS CloudFormation](https://aws.amazon.com/cloudformation \"https://aws.amazon.com/cloudformation\"), [AWS Cloud Development Kit (AWS CDK)](https://aws.amazon.com/cdk \"https://aws.amazon.com/cdk\"), [AWS Serverless Application Model](https://aws.amazon.com/serverless/sam \"https://aws.amazon.com/serverless/sam\"), or coordinate complex workflows using\n  [AWS Step Functions](https://aws.amazon.com/step-functions \"https://aws.amazon.com/step-functions\").\n* **Mobile backends:** Build backends using Lambda and Amazon API Gateway to authenticate and process API requests. Use AWS Amplify to easily integrate with your iOS, Android, Web, and React Native frontends.\n* **[IoT backends](./services-iot.html \"./services-iot.html\"):** Build serverless backends using Lambda to handle web, mobile, IoT, and third-party API requests.\n* **[File processing:](./example-apps.html#examples-apps-file \"./example-apps.html#examples-apps-file\"):** Use Amazon Simple Storage Service (Amazon S3) to trigger Lambda data processing in real time after an upload.\n* **[Database Operations and Integration:](./example-apps.html#examples-apps-database \"./example-apps.html#examples-apps-database\"):** Use Lambda to process database interactions both reactively and proactively, from handling queue messages for Amazon RDS operations like user registrations and order submissions,\n  to responding to DynamoDB changes for audit logging, data replication, and automated workflows.\n* **[Scheduled and Periodic Tasks:](./example-apps.html#examples-apps-scheduled \"./example-apps.html#examples-apps-scheduled\"):** Use Lambda with EventBridge rules to execute time-based operations such as database maintenance, data archiving, report generation, and other scheduled business processes using cron-like expressions.",
+  "token_count": 546,
+  "char_count": 2618,
+  "chunk_index": 2,
+  "total_chunks": 6,
+  "overlap_with_previous": false,
+  "metadata": {
+    "service_name": "Aws Lambda",
+    "document_type": "introduction",
+    "header_level": 1,
+    "file_size_chars": 7547,
+    "processing_timestamp": "2025-08-02"
+  }
+}

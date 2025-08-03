@@ -1,0 +1,19 @@
+{
+  "chunk_id": "b9cee828_007",
+  "source_file": "amazon_ec2_intro.md",
+  "title": "What is Amazon EC2?",
+  "section": "Pricing for Amazon EC2",
+  "content": "## Pricing for Amazon EC2\n\nAmazon EC2 provides the following pricing options:\n\n**Free Tier**\n:   You can get started with Amazon EC2 for free. To explore the Free Tier options,\n    see AWS Free Tier.\n\n**On-Demand Instances**\n:   Pay for compute capacity by the hour or second with no long-term commitments.\n\n**Reserved Instances**\n:   Make a low, one-time payment and receive a significant discount on the hourly charge for that instance.\n\n**Spot Instances**\n:   Request unused EC2 instances, which can lower your Amazon EC2 costs significantly.\n\n**Dedicated Hosts**\n:   Pay for a physical host that is fully dedicated to running your instances, and bring your existing per-socket, per-core, or per-VM software licenses to reduce costs.\n\n**Dedicated Instances**\n:   Pay, by the hour, for instances that run on single-tenant hardware.\n\n**Capacity Reservations**\n:   Reserve capacity for your EC2 instances in a specific Availability Zone for any duration.",
+  "token_count": 208,
+  "char_count": 954,
+  "chunk_index": 7,
+  "total_chunks": 7,
+  "overlap_with_previous": false,
+  "metadata": {
+    "service_name": "Amazon Ec2",
+    "document_type": "introduction",
+    "header_level": 1,
+    "file_size_chars": 6316,
+    "processing_timestamp": "2025-08-02"
+  }
+}

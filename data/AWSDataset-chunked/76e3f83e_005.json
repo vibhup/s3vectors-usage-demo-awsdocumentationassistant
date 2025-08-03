@@ -1,0 +1,19 @@
+{
+  "chunk_id": "76e3f83e_005",
+  "source_file": "amazon_dynamodb_intro.md",
+  "title": "What is Amazon DynamoDB?",
+  "section": "Fully managed",
+  "content": "### Fully managed\n\nAs a fully managed database service, DynamoDB handles the undifferentiated heavy\nlifting of managing a database so that you can focus on building value for your\ncustomers. It handles setup, configurations, maintenance, high availability,\nhardware provisioning, security, backups, monitoring, and more. This ensures that\nwhen you create a DynamoDB table, it's instantly ready for production workloads. DynamoDB\nconstantly improves its availability, reliability, performance, security, and\nfunctionality without requiring upgrades or downtime.",
+  "token_count": 107,
+  "char_count": 560,
+  "chunk_index": 5,
+  "total_chunks": 13,
+  "overlap_with_previous": false,
+  "metadata": {
+    "service_name": "Amazon Dynamodb",
+    "document_type": "introduction",
+    "header_level": 1,
+    "file_size_chars": 8856,
+    "processing_timestamp": "2025-08-02"
+  }
+}

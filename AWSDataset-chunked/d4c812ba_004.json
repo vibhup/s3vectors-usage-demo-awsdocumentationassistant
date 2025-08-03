@@ -1,0 +1,19 @@
+{
+  "chunk_id": "d4c812ba_004",
+  "source_file": "amazon_cloudwatch_intro.md",
+  "title": "What is Amazon CloudWatch?",
+  "section": "Infrastructure monitoring",
+  "content": "## Infrastructure monitoring\n\nMany AWS services automatically send basic metrics to CloudWatch for free. Services that send metrics are listed here. Additionally, CloudWatch provides additional monitoring capabilities\nfor several key pieces of AWS infrastructure:\n\n* **Database Insights** allows you to monitor database performance metrics in real time, analyze SQL query performance, and troubleshoot database load issues for\n  AWS database services.\n* **Lambda Insights** provides system-level metrics for Lambda functions, including memory and CPU utilization tracking, and cold start detection and analysis.\n* **Container Insights** allows you to collect and analyze metrics from containerized applications,\n  on Amazon ECS clusters, Amazon EKS clusters, and self-managed Kubernetes clusters on Amazon EC2.",
+  "token_count": 142,
+  "char_count": 810,
+  "chunk_index": 4,
+  "total_chunks": 22,
+  "overlap_with_previous": false,
+  "metadata": {
+    "service_name": "Amazon Cloudwatch",
+    "document_type": "introduction",
+    "header_level": 1,
+    "file_size_chars": 10712,
+    "processing_timestamp": "2025-08-02"
+  }
+}

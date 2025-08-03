@@ -1,0 +1,19 @@
+{
+  "chunk_id": "1d50f4f5_002",
+  "source_file": "amazon_rds_intro.md",
+  "title": "What is Amazon Relational Database Service (Amazon RDS)?",
+  "section": "Advantages of Amazon RDS",
+  "content": "## Advantages of Amazon RDS\n\nAmazon RDS is a managed database service. It's responsible for most management tasks. By\neliminating tedious manual processes, Amazon RDS frees you to focus on your application and\nyour users.\n\nAmazon RDS provides the following principal advantages over database deployments that aren't\nfully managed:\n\n* You can use database engines that you are already familiar with: IBM Db2, MariaDB,\n  Microsoft SQL Server, MySQL, Oracle Database, and PostgreSQL.\n* Amazon RDS manages backups, software patching, automatic failure detection, and\n  recovery.\n* You can turn on automated backups, or manually create your own backup\n  snapshots. You can use these backups to restore a database. The Amazon RDS restore\n  process works reliably and efficiently.\n* You can get high availability with a primary DB instance and a synchronous secondary\n  DB instance that you can fail over to when problems occur. You can also use read\n  replicas to increase read scaling.\n* In addition to the security in your database package, you can control access by using\n  AWS Identity and Access Management (IAM) to define users and permissions. You can also help protect\n  your databases by putting them in a virtual private cloud (VPC).",
+  "token_count": 256,
+  "char_count": 1237,
+  "chunk_index": 2,
+  "total_chunks": 10,
+  "overlap_with_previous": false,
+  "metadata": {
+    "service_name": "Amazon Rds",
+    "document_type": "introduction",
+    "header_level": 1,
+    "file_size_chars": 7781,
+    "processing_timestamp": "2025-08-02"
+  }
+}

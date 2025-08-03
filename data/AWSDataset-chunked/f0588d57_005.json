@@ -1,0 +1,19 @@
+{
+  "chunk_id": "f0588d57_005",
+  "source_file": "amazon_s3_intro.md",
+  "title": "What is Amazon S3?",
+  "section": "Access management and security",
+  "content": "### Access management and security\n\nAmazon S3 provides features for auditing and managing access to your buckets and\nobjects. By default, S3 buckets and the objects in them are private. You have access\nonly to the S3 resources that you create. To grant granular resource permissions\nthat support your specific use case or to audit the permissions of your Amazon S3\nresources, you can use the following features.\n\n* **S3 Block Public Access** – Block public access to S3\n  buckets and objects. By default, Block Public Access settings are turned on\n  at the bucket level. We recommend that you keep all Block Public Access\n  settings enabled unless you know that you need to turn off one or more of\n  them for your specific use case.\n* **AWS Identity and Access Management (IAM)** – IAM is a web service that helps\n  you securely control access to AWS resources, including your Amazon S3\n  resources. With IAM, you can centrally manage permissions that control\n  which AWS resources users can access. You use IAM to control who is\n  authenticated (signed in) and authorized (has permissions) to use\n  resources.\n* **Bucket policies** – Use IAM-based policy language to configure\n  resource-based permissions for your S3 buckets and the objects in\n  them.\n* **Amazon S3 access points** – Configure named network endpoints with dedicated access policies to\n  manage data access at scale for shared datasets in Amazon S3.\n* **Access control lists (ACLs)** – Grant read and write permissions for\n  individual buckets and objects to authorized users. As a general rule, we\n  recommend using S3 resource-based policies (bucket policies and access point\n  policies) or IAM user policies for access control instead of ACLs.\n  Policies are a simplified and more flexible access control option.\n* **S3 Object Ownership** – Take ownership of every object\n  in your bucket, simplifying access management for data stored in Amazon S3.\n  S3 Object Ownership is an Amazon S3 bucket-level setting that you can use to\n  disable or enable ACLs. By default, ACLs are disabled.\n* **IAM Access Analyzer for S3** – Evaluate and monitor your S3 bucket access policies, ensuring that\n  the policies provide only the intended access to your S3 resources.",
+  "token_count": 480,
+  "char_count": 2228,
+  "chunk_index": 5,
+  "total_chunks": 11,
+  "overlap_with_previous": false,
+  "metadata": {
+    "service_name": "Amazon S3",
+    "document_type": "introduction",
+    "header_level": 1,
+    "file_size_chars": 11018,
+    "processing_timestamp": "2025-08-02"
+  }
+}

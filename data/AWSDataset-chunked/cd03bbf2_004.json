@@ -1,0 +1,19 @@
+{
+  "chunk_id": "cd03bbf2_004",
+  "source_file": "amazon_sqs_intro.md",
+  "title": "What is Amazon Simple Queue Service?",
+  "section": "Distributed queues",
+  "content": "### Distributed queues\n\nThere are three main parts in a distributed messaging system: the **components of\nyour distributed system**, your **queue** (distributed on Amazon SQS servers), and the **messages\nin the queue**.\n\nIn the following scenario, your system has several *producers* (components that send messages\nto the queue) and *consumers* (components that receive messages from the queue). The queue (which\nholds messages A through E) redundantly stores the messages across multiple Amazon SQS servers.",
+  "token_count": 106,
+  "char_count": 508,
+  "chunk_index": 4,
+  "total_chunks": 29,
+  "overlap_with_previous": false,
+  "metadata": {
+    "service_name": "Amazon Sqs",
+    "document_type": "introduction",
+    "header_level": 1,
+    "file_size_chars": 9711,
+    "processing_timestamp": "2025-08-02"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "chunk_id": "89ab2db9_009",
+  "source_file": "aws_well_architected_framework.md",
+  "title": "AWS Well-Architected Framework",
+  "section": "Best Practices",
+  "content": "### Best Practices\n\n**Security Foundations**\n- Implement AWS account management and separation\n- Implement identity and access management\n- Automate deployment of standard security controls\n- Identify threats and prioritize mitigations using a threat model\n\n**Identity and Access Management**\n- Use strong sign-in mechanisms\n- Use temporary credentials\n- Store and use secrets securely\n- Rely on a centralized identity provider\n- Audit and rotate credentials regularly\n\n**Detection**\n- Configure service and application logging\n- Analyze logs, findings, and metrics centrally\n- Automate response to events\n- Implement actionable security events\n\n**Infrastructure Protection**\n- Create network layers\n- Control traffic at all layers\n- Automate network protection\n- Implement inspection and protection\n\n**Data Protection**\n- Identify and classify your data\n- Protect data at rest\n- Protect data in transit\n- Automate data protection\n- Prepare for incident response\n\n**Incident Response**\n- Ensure personnel know how to respond to an incident\n- Automate containment capability\n- Identify forensic capabilities\n- Automate recovery capability\n- Pre-provision access and tools",
+  "token_count": 222,
+  "char_count": 1170,
+  "chunk_index": 9,
+  "total_chunks": 35,
+  "overlap_with_previous": false,
+  "metadata": {
+    "service_name": "Aws Well Architected Framework.Md",
+    "document_type": "guide",
+    "header_level": 1,
+    "file_size_chars": 22435,
+    "processing_timestamp": "2025-08-02"
+  }
+}

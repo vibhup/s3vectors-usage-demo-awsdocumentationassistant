@@ -1,0 +1,19 @@
+{
+  "chunk_id": "904bd79d_040",
+  "source_file": "aws_cost_optimization_guide.md",
+  "title": "AWS Cost Optimization Guide",
+  "section": "FinOps Implementation",
+  "content": "### FinOps Implementation\nImplement Financial Operations practices for cloud cost management.\n\n**FinOps Principles:**\n- Teams need to collaborate\n- Everyone takes ownership for their cloud usage\n- A centralized team drives FinOps\n- Reports should be accessible and timely\n- Decisions are driven by business value\n- Take advantage of the variable cost model of the cloud\n\n**FinOps Phases:**\n1. **Inform**: Visibility and allocation\n2. **Optimize**: Governance and optimization\n3. **Operate**: Continuous improvement and operations",
+  "token_count": 108,
+  "char_count": 529,
+  "chunk_index": 40,
+  "total_chunks": 46,
+  "overlap_with_previous": false,
+  "metadata": {
+    "service_name": "Aws Cost Optimization Guide.Md",
+    "document_type": "guide",
+    "header_level": 1,
+    "file_size_chars": 20670,
+    "processing_timestamp": "2025-08-02"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "chunk_id": "42cff905_004",
+  "source_file": "aws_services_comprehensive_overview.md",
+  "title": "Comprehensive AWS Services Overview",
+  "section": "AWS Lambda",
+  "content": "### AWS Lambda\nAWS Lambda is a serverless compute service that lets you run code without provisioning or managing servers.\n\n**Key Features:**\n- Event-driven execution\n- Automatic scaling\n- Pay-per-request pricing\n- Support for multiple programming languages\n- Integration with other AWS services\n- Built-in fault tolerance\n\n**Supported Languages:**\n- Node.js, Python, Ruby, Java, Go, .NET Core, Custom Runtime API\n\n**Use Cases:**\n- Real-time file processing\n- Real-time stream processing\n- Web applications and backends\n- IoT backends\n- Mobile backends",
+  "token_count": 121,
+  "char_count": 552,
+  "chunk_index": 4,
+  "total_chunks": 81,
+  "overlap_with_previous": false,
+  "metadata": {
+    "service_name": "Aws Services Comprehensive Overview.Md",
+    "document_type": "guide",
+    "header_level": 1,
+    "file_size_chars": 25294,
+    "processing_timestamp": "2025-08-02"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "chunk_id": "91733595_007",
+  "source_file": "amazon_route53_intro.md",
+  "title": "What is Amazon Route 53?",
+  "section": "Common Record Types",
+  "content": "### Common Record Types\n\n**A Record**\nMaps a domain name to an IPv4 address.\n\n**AAAA Record**\nMaps a domain name to an IPv6 address.\n\n**CNAME Record**\nMaps a domain name to another domain name (canonical name).\n\n**MX Record**\nSpecifies mail servers responsible for accepting email for the domain.\n\n**NS Record**\nIdentifies the name servers for the hosted zone.\n\n**SOA Record**\nProvides information about the domain and the hosted zone.\n\n**TXT Record**\nContains text information for sources outside your domain.",
+  "token_count": 107,
+  "char_count": 510,
+  "chunk_index": 7,
+  "total_chunks": 50,
+  "overlap_with_previous": false,
+  "metadata": {
+    "service_name": "Amazon Route53",
+    "document_type": "introduction",
+    "header_level": 1,
+    "file_size_chars": 9714,
+    "processing_timestamp": "2025-08-02"
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "source_file": "amazon_sqs_intro.md",
+  "total_chunks": 5,
+  "chunks": [
+    {
+      "chunk_id": "cd03bbf2_002",
+      "source_file": "amazon_sqs_intro.md",
+      "title": "What is Amazon Simple Queue Service?",
+      "section": "Benefits of using Amazon SQS",
+      "content": "## Benefits of using Amazon SQS\n\n* **Security** – You control who can\n  send messages to and receive messages from an Amazon SQS queue. You can choose to\n  transmit sensitive data by protecting the contents of messages in queues by\n  using default Amazon SQS managed server-side encryption (SSE), or by using custom\n  SSE keys managed in\n  AWS Key Management Service (AWS KMS).\n* **Durability** – For the safety of your\n  messages, Amazon SQS stores them on multiple servers. Standard queues support at-least-once message\n  delivery, and FIFO queues support exactly-once message\n  processing and high-throughput mode.\n* **Availability** – Amazon SQS uses redundant infrastructure to provide\n  highly-concurrent access to messages and high availability for producing and\n  consuming messages.\n* **Scalability** – Amazon SQS can process each\n  buffered\n  request independently, scaling transparently to handle any load\n  increases or spikes without any provisioning instructions.\n* **Reliability** – Amazon SQS locks your messages\n  during processing, so that multiple producers can send and multiple consumers\n  can receive messages at the same time.\n* **Customization** – Your queues don't\n  have to be exactly alike—for example, you can set a default delay on a queue. You can\n  store the contents of messages larger than 256 KB using Amazon Simple Storage Service (Amazon S3) or Amazon DynamoDB, with\n  Amazon SQS holding a pointer to the Amazon S3 object, or you can split a large message\n  into smaller messages.",
+      "token_count": 334,
+      "char_count": 1516,
+      "chunk_index": 2,
+      "total_chunks": 29,
+      "overlap_with_previous": false,
+      "metadata": {
+        "service_name": "Amazon Sqs",
+        "document_type": "introduction",
+        "header_level": 1,
+        "file_size_chars": 9711,
+        "processing_timestamp": "2025-08-02"
+      }
+    },
+    {
+      "chunk_id": "cd03bbf2_004",
+      "source_file": "amazon_sqs_intro.md",
+      "title": "What is Amazon Simple Queue Service?",
+      "section": "Distributed queues",
+      "content": "### Distributed queues\n\nThere are three main parts in a distributed messaging system: the **components of\nyour distributed system**, your **queue** (distributed on Amazon SQS servers), and the **messages\nin the queue**.\n\nIn the following scenario, your system has several *producers* (components that send messages\nto the queue) and *consumers* (components that receive messages from the queue). The queue (which\nholds messages A through E) redundantly stores the messages across multiple Amazon SQS servers.",
+      "token_count": 106,
+      "char_count": 508,
+      "chunk_index": 4,
+      "total_chunks": 29,
+      "overlap_with_previous": false,
+      "metadata": {
+        "service_name": "Amazon Sqs",
+        "document_type": "introduction",
+        "header_level": 1,
+        "file_size_chars": 9711,
+        "processing_timestamp": "2025-08-02"
+      }
+    },
+    {
+      "chunk_id": "cd03bbf2_005",
+      "source_file": "amazon_sqs_intro.md",
+      "title": "What is Amazon Simple Queue Service?",
+      "section": "Message lifecycle",
+      "content": "### Message lifecycle\n\nThe following scenario describes the lifecycle of an Amazon SQS message in a queue, from\ncreation to deletion.\n\n1. A producer (Component 1) sends message A to a queue, and the\nmessage is distributed across the Amazon SQS servers redundantly.\n\n2. When a consumer (Component 2) is ready to process messages, it\nconsumes messages from the queue, and message A is returned. While message A is being\nprocessed, it remains in the queue and isn't returned to subsequent receive requests for\nthe duration of the visibility\ntimeout.\n\n3. The consumer (Component 2) deletes message A from the queue to\nprevent the message from being received and processed again when the visibility timeout\nexpires.\n\n**Note**\n\nAmazon SQS automatically deletes messages that have been in a queue for more than the\nmaximum message retention period. The default message retention period is 4 days.\nHowever, you can set the message retention period to a value from 60 seconds to\n1,209,600 seconds (14 days) using the `SetQueueAttributes` action.",
+      "token_count": 224,
+      "char_count": 1036,
+      "chunk_index": 5,
+      "total_chunks": 29,
+      "overlap_with_previous": false,
+      "metadata": {
+        "service_name": "Amazon Sqs",
+        "document_type": "introduction",
+        "header_level": 1,
+        "file_size_chars": 9711,
+        "processing_timestamp": "2025-08-02"
+      }
+    },
+    {
+      "chunk_id": "cd03bbf2_006",
+      "source_file": "amazon_sqs_intro.md",
+      "title": "What is Amazon Simple Queue Service?",
+      "section": "Differences between Amazon SQS, Amazon MQ, and Amazon SNS",
+      "content": "## Differences between Amazon SQS, Amazon MQ, and Amazon SNS\n\nAmazon SQS, Amazon SNS, and Amazon MQ offer highly scalable and easy-to-use\nmanaged messaging services, each designed for specific roles within distributed systems.\nHere's an enhanced overview of the differences between these services:\n\n**Amazon SQS** decouples and scales distributed software systems\nand components as a queue service. It processes messages through a single subscriber\ntypically, ideal for workflows where order and loss prevention are critical. For wider\ndistribution, integrating Amazon SQS with Amazon SNS enables a fanout messaging pattern, effectively pushing messages to multiple\nsubscribers at once.\n\n**Amazon SNS** allows publishers to send messages to multiple\nsubscribers through topics, which serve as communication channels. Subscribers receive\npublished messages using a supported endpoint type, such as Amazon Data Firehose, Amazon SQS,\nLambda, HTTP,\nemail, mobile push notifications, and mobile text messages (SMS). This service is ideal\nfor scenarios requiring immediate notifications, such as real-time user engagement or\nalarm systems. To prevent message loss when subscribers are offline, integrating Amazon SNS\nwith Amazon SQS queue messages ensures consistent delivery.\n\n**Amazon MQ** fits best with enterprises looking to migrate\nfrom traditional message brokers, supporting standard messaging protocols like AMQP and\nMQTT, along with Apache ActiveMQ and\nRabbitMQ. It offers compatibility\nwith legacy systems needing stable, reliable messaging without significant\nreconfiguration.\n\nThe following chart provides an overview of each services' resource type:\n\n| Resource type | Amazon SNS | Amazon SQS | Amazon MQ |\n| --- | --- | --- | --- |\n| Synchronous | No | No | Yes |\n| Asynchronous | Yes | Yes | Yes |\n| Queues | No | Yes | Yes |\n| Publisher-subscriber messaging | Yes | No | Yes |\n| Message brokers | No | No | Yes |\n\nBoth Amazon SQS and Amazon SNS are recommended for new applications that can benefit from nearly\nunlimited scalability and simple APIs. They generally offer more cost-effective\nsolutions for high-volume applications with their pay-as-you-go pricing. We recommend\nAmazon MQ for migrating applications from existing message brokers that rely on\ncompatibility with APIs such as JMS or protocols such as Advanced Message Queuing\nProtocol (AMQP), MQTT, OpenWire, and Simple Text Oriented Message Protocol\n(STOMP).",
+      "token_count": 490,
+      "char_count": 2433,
+      "chunk_index": 6,
+      "total_chunks": 29,
+      "overlap_with_previous": false,
+      "metadata": {
+        "service_name": "Amazon Sqs",
+        "document_type": "introduction",
+        "header_level": 1,
+        "file_size_chars": 9711,
+        "processing_timestamp": "2025-08-02"
+      }
+    },
+    {
+      "chunk_id": "cd03bbf2_009",
+      "source_file": "amazon_sqs_intro.md",
+      "title": "What is Amazon Simple Queue Service?",
+      "section": "FIFO Queues",
+      "content": "### FIFO Queues\nFIFO (First-In-First-Out) queues are designed to enhance messaging between applications when the order of operations and events is critical, or where duplicates can't be tolerated.\n\n**Key Features:**\n- Exactly-once processing\n- First-in-first-out delivery\n- Limited to 300 TPS (or 3,000 TPS with batching)\n- Message deduplication\n\n**Use Cases:**\n- E-commerce order management\n- Financial transaction processing\n- User-generated content processing",
+      "token_count": 103,
+      "char_count": 462,
+      "chunk_index": 9,
+      "total_chunks": 29,
+      "overlap_with_previous": false,
+      "metadata": {
+        "service_name": "Amazon Sqs",
+        "document_type": "introduction",
+        "header_level": 1,
+        "file_size_chars": 9711,
+        "processing_timestamp": "2025-08-02"
+      }
+    }
+  ]
+}

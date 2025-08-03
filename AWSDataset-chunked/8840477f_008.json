@@ -1,0 +1,19 @@
+{
+  "chunk_id": "8840477f_008",
+  "source_file": "aws_iam_policies.md",
+  "title": "What is IAM?",
+  "section": "Policy types",
+  "content": "## Policy types\n\nThe following policy types, listed in order from most frequently used to less frequently\nused, are available for use in AWS. For more details, see the sections below for each policy\ntype.\n\n* **Identity-based policies** – Attach managed\n  and inline policies to IAM identities (users, groups to\n  which users belong, or roles). Identity-based policies grant permissions to an\n  identity.\n* **Resource-based policies** – Attach inline policies to resources. The most\n  common examples of resource-based policies are Amazon S3 bucket policies and IAM role trust\n  policies. Resource-based policies grant permissions to the principal that is specified in\n  the policy. Principals can be in the same account as the resource or in other\n  accounts.\n* **Permissions boundaries** – Use a managed policy as the permissions boundary\n  for an IAM entity (user or role). That policy defines the maximum permissions that the\n  identity-based policies can grant to an entity, but does not grant permissions.\n  Permissions boundaries do not define the maximum permissions that a resource-based policy\n  can grant to an entity.\n* **AWS Organizations SCPs**\n  – Use an AWS Organizations service control policy (SCP) to define the maximum permissions\n  for IAM users and IAM roles within accounts in your organization or organizational\n  unit (OU). SCPs limit permissions that identity-based policies or resource-based policies\n  grant to IAM users or IAM roles within the account. SCPs do not grant\n  permissions.\n* **AWS Organizations RCPs**\n  – Use an AWS Organizations resource control policy (RCP) to define the maximum permissions\n  for resources within accounts in your organization or organizational unit (OU). RCPs limit\n  permissions that identity-based and resource-based policies can grant to resources in\n  accounts within your organization. RCPs do not grant permissions.\n* **Access control lists (ACLs)** – Use ACLs to control which principals in other accounts\n  can access the resource to which the ACL is attached. ACLs are similar to resource-based\n  policies, although they are the only policy type that does not use the JSON policy\n  document structure. ACLs are cross-account permissions policies that grant permissions to\n  the specified principal. ACLs cannot grant permissions to entities within the same\n  account.\n* **Session policies** – Pass advanced session policies when you use the\n  AWS CLI or AWS API to assume a role or a federated user. Session policies limit the\n  permissions that the role or user's identity-based policies grant to the session. Session\n  policies limit permissions for a created session, but do not grant permissions.",
+  "token_count": 546,
+  "char_count": 2672,
+  "chunk_index": 8,
+  "total_chunks": 12,
+  "overlap_with_previous": false,
+  "metadata": {
+    "service_name": "Aws Iam Policies.Md",
+    "document_type": "guide",
+    "header_level": 1,
+    "file_size_chars": 11549,
+    "processing_timestamp": "2025-08-02"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "chunk_id": "cd03bbf2_002",
+  "source_file": "amazon_sqs_intro.md",
+  "title": "What is Amazon Simple Queue Service?",
+  "section": "Benefits of using Amazon SQS",
+  "content": "## Benefits of using Amazon SQS\n\n* **Security** – You control who can\n  send messages to and receive messages from an Amazon SQS queue. You can choose to\n  transmit sensitive data by protecting the contents of messages in queues by\n  using default Amazon SQS managed server-side encryption (SSE), or by using custom\n  SSE keys managed in\n  AWS Key Management Service (AWS KMS).\n* **Durability** – For the safety of your\n  messages, Amazon SQS stores them on multiple servers. Standard queues support at-least-once message\n  delivery, and FIFO queues support exactly-once message\n  processing and high-throughput mode.\n* **Availability** – Amazon SQS uses redundant infrastructure to provide\n  highly-concurrent access to messages and high availability for producing and\n  consuming messages.\n* **Scalability** – Amazon SQS can process each\n  buffered\n  request independently, scaling transparently to handle any load\n  increases or spikes without any provisioning instructions.\n* **Reliability** – Amazon SQS locks your messages\n  during processing, so that multiple producers can send and multiple consumers\n  can receive messages at the same time.\n* **Customization** – Your queues don't\n  have to be exactly alike—for example, you can set a default delay on a queue. You can\n  store the contents of messages larger than 256 KB using Amazon Simple Storage Service (Amazon S3) or Amazon DynamoDB, with\n  Amazon SQS holding a pointer to the Amazon S3 object, or you can split a large message\n  into smaller messages.",
+  "token_count": 334,
+  "char_count": 1516,
+  "chunk_index": 2,
+  "total_chunks": 29,
+  "overlap_with_previous": false,
+  "metadata": {
+    "service_name": "Amazon Sqs",
+    "document_type": "introduction",
+    "header_level": 1,
+    "file_size_chars": 9711,
+    "processing_timestamp": "2025-08-02"
+  }
+}

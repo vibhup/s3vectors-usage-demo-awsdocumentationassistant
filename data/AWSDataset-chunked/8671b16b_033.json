@@ -1,0 +1,19 @@
+{
+  "chunk_id": "8671b16b_033",
+  "source_file": "aws_security_best_practices.md",
+  "title": "AWS Security Best Practices Guide",
+  "section": "Containment, Eradication, and Recovery",
+  "content": "### Containment, Eradication, and Recovery\nLimit damage and restore normal operations.\n\n**Containment Actions:**\n- Isolate affected resources\n- Revoke compromised credentials\n- Block malicious IP addresses\n- Disable compromised user accounts\n- Snapshot affected instances for forensics\n\n**Eradication Actions:**\n- Remove malware and backdoors\n- Patch vulnerabilities\n- Update security configurations\n- Strengthen access controls\n- Implement additional monitoring\n\n**Recovery Actions:**\n- Restore from clean backups\n- Rebuild compromised systems\n- Implement additional security controls\n- Monitor for signs of persistent threats\n- Gradually restore normal operations",
+  "token_count": 129,
+  "char_count": 665,
+  "chunk_index": 33,
+  "total_chunks": 54,
+  "overlap_with_previous": false,
+  "metadata": {
+    "service_name": "Aws Security Best Practices.Md",
+    "document_type": "guide",
+    "header_level": 1,
+    "file_size_chars": 18249,
+    "processing_timestamp": "2025-08-02"
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "total_files": 20,
+  "total_chunks": 139,
+  "total_tokens": 27621,
+  "total_chars": 137576,
+  "files_processed": [
+    {
+      "filename": "aws_services_comprehensive_overview.md",
+      "chunks_created": 9,
+      "total_tokens": 1308
+    },
+    {
+      "filename": "amazon_sqs_intro.md",
+      "chunks_created": 5,
+      "total_tokens": 1257
+    },
+    {
+      "filename": "amazon_dynamodb_intro.md",
+      "chunks_created": 7,
+      "total_tokens": 1451
+    },
+    {
+      "filename": "amazon_kinesis_intro.md",
+      "chunks_created": 3,
+      "total_tokens": 867
+    },
+    {
+      "filename": "amazon_cloudwatch_intro.md",
+      "chunks_created": 8,
+      "total_tokens": 1380
+    },
+    {
+      "filename": "amazon_ec2_intro.md",
+      "chunks_created": 6,
+      "total_tokens": 1309
+    },
+    {
+      "filename": "amazon_route53_intro.md",
+      "chunks_created": 3,
+      "total_tokens": 636
+    },
+    {
+      "filename": "amazon_sns_intro.md",
+      "chunks_created": 3,
+      "total_tokens": 572
+    },
+    {
+      "filename": "amazon_s3_intro.md",
+      "chunks_created": 9,
+      "total_tokens": 2252
+    },
+    {
+      "filename": "amazon_ecs_intro.md",
+      "chunks_created": 5,
+      "total_tokens": 807
+    },
+    {
+      "filename": "aws_iam_policies.md",
+      "chunks_created": 9,
+      "total_tokens": 2092
+    },
+    {
+      "filename": "aws_cost_optimization_guide.md",
+      "chunks_created": 17,
+      "total_tokens": 2484
+    },
+    {
+      "filename": "aws_security_best_practices.md",
+      "chunks_created": 12,
+      "total_tokens": 1431
+    },
+    {
+      "filename": "amazon_rds_intro.md",
+      "chunks_created": 6,
+      "total_tokens": 1313
+    },
+    {
+      "filename": "aws_well_architected_framework.md",
+      "chunks_created": 16,
+      "total_tokens": 3191
+    },
+    {
+      "filename": "amazon_eks_intro.md",
+      "chunks_created": 4,
+      "total_tokens": 965
+    },
+    {
+      "filename": "amazon_vpc_intro.md",
+      "chunks_created": 4,
+      "total_tokens": 1406
+    },
+    {
+      "filename": "aws_lambda_intro.md",
+      "chunks_created": 4,
+      "total_tokens": 1353
+    },
+    {
+      "filename": "aws_cloudformation_intro.md",
+      "chunks_created": 4,
+      "total_tokens": 699
+    },
+    {
+      "filename": "amazon_api_gateway_intro.md",
+      "chunks_created": 5,
+      "total_tokens": 848
+    }
+  ],
+  "processing_errors": []
+}

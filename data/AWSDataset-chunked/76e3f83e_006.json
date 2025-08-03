@@ -1,0 +1,19 @@
+{
+  "chunk_id": "76e3f83e_006",
+  "source_file": "amazon_dynamodb_intro.md",
+  "title": "What is Amazon DynamoDB?",
+  "section": "Single-digit millisecond performance at any scale",
+  "content": "### Single-digit millisecond performance at any scale\n\nDynamoDB was purpose-built to improve upon the performance and scalability of\nrelational databases to deliver single-digit millisecond performance at any scale.\nTo achieve this scale and performance, DynamoDB is optimized for high-performance\nworkloads and provides APIs that encourage efficient database usage. It omits\nfeatures that are inefficient and non-performing at scale, for example, JOIN\noperations. DynamoDB delivers consistent single-digit millisecond performance for your\napplication, whether you've 100 or 100 million users.",
+  "token_count": 112,
+  "char_count": 593,
+  "chunk_index": 6,
+  "total_chunks": 13,
+  "overlap_with_previous": false,
+  "metadata": {
+    "service_name": "Amazon Dynamodb",
+    "document_type": "introduction",
+    "header_level": 1,
+    "file_size_chars": 8856,
+    "processing_timestamp": "2025-08-02"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "chunk_id": "cd03bbf2_009",
+  "source_file": "amazon_sqs_intro.md",
+  "title": "What is Amazon Simple Queue Service?",
+  "section": "FIFO Queues",
+  "content": "### FIFO Queues\nFIFO (First-In-First-Out) queues are designed to enhance messaging between applications when the order of operations and events is critical, or where duplicates can't be tolerated.\n\n**Key Features:**\n- Exactly-once processing\n- First-in-first-out delivery\n- Limited to 300 TPS (or 3,000 TPS with batching)\n- Message deduplication\n\n**Use Cases:**\n- E-commerce order management\n- Financial transaction processing\n- User-generated content processing",
+  "token_count": 103,
+  "char_count": 462,
+  "chunk_index": 9,
+  "total_chunks": 29,
+  "overlap_with_previous": false,
+  "metadata": {
+    "service_name": "Amazon Sqs",
+    "document_type": "introduction",
+    "header_level": 1,
+    "file_size_chars": 9711,
+    "processing_timestamp": "2025-08-02"
+  }
+}

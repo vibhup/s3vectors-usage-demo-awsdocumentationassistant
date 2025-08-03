@@ -1,0 +1,19 @@
+{
+  "chunk_id": "4f7f371e_007",
+  "source_file": "amazon_ecs_intro.md",
+  "title": "What is Amazon Elastic Container Service?",
+  "section": "Services to use with Amazon ECS",
+  "content": "### Services to use with Amazon ECS\n\nYou can use other AWS services to help you deploy yours tasks and services on\nAmazon ECS.\n\n**Amazon EC2 Auto Scaling**\n:   Helps ensure you have the correct number of Amazon EC2 instances available to\n    handle the load for your application.\n\n**Amazon CloudWatch**\n:   Monitor your services and tasks.\n\n**Amazon Elastic Container Registry**\n:   Store and manage container images.\n\n**Elastic Load Balancing**\n:   Automatically distribute incoming service traffic.\n\n**Amazon GuardDuty**\n:   Detect potentially unauthorized or malicious use of your container\n    instances and workloads.",
+  "token_count": 125,
+  "char_count": 622,
+  "chunk_index": 7,
+  "total_chunks": 45,
+  "overlap_with_previous": false,
+  "metadata": {
+    "service_name": "Amazon Ecs",
+    "document_type": "introduction",
+    "header_level": 1,
+    "file_size_chars": 10169,
+    "processing_timestamp": "2025-08-02"
+  }
+}

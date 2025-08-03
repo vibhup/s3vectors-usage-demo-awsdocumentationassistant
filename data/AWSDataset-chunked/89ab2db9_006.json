@@ -1,0 +1,19 @@
+{
+  "chunk_id": "89ab2db9_006",
+  "source_file": "aws_well_architected_framework.md",
+  "title": "AWS Well-Architected Framework",
+  "section": "Best Practices",
+  "content": "### Best Practices\n\n**Organization**\n- Understand your organizational priorities\n- Design for operations\n- Evaluate operational readiness\n- Understand operational health\n\n**Prepare**\n- Design telemetry\n- Implement application telemetry\n- Implement user activity telemetry\n- Implement dependency telemetry\n- Implement distributed tracing\n\n**Operate**\n- Utilize workload observability\n- Understand operational health\n- Respond to unplanned operational events\n- Use runbooks for well-understood events\n- Use playbooks to investigate issues\n\n**Evolve**\n- Learn from experience\n- Share learnings\n- Perform post-incident analysis\n- Implement feedback loops",
+  "token_count": 123,
+  "char_count": 650,
+  "chunk_index": 6,
+  "total_chunks": 35,
+  "overlap_with_previous": false,
+  "metadata": {
+    "service_name": "Aws Well Architected Framework.Md",
+    "document_type": "guide",
+    "header_level": 1,
+    "file_size_chars": 22435,
+    "processing_timestamp": "2025-08-02"
+  }
+}

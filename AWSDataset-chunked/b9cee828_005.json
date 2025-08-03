@@ -1,0 +1,19 @@
+{
+  "chunk_id": "b9cee828_005",
+  "source_file": "amazon_ec2_intro.md",
+  "title": "What is Amazon EC2?",
+  "section": "Additional compute services",
+  "content": "### Additional compute services\n\nYou can launch instances using another AWS compute service instead of using Amazon EC2.\n\n**Amazon Lightsail**\n:   Build websites or web applications using Amazon Lightsail, a cloud platform\n    that provides the resources that you need to deploy your project quickly, for\n    a low, predictable monthly price.\n\n**Amazon Elastic Container Service (Amazon ECS)**\n:   Deploy, manage, and scale containerized applications on a cluster of EC2\n    instances.\n\n**Amazon Elastic Kubernetes Service (Amazon EKS)**\n:   Run your Kubernetes applications on AWS.",
+  "token_count": 117,
+  "char_count": 582,
+  "chunk_index": 5,
+  "total_chunks": 7,
+  "overlap_with_previous": false,
+  "metadata": {
+    "service_name": "Amazon Ec2",
+    "document_type": "introduction",
+    "header_level": 1,
+    "file_size_chars": 6316,
+    "processing_timestamp": "2025-08-02"
+  }
+}

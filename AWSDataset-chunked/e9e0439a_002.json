@@ -1,0 +1,19 @@
+{
+  "chunk_id": "e9e0439a_002",
+  "source_file": "amazon_eks_intro.md",
+  "title": "What is Amazon EKS?",
+  "section": "Amazon EKS: Simplified Kubernetes Management",
+  "content": "## Amazon EKS: Simplified Kubernetes Management\n\nAmazon Elastic Kubernetes Service (EKS) provides a fully managed Kubernetes service that eliminates the complexity of operating Kubernetes clusters. With EKS, you can:\n\n* Deploy applications faster with less operational overhead\n* Scale seamlessly to meet changing workload demands\n* Improve security through AWS integration and automated updates\n* Choose between standard EKS or fully automated EKS Auto Mode\n\nAmazon Elastic Kubernetes Service (Amazon EKS) is the premiere platform for running Kubernetes clusters, both in the Amazon Web Services (AWS) cloud and in your own data centers (EKS Anywhere and Amazon EKS Hybrid Nodes).\n\nAmazon EKS simplifies building, securing, and maintaining Kubernetes clusters. It can be more cost effective at providing enough resources to meet peak demand than maintaining your own data centers. Two of the main approaches to using Amazon EKS are as follows:\n\n* **EKS standard**: AWS manages the Kubernetes control plane when you create a cluster with EKS. Components that manage nodes, schedule workloads, integrate with the AWS cloud, and store and scale control plane information to keep your clusters up and running, are handled for you automatically.\n* **EKS Auto Mode**: Using the EKS Auto Mode feature, EKS extends its control to manage Nodes (Kubernetes data plane) as well.\n  It simplifies Kubernetes management by automatically provisioning infrastructure, selecting optimal compute instances, dynamically scaling resources, continuously optimizing costs, patching operating systems, and integrating with AWS security services.\n\nAmazon EKS helps you accelerate time to production, improve performance, availability and resiliency, and enhance system security.",
+  "token_count": 326,
+  "char_count": 1755,
+  "chunk_index": 2,
+  "total_chunks": 48,
+  "overlap_with_previous": false,
+  "metadata": {
+    "service_name": "Amazon Eks",
+    "document_type": "introduction",
+    "header_level": 1,
+    "file_size_chars": 10561,
+    "processing_timestamp": "2025-08-02"
+  }
+}

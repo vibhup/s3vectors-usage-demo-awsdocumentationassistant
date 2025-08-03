@@ -1,0 +1,19 @@
+{
+  "chunk_id": "8671b16b_018",
+  "source_file": "aws_security_best_practices.md",
+  "title": "AWS Security Best Practices Guide",
+  "section": "Virtual Private Cloud (VPC) Security",
+  "content": "### Virtual Private Cloud (VPC) Security\nDesign secure network architectures using VPC components.\n\n**VPC Security Components:**\n- **Subnets**: Segment network into public and private areas\n- **Security Groups**: Instance-level firewalls\n- **Network ACLs**: Subnet-level firewalls\n- **Route Tables**: Control traffic routing\n- **Internet Gateways**: Provide internet access\n- **NAT Gateways**: Enable outbound internet access for private subnets\n\n**Best Practices:**\n- Use private subnets for sensitive resources\n- Implement defense in depth with multiple security layers\n- Follow the principle of least privilege for network access\n- Use VPC Flow Logs for network monitoring\n- Regularly review and audit security group rules",
+  "token_count": 150,
+  "char_count": 725,
+  "chunk_index": 18,
+  "total_chunks": 54,
+  "overlap_with_previous": false,
+  "metadata": {
+    "service_name": "Aws Security Best Practices.Md",
+    "document_type": "guide",
+    "header_level": 1,
+    "file_size_chars": 18249,
+    "processing_timestamp": "2025-08-02"
+  }
+}

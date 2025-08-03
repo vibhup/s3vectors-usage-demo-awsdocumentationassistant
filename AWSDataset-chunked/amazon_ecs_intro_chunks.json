@@ -1,0 +1,101 @@
+{
+  "source_file": "amazon_ecs_intro.md",
+  "total_chunks": 5,
+  "chunks": [
+    {
+      "chunk_id": "4f7f371e_001",
+      "source_file": "amazon_ecs_intro.md",
+      "title": "What is Amazon Elastic Container Service?",
+      "section": "What is Amazon Elastic Container Service?",
+      "content": "# What is Amazon Elastic Container Service?\n\nAmazon Elastic Container Service (Amazon ECS) is a fully managed container orchestration service that helps you easily\ndeploy, manage, and scale containerized applications. As a fully managed service, Amazon ECS\ncomes with AWS configuration and operational best practices built-in. It's integrated with\nboth AWS tools, such as Amazon Elastic Container Registry, and third-party tools, such as Docker. This integration\nmakes it easier for teams to focus on building the applications, not the environment. You\ncan run and scale your container workloads across AWS Regions in the cloud, and\non-premises, without the complexity of managing a control plane.",
+      "token_count": 136,
+      "char_count": 697,
+      "chunk_index": 1,
+      "total_chunks": 45,
+      "overlap_with_previous": false,
+      "metadata": {
+        "service_name": "Amazon Ecs",
+        "document_type": "introduction",
+        "header_level": 1,
+        "file_size_chars": 10169,
+        "processing_timestamp": "2025-08-02"
+      }
+    },
+    {
+      "chunk_id": "4f7f371e_002",
+      "source_file": "amazon_ecs_intro.md",
+      "title": "What is Amazon Elastic Container Service?",
+      "section": "Terminology and components",
+      "content": "## Terminology and components\n\nThere are three layers in Amazon ECS:\n\n* **Capacity** - The infrastructure where your containers run\n* **Controller** - Deploy and manage your applications that run on the\n  containers\n* **Provisioning** - The tools that you can use to interface with the scheduler to\n  deploy and manage your applications and containers\n\nThe capacity is the infrastructure where your containers run. The following is an\noverview of the capacity options:\n\n* **Amazon EC2 instances in the AWS cloud**\n\n  You choose the instance type, the number of instances, and manage the\n  capacity.\n* **Serverless (AWS Fargate) in the AWS cloud**\n\n  Fargate is a serverless, pay-as-you-go compute engine. With Fargate you\n  don't need to manage servers, handle capacity planning, or isolate container\n  workloads for security.\n* **On-premises virtual machines (VM) or servers**\n\n  Amazon ECS Anywhere provides support for registering an external instance such as\n  an on-premises server or virtual machine (VM), to your Amazon ECS cluster.\n\nThe Amazon ECS scheduler is the software that manages your applications.",
+      "token_count": 243,
+      "char_count": 1113,
+      "chunk_index": 2,
+      "total_chunks": 45,
+      "overlap_with_previous": false,
+      "metadata": {
+        "service_name": "Amazon Ecs",
+        "document_type": "introduction",
+        "header_level": 1,
+        "file_size_chars": 10169,
+        "processing_timestamp": "2025-08-02"
+      }
+    },
+    {
+      "chunk_id": "4f7f371e_003",
+      "source_file": "amazon_ecs_intro.md",
+      "title": "What is Amazon Elastic Container Service?",
+      "section": "Features",
+      "content": "## Features\n\nAmazon ECS provides the following high-level features:\n\n**Task definition**\n:   The blueprint for the application.\n\n**Cluster**\n:   The infrastructure your application runs on.\n\n**Task**\n:   An application such as a batch job that performs work, and then\n    stops.\n\n**Service**\n:   A long running stateless application.\n\n**Account Setting**\n:   Allows access to features.\n\n**Cluster Auto Scaling**\n:   Amazon ECS manages the scaling of Amazon EC2 instances that are registered to your\n    cluster.\n\n**Service Auto Scaling**\n:   Amazon ECS increases or decreases the desired number of tasks in your service\n    automatically.",
+      "token_count": 131,
+      "char_count": 638,
+      "chunk_index": 3,
+      "total_chunks": 45,
+      "overlap_with_previous": false,
+      "metadata": {
+        "service_name": "Amazon Ecs",
+        "document_type": "introduction",
+        "header_level": 1,
+        "file_size_chars": 10169,
+        "processing_timestamp": "2025-08-02"
+      }
+    },
+    {
+      "chunk_id": "4f7f371e_004",
+      "source_file": "amazon_ecs_intro.md",
+      "title": "What is Amazon Elastic Container Service?",
+      "section": "Provisioning",
+      "content": "## Provisioning\n\nThere are multiple options for provisioning Amazon ECS:\n\n* **AWS Management Console** — Provides a web interface\n  that you can use to access your Amazon ECS resources.\n* **AWS Command Line Interface (AWS CLI)** — Provides commands\n  for a broad set of AWS services, including Amazon ECS. It's supported on Windows,\n  Mac, and Linux.\n* **AWS SDKs** — Provides\n  language-specific APIs and takes care of many of the connection details. These\n  include calculating signatures, handling request retries, and error handling.\n* **AWS CDK** — Provides an open-source\n  software development framework that you can use to model and provision your\n  cloud application resources using familiar programming languages. The AWS CDK\n  provisions your resources in a safe, repeatable manner through\n  AWS CloudFormation.",
+      "token_count": 172,
+      "char_count": 822,
+      "chunk_index": 4,
+      "total_chunks": 45,
+      "overlap_with_previous": false,
+      "metadata": {
+        "service_name": "Amazon Ecs",
+        "document_type": "introduction",
+        "header_level": 1,
+        "file_size_chars": 10169,
+        "processing_timestamp": "2025-08-02"
+      }
+    },
+    {
+      "chunk_id": "4f7f371e_007",
+      "source_file": "amazon_ecs_intro.md",
+      "title": "What is Amazon Elastic Container Service?",
+      "section": "Services to use with Amazon ECS",
+      "content": "### Services to use with Amazon ECS\n\nYou can use other AWS services to help you deploy yours tasks and services on\nAmazon ECS.\n\n**Amazon EC2 Auto Scaling**\n:   Helps ensure you have the correct number of Amazon EC2 instances available to\n    handle the load for your application.\n\n**Amazon CloudWatch**\n:   Monitor your services and tasks.\n\n**Amazon Elastic Container Registry**\n:   Store and manage container images.\n\n**Elastic Load Balancing**\n:   Automatically distribute incoming service traffic.\n\n**Amazon GuardDuty**\n:   Detect potentially unauthorized or malicious use of your container\n    instances and workloads.",
+      "token_count": 125,
+      "char_count": 622,
+      "chunk_index": 7,
+      "total_chunks": 45,
+      "overlap_with_previous": false,
+      "metadata": {
+        "service_name": "Amazon Ecs",
+        "document_type": "introduction",
+        "header_level": 1,
+        "file_size_chars": 10169,
+        "processing_timestamp": "2025-08-02"
+      }
+    }
+  ]
+}

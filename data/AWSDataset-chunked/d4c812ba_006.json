@@ -1,0 +1,19 @@
+{
+  "chunk_id": "d4c812ba_006",
+  "source_file": "amazon_cloudwatch_intro.md",
+  "title": "What is Amazon CloudWatch?",
+  "section": "Use the CloudWatch agent to gather metrics, logs, and traces from Amazon EC2 fleets",
+  "content": "## Use the CloudWatch agent to gather metrics, logs, and traces from Amazon EC2 fleets\n\nUse the CloudWatch agent to collect detailed system\nmetrics about processes, CPU, memory, disk usage, and network performance from your fleets of Amazon EC2 instances and on-premises servers.\nYou can also collect and monitor custom metrics from your applications, aggregate logs from multiple sources, and configure alarms based on the collected data.\nYou can also use the agent to gather GPU metrics. The agent supports both Windows and Linux operating systems and can integrate with Systems Manager for centralized configuration management.",
+  "token_count": 117,
+  "char_count": 630,
+  "chunk_index": 6,
+  "total_chunks": 22,
+  "overlap_with_previous": false,
+  "metadata": {
+    "service_name": "Amazon Cloudwatch",
+    "document_type": "introduction",
+    "header_level": 1,
+    "file_size_chars": 10712,
+    "processing_timestamp": "2025-08-02"
+  }
+}

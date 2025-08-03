@@ -1,0 +1,19 @@
+{
+  "chunk_id": "f0588d57_004",
+  "source_file": "amazon_s3_intro.md",
+  "title": "What is Amazon S3?",
+  "section": "Storage management",
+  "content": "### Storage management\n\nAmazon S3 has storage management features that you can use to manage costs, meet\nregulatory requirements, reduce latency, and save multiple distinct copies of your\ndata for compliance requirements.\n\n* **S3 Lifecycle** – Configure a lifecycle configuration to manage\n  your objects and store them cost effectively throughout their lifecycle. You\n  can transition objects to other S3 storage classes or expire objects that\n  reach the end of their lifetimes.\n* **S3 Object Lock** – Prevent Amazon S3 objects from being\n  deleted or overwritten for a fixed amount of time or indefinitely. You can\n  use Object Lock to help meet regulatory requirements that require *write-once-read-many*\n  *(WORM)* storage or to simply add another\n  layer of protection against object changes and deletions.\n* **S3 Replication** – Replicate objects and their respective metadata and object tags to\n  one or more destination buckets in the same or different AWS Regions for\n  reduced latency, compliance, security, and other use cases.\n* **S3 Batch Operations** – Manage billions of objects at scale\n  with a single S3 API request or a few clicks in the Amazon S3 console. You can\n  use Batch Operations to perform operations such as **Copy**, **Invoke AWS Lambda\n  function**, and **Restore** on\n  millions or billions of objects.",
+  "token_count": 284,
+  "char_count": 1335,
+  "chunk_index": 4,
+  "total_chunks": 11,
+  "overlap_with_previous": false,
+  "metadata": {
+    "service_name": "Amazon S3",
+    "document_type": "introduction",
+    "header_level": 1,
+    "file_size_chars": 11018,
+    "processing_timestamp": "2025-08-02"
+  }
+}

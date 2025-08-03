@@ -1,0 +1,19 @@
+{
+  "chunk_id": "f0588d57_007",
+  "source_file": "amazon_s3_intro.md",
+  "title": "What is Amazon S3?",
+  "section": "Storage logging and monitoring",
+  "content": "### Storage logging and monitoring\n\nAmazon S3 provides logging and monitoring tools that you can use to monitor and control\nhow your Amazon S3 resources are being used.\n\n**Automated monitoring tools**\n\n* **Amazon CloudWatch metrics for Amazon S3** – Track the operational health of your\n  S3 resources and configure billing alerts when estimated charges reach a\n  user-defined threshold.\n* **AWS CloudTrail** – Record actions taken by a user, a role, or an AWS service in\n  Amazon S3. CloudTrail logs provide you with detailed API tracking for S3 bucket-level\n  and object-level operations.\n\n**Manual monitoring tools**\n\n* **Server access logging** – Get detailed records for the requests that are\n  made to a bucket. You can use server access logs for many use cases, such as\n  conducting security and access audits, learning about your customer base,\n  and understanding your Amazon S3 bill.\n* **AWS Trusted Advisor** – Evaluate your account by using AWS best\n  practice checks to identify ways to optimize your AWS infrastructure,\n  improve security and performance, reduce costs, and monitor service quotas.",
+  "token_count": 230,
+  "char_count": 1111,
+  "chunk_index": 7,
+  "total_chunks": 11,
+  "overlap_with_previous": false,
+  "metadata": {
+    "service_name": "Amazon S3",
+    "document_type": "introduction",
+    "header_level": 1,
+    "file_size_chars": 11018,
+    "processing_timestamp": "2025-08-02"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "chunk_id": "89ab2db9_003",
+  "source_file": "aws_well_architected_framework.md",
+  "title": "AWS Well-Architected Framework",
+  "section": "The pillars of the framework",
+  "content": "# The pillars of the framework\n\nCreating a software system is a lot like constructing a building. If the foundation is\nnot solid, structural problems can undermine the integrity and function of the building. When\narchitecting technology solutions, if you neglect the six pillars of operational excellence,\nsecurity, reliability, performance efficiency, cost optimization, and sustainability, it can become challenging\nto build a system that delivers on your expectations and requirements. Incorporating these\npillars into your architecture will help you produce stable and efficient systems. This will\nallow you to focus on the other aspects of design, such as functional requirements.",
+  "token_count": 124,
+  "char_count": 685,
+  "chunk_index": 3,
+  "total_chunks": 35,
+  "overlap_with_previous": false,
+  "metadata": {
+    "service_name": "Aws Well Architected Framework.Md",
+    "document_type": "guide",
+    "header_level": 1,
+    "file_size_chars": 22435,
+    "processing_timestamp": "2025-08-02"
+  }
+}

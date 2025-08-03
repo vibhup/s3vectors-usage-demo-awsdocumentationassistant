@@ -1,0 +1,329 @@
+{
+  "source_file": "aws_cost_optimization_guide.md",
+  "total_chunks": 17,
+  "chunks": [
+    {
+      "chunk_id": "904bd79d_004",
+      "source_file": "aws_cost_optimization_guide.md",
+      "title": "AWS Cost Optimization Guide",
+      "section": "Reserved Instances (RIs)",
+      "content": "### Reserved Instances (RIs)\nCommit to using specific instance types in particular regions for 1 or 3 years.\n\n**Discount Levels:**\n- 1-year term: Up to 40% discount\n- 3-year term: Up to 60% discount\n\n**Payment Options:**\n- **All Upfront**: Highest discount, pay entire amount upfront\n- **Partial Upfront**: Moderate discount, pay portion upfront and monthly\n- **No Upfront**: Lowest discount, pay monthly with no upfront payment\n\n**RI Types:**\n- **Standard RIs**: Highest discount, less flexibility\n- **Convertible RIs**: Lower discount, can change instance attributes\n- **Scheduled RIs**: For predictable recurring schedules\n\n**Best Practices:**\n- Analyze usage patterns before purchasing\n- Start with Standard RIs for stable workloads\n- Use Convertible RIs for changing requirements\n- Monitor RI utilization and coverage\n- Consider RI marketplace for unused reservations",
+      "token_count": 195,
+      "char_count": 872,
+      "chunk_index": 4,
+      "total_chunks": 46,
+      "overlap_with_previous": false,
+      "metadata": {
+        "service_name": "Aws Cost Optimization Guide.Md",
+        "document_type": "guide",
+        "header_level": 1,
+        "file_size_chars": 20670,
+        "processing_timestamp": "2025-08-02"
+      }
+    },
+    {
+      "chunk_id": "904bd79d_005",
+      "source_file": "aws_cost_optimization_guide.md",
+      "title": "AWS Cost Optimization Guide",
+      "section": "Savings Plans",
+      "content": "### Savings Plans\nFlexible pricing model offering lower prices in exchange for usage commitment.\n\n**Types:**\n- **Compute Savings Plans**: Apply to EC2, Lambda, and Fargate usage\n- **EC2 Instance Savings Plans**: Apply to specific EC2 instance families\n\n**Benefits:**\n- Up to 72% savings compared to On-Demand\n- Automatic application to eligible usage\n- Flexibility across instance types, sizes, and regions\n- No capacity reservations required\n\n**Best Practices:**\n- Analyze historical usage to determine commitment level\n- Start with Compute Savings Plans for maximum flexibility\n- Monitor utilization and adjust commitments as needed\n- Combine with Reserved Instances for maximum savings",
+      "token_count": 139,
+      "char_count": 688,
+      "chunk_index": 5,
+      "total_chunks": 46,
+      "overlap_with_previous": false,
+      "metadata": {
+        "service_name": "Aws Cost Optimization Guide.Md",
+        "document_type": "guide",
+        "header_level": 1,
+        "file_size_chars": 20670,
+        "processing_timestamp": "2025-08-02"
+      }
+    },
+    {
+      "chunk_id": "904bd79d_006",
+      "source_file": "aws_cost_optimization_guide.md",
+      "title": "AWS Cost Optimization Guide",
+      "section": "Spot Instances",
+      "content": "### Spot Instances\nUse spare EC2 capacity at up to 90% discount compared to On-Demand prices.\n\n**Characteristics:**\n- Variable pricing based on supply and demand\n- Can be interrupted with 2-minute notice\n- Best for fault-tolerant and flexible workloads\n\n**Use Cases:**\n- Batch processing jobs\n- Data analysis and processing\n- CI/CD environments\n- Web servers with load balancing\n- High-performance computing (HPC)\n\n**Best Practices:**\n- Design applications to handle interruptions gracefully\n- Use multiple instance types and Availability Zones\n- Implement checkpointing for long-running jobs\n- Monitor Spot price history and trends\n- Use Spot Fleet for automatic diversification",
+      "token_count": 143,
+      "char_count": 679,
+      "chunk_index": 6,
+      "total_chunks": 46,
+      "overlap_with_previous": false,
+      "metadata": {
+        "service_name": "Aws Cost Optimization Guide.Md",
+        "document_type": "guide",
+        "header_level": 1,
+        "file_size_chars": 20670,
+        "processing_timestamp": "2025-08-02"
+      }
+    },
+    {
+      "chunk_id": "904bd79d_008",
+      "source_file": "aws_cost_optimization_guide.md",
+      "title": "AWS Cost Optimization Guide",
+      "section": "Right-Sizing EC2 Instances",
+      "content": "### Right-Sizing EC2 Instances\nMatch instance types and sizes to actual workload requirements.\n\n**Right-Sizing Process:**\n1. Monitor current resource utilization\n2. Identify over-provisioned instances\n3. Analyze performance requirements\n4. Test smaller instance types\n5. Implement changes during maintenance windows\n\n**Tools for Right-Sizing:**\n- AWS Compute Optimizer\n- CloudWatch metrics\n- AWS Cost Explorer\n- Third-party monitoring tools\n\n**Key Metrics to Monitor:**\n- CPU utilization\n- Memory utilization\n- Network utilization\n- Disk I/O\n- Application performance metrics",
+      "token_count": 121,
+      "char_count": 575,
+      "chunk_index": 8,
+      "total_chunks": 46,
+      "overlap_with_previous": false,
+      "metadata": {
+        "service_name": "Aws Cost Optimization Guide.Md",
+        "document_type": "guide",
+        "header_level": 1,
+        "file_size_chars": 20670,
+        "processing_timestamp": "2025-08-02"
+      }
+    },
+    {
+      "chunk_id": "904bd79d_009",
+      "source_file": "aws_cost_optimization_guide.md",
+      "title": "AWS Cost Optimization Guide",
+      "section": "Auto Scaling",
+      "content": "### Auto Scaling\nAutomatically adjust capacity based on demand.\n\n**Auto Scaling Benefits:**\n- Maintain application availability\n- Reduce costs by scaling down during low demand\n- Handle traffic spikes automatically\n- Improve fault tolerance\n\n**Auto Scaling Types:**\n- **Target Tracking**: Maintain specific metric target\n- **Step Scaling**: Scale based on CloudWatch alarms\n- **Scheduled Scaling**: Scale based on predictable patterns\n- **Predictive Scaling**: Use machine learning to forecast demand\n\n**Best Practices:**\n- Set appropriate scaling policies\n- Use multiple metrics for scaling decisions\n- Implement proper health checks\n- Test scaling policies under load\n- Monitor scaling activities and costs",
+      "token_count": 134,
+      "char_count": 708,
+      "chunk_index": 9,
+      "total_chunks": 46,
+      "overlap_with_previous": false,
+      "metadata": {
+        "service_name": "Aws Cost Optimization Guide.Md",
+        "document_type": "guide",
+        "header_level": 1,
+        "file_size_chars": 20670,
+        "processing_timestamp": "2025-08-02"
+      }
+    },
+    {
+      "chunk_id": "904bd79d_010",
+      "source_file": "aws_cost_optimization_guide.md",
+      "title": "AWS Cost Optimization Guide",
+      "section": "Lambda Cost Optimization",
+      "content": "### Lambda Cost Optimization\nOptimize serverless function costs through efficient design.\n\n**Lambda Pricing Factors:**\n- Number of requests\n- Duration of execution\n- Memory allocation\n- Architecture (x86 vs ARM)\n\n**Optimization Strategies:**\n- Right-size memory allocation\n- Optimize code for faster execution\n- Use ARM-based Graviton2 processors\n- Implement connection pooling\n- Minimize cold starts\n- Use provisioned concurrency judiciously\n\n**Memory Optimization:**\n- Start with default 128MB and adjust based on performance\n- Monitor memory utilization in CloudWatch\n- Consider that CPU scales with memory allocation\n- Test different memory settings for optimal price/performance",
+      "token_count": 138,
+      "char_count": 683,
+      "chunk_index": 10,
+      "total_chunks": 46,
+      "overlap_with_previous": false,
+      "metadata": {
+        "service_name": "Aws Cost Optimization Guide.Md",
+        "document_type": "guide",
+        "header_level": 1,
+        "file_size_chars": 20670,
+        "processing_timestamp": "2025-08-02"
+      }
+    },
+    {
+      "chunk_id": "904bd79d_011",
+      "source_file": "aws_cost_optimization_guide.md",
+      "title": "AWS Cost Optimization Guide",
+      "section": "Container Cost Optimization",
+      "content": "### Container Cost Optimization\nOptimize costs for containerized workloads.\n\n**ECS Cost Optimization:**\n- Use Fargate for variable workloads\n- Use EC2 launch type for predictable workloads\n- Right-size task definitions\n- Use Spot capacity for fault-tolerant workloads\n- Implement cluster auto scaling\n\n**EKS Cost Optimization:**\n- Use managed node groups\n- Implement cluster autoscaler\n- Use Spot instances for worker nodes\n- Right-size pods and nodes\n- Use Fargate for serverless containers\n\n**Container Best Practices:**\n- Optimize container images for size\n- Use multi-stage builds\n- Implement resource requests and limits\n- Monitor container resource utilization\n- Use horizontal pod autoscaling",
+      "token_count": 149,
+      "char_count": 699,
+      "chunk_index": 11,
+      "total_chunks": 46,
+      "overlap_with_previous": false,
+      "metadata": {
+        "service_name": "Aws Cost Optimization Guide.Md",
+        "document_type": "guide",
+        "header_level": 1,
+        "file_size_chars": 20670,
+        "processing_timestamp": "2025-08-02"
+      }
+    },
+    {
+      "chunk_id": "904bd79d_013",
+      "source_file": "aws_cost_optimization_guide.md",
+      "title": "AWS Cost Optimization Guide",
+      "section": "S3 Cost Optimization",
+      "content": "### S3 Cost Optimization\nOptimize object storage costs through intelligent tiering and lifecycle management.\n\n**S3 Storage Classes:**\n- **S3 Standard**: Frequently accessed data\n- **S3 Standard-IA**: Infrequently accessed data\n- **S3 One Zone-IA**: Infrequently accessed, single AZ\n- **S3 Glacier Instant Retrieval**: Archive with millisecond access\n- **S3 Glacier Flexible Retrieval**: Archive with minutes to hours access\n- **S3 Glacier Deep Archive**: Long-term archive, lowest cost\n- **S3 Intelligent-Tiering**: Automatic cost optimization\n\n**Lifecycle Management:**\n- Transition objects to cheaper storage classes over time\n- Delete objects after specified periods\n- Manage incomplete multipart uploads\n- Handle previous versions of objects\n\n**Best Practices:**\n- Analyze access patterns to choose appropriate storage classes\n- Implement lifecycle policies for automatic transitions\n- Use S3 Intelligent-Tiering for unknown access patterns\n- Monitor storage costs with S3 Storage Lens\n- Optimize data transfer costs",
+      "token_count": 212,
+      "char_count": 1020,
+      "chunk_index": 13,
+      "total_chunks": 46,
+      "overlap_with_previous": false,
+      "metadata": {
+        "service_name": "Aws Cost Optimization Guide.Md",
+        "document_type": "guide",
+        "header_level": 1,
+        "file_size_chars": 20670,
+        "processing_timestamp": "2025-08-02"
+      }
+    },
+    {
+      "chunk_id": "904bd79d_014",
+      "source_file": "aws_cost_optimization_guide.md",
+      "title": "AWS Cost Optimization Guide",
+      "section": "EBS Cost Optimization",
+      "content": "### EBS Cost Optimization\nOptimize block storage costs through proper volume management.\n\n**EBS Volume Types:**\n- **gp3**: General Purpose SSD with configurable performance\n- **gp2**: General Purpose SSD with burstable performance\n- **io2**: Provisioned IOPS SSD with high durability\n- **io1**: Provisioned IOPS SSD for critical workloads\n- **st1**: Throughput Optimized HDD for big data\n- **sc1**: Cold HDD for infrequently accessed data\n\n**Optimization Strategies:**\n- Right-size volumes based on actual usage\n- Use gp3 volumes for better price/performance\n- Delete unused volumes and snapshots\n- Use EBS-optimized instances\n- Monitor volume utilization\n\n**Snapshot Management:**\n- Implement automated snapshot lifecycle policies\n- Delete unnecessary snapshots\n- Use incremental snapshots efficiently\n- Consider cross-region replication costs",
+      "token_count": 179,
+      "char_count": 844,
+      "chunk_index": 14,
+      "total_chunks": 46,
+      "overlap_with_previous": false,
+      "metadata": {
+        "service_name": "Aws Cost Optimization Guide.Md",
+        "document_type": "guide",
+        "header_level": 1,
+        "file_size_chars": 20670,
+        "processing_timestamp": "2025-08-02"
+      }
+    },
+    {
+      "chunk_id": "904bd79d_015",
+      "source_file": "aws_cost_optimization_guide.md",
+      "title": "AWS Cost Optimization Guide",
+      "section": "Data Transfer Cost Optimization",
+      "content": "### Data Transfer Cost Optimization\nMinimize data transfer costs between AWS services and regions.\n\n**Data Transfer Pricing:**\n- Data transfer in: Generally free\n- Data transfer out: Charged based on volume and destination\n- Inter-region transfer: Charged for both directions\n- Intra-region transfer: Free between most services\n\n**Optimization Strategies:**\n- Use CloudFront for content delivery\n- Implement VPC endpoints for AWS service access\n- Minimize cross-region data transfer\n- Use Direct Connect for large data volumes\n- Optimize application architecture for data locality",
+      "token_count": 115,
+      "char_count": 580,
+      "chunk_index": 15,
+      "total_chunks": 46,
+      "overlap_with_previous": false,
+      "metadata": {
+        "service_name": "Aws Cost Optimization Guide.Md",
+        "document_type": "guide",
+        "header_level": 1,
+        "file_size_chars": 20670,
+        "processing_timestamp": "2025-08-02"
+      }
+    },
+    {
+      "chunk_id": "904bd79d_017",
+      "source_file": "aws_cost_optimization_guide.md",
+      "title": "AWS Cost Optimization Guide",
+      "section": "RDS Cost Optimization",
+      "content": "### RDS Cost Optimization\nOptimize relational database costs through proper sizing and configuration.\n\n**RDS Pricing Factors:**\n- Instance type and size\n- Storage type and amount\n- Backup storage\n- Data transfer\n- Multi-AZ deployment\n\n**Optimization Strategies:**\n- Right-size database instances\n- Use Reserved Instances for predictable workloads\n- Optimize storage configuration\n- Implement automated backups with appropriate retention\n- Use read replicas for read-heavy workloads\n\n**Performance Optimization:**\n- Monitor database performance metrics\n- Optimize queries and indexes\n- Use connection pooling\n- Implement caching strategies\n- Consider Aurora for better price/performance",
+      "token_count": 131,
+      "char_count": 685,
+      "chunk_index": 17,
+      "total_chunks": 46,
+      "overlap_with_previous": false,
+      "metadata": {
+        "service_name": "Aws Cost Optimization Guide.Md",
+        "document_type": "guide",
+        "header_level": 1,
+        "file_size_chars": 20670,
+        "processing_timestamp": "2025-08-02"
+      }
+    },
+    {
+      "chunk_id": "904bd79d_018",
+      "source_file": "aws_cost_optimization_guide.md",
+      "title": "AWS Cost Optimization Guide",
+      "section": "DynamoDB Cost Optimization",
+      "content": "### DynamoDB Cost Optimization\nOptimize NoSQL database costs through capacity management.\n\n**DynamoDB Pricing Models:**\n- **On-Demand**: Pay per request\n- **Provisioned**: Pay for provisioned capacity\n\n**Capacity Management:**\n- Use On-Demand for unpredictable workloads\n- Use Provisioned for predictable workloads\n- Implement auto scaling for provisioned capacity\n- Monitor consumed vs. provisioned capacity\n\n**Design Optimization:**\n- Design efficient partition keys\n- Use sparse indexes\n- Implement item compression\n- Use DynamoDB Accelerator (DAX) for caching\n- Optimize query patterns",
+      "token_count": 127,
+      "char_count": 589,
+      "chunk_index": 18,
+      "total_chunks": 46,
+      "overlap_with_previous": false,
+      "metadata": {
+        "service_name": "Aws Cost Optimization Guide.Md",
+        "document_type": "guide",
+        "header_level": 1,
+        "file_size_chars": 20670,
+        "processing_timestamp": "2025-08-02"
+      }
+    },
+    {
+      "chunk_id": "904bd79d_022",
+      "source_file": "aws_cost_optimization_guide.md",
+      "title": "AWS Cost Optimization Guide",
+      "section": "Load Balancer Cost Optimization",
+      "content": "### Load Balancer Cost Optimization\nOptimize load balancer costs based on usage patterns.\n\n**Load Balancer Types:**\n- **Application Load Balancer (ALB)**: Layer 7, HTTP/HTTPS\n- **Network Load Balancer (NLB)**: Layer 4, TCP/UDP\n- **Gateway Load Balancer (GWLB)**: Layer 3, third-party appliances\n- **Classic Load Balancer**: Legacy, not recommended for new deployments\n\n**Optimization Strategies:**\n- Choose appropriate load balancer type\n- Consolidate multiple applications on single ALB\n- Use target groups efficiently\n- Monitor load balancer utilization\n- Consider Application Load Balancer for HTTP/HTTPS traffic",
+      "token_count": 145,
+      "char_count": 615,
+      "chunk_index": 22,
+      "total_chunks": 46,
+      "overlap_with_previous": false,
+      "metadata": {
+        "service_name": "Aws Cost Optimization Guide.Md",
+        "document_type": "guide",
+        "header_level": 1,
+        "file_size_chars": 20670,
+        "processing_timestamp": "2025-08-02"
+      }
+    },
+    {
+      "chunk_id": "904bd79d_026",
+      "source_file": "aws_cost_optimization_guide.md",
+      "title": "AWS Cost Optimization Guide",
+      "section": "AWS Budgets",
+      "content": "### AWS Budgets\nSet custom budgets and receive alerts when costs exceed thresholds.\n\n**Budget Types:**\n- **Cost Budgets**: Track spending against budget\n- **Usage Budgets**: Track usage metrics\n- **Reservation Budgets**: Track RI and Savings Plans utilization\n- **Savings Plans Budgets**: Track Savings Plans coverage\n\n**Alert Configuration:**\n- Set multiple alert thresholds\n- Configure email and SNS notifications\n- Include budget actions for automated responses\n- Monitor both actual and forecasted costs",
+      "token_count": 103,
+      "char_count": 507,
+      "chunk_index": 26,
+      "total_chunks": 46,
+      "overlap_with_previous": false,
+      "metadata": {
+        "service_name": "Aws Cost Optimization Guide.Md",
+        "document_type": "guide",
+        "header_level": 1,
+        "file_size_chars": 20670,
+        "processing_timestamp": "2025-08-02"
+      }
+    },
+    {
+      "chunk_id": "904bd79d_040",
+      "source_file": "aws_cost_optimization_guide.md",
+      "title": "AWS Cost Optimization Guide",
+      "section": "FinOps Implementation",
+      "content": "### FinOps Implementation\nImplement Financial Operations practices for cloud cost management.\n\n**FinOps Principles:**\n- Teams need to collaborate\n- Everyone takes ownership for their cloud usage\n- A centralized team drives FinOps\n- Reports should be accessible and timely\n- Decisions are driven by business value\n- Take advantage of the variable cost model of the cloud\n\n**FinOps Phases:**\n1. **Inform**: Visibility and allocation\n2. **Optimize**: Governance and optimization\n3. **Operate**: Continuous improvement and operations",
+      "token_count": 108,
+      "char_count": 529,
+      "chunk_index": 40,
+      "total_chunks": 46,
+      "overlap_with_previous": false,
+      "metadata": {
+        "service_name": "Aws Cost Optimization Guide.Md",
+        "document_type": "guide",
+        "header_level": 1,
+        "file_size_chars": 20670,
+        "processing_timestamp": "2025-08-02"
+      }
+    },
+    {
+      "chunk_id": "904bd79d_041",
+      "source_file": "aws_cost_optimization_guide.md",
+      "title": "AWS Cost Optimization Guide",
+      "section": "Cost Optimization for Specific Workloads",
+      "content": "### Cost Optimization for Specific Workloads\n\n**Big Data and Analytics:**\n- Use Spot instances for EMR clusters\n- Optimize data formats (Parquet, ORC)\n- Implement data lifecycle management\n- Use appropriate storage tiers\n- Optimize query performance\n\n**Machine Learning:**\n- Use Spot instances for training\n- Optimize model serving costs\n- Implement model versioning and lifecycle\n- Use appropriate instance types for inference\n- Consider SageMaker cost optimization features\n\n**Web Applications:**\n- Implement auto scaling\n- Use CloudFront for static content\n- Optimize database queries\n- Implement caching strategies\n- Use serverless for variable workloads",
+      "token_count": 134,
+      "char_count": 658,
+      "chunk_index": 41,
+      "total_chunks": 46,
+      "overlap_with_previous": false,
+      "metadata": {
+        "service_name": "Aws Cost Optimization Guide.Md",
+        "document_type": "guide",
+        "header_level": 1,
+        "file_size_chars": 20670,
+        "processing_timestamp": "2025-08-02"
+      }
+    },
+    {
+      "chunk_id": "904bd79d_046",
+      "source_file": "aws_cost_optimization_guide.md",
+      "title": "AWS Cost Optimization Guide",
+      "section": "Conclusion",
+      "content": "## Conclusion\n\nCost optimization in AWS is an ongoing process that requires continuous attention, monitoring, and improvement. By implementing the strategies and best practices outlined in this guide, organizations can significantly reduce their AWS costs while maintaining or improving performance, security, and reliability.\n\nKey takeaways for successful cost optimization:\n\n1. **Understand your usage patterns** - Regular monitoring and analysis are essential\n2. **Right-size your resources** - Match capacity to actual requirements\n3. **Use appropriate pricing models** - Leverage Reserved Instances, Savings Plans, and Spot Instances\n4. **Implement automation** - Automate cost optimization tasks where possible\n5. **Establish governance** - Create policies and processes for cost management\n6. **Foster a cost-conscious culture** - Make cost optimization everyone's responsibility\n7. **Continuously improve** - Regular reviews and optimization efforts are crucial\n\nRemember that cost optimization is not just about reducing costs—it's about maximizing the value you get from your AWS investment while maintaining the performance, security, and reliability your business requires.",
+      "token_count": 211,
+      "char_count": 1185,
+      "chunk_index": 46,
+      "total_chunks": 46,
+      "overlap_with_previous": false,
+      "metadata": {
+        "service_name": "Aws Cost Optimization Guide.Md",
+        "document_type": "guide",
+        "header_level": 1,
+        "file_size_chars": 20670,
+        "processing_timestamp": "2025-08-02"
+      }
+    }
+  ]
+}

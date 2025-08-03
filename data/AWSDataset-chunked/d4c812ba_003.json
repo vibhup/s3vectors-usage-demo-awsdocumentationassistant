@@ -1,0 +1,19 @@
+{
+  "chunk_id": "d4c812ba_003",
+  "source_file": "amazon_cloudwatch_intro.md",
+  "title": "What is Amazon CloudWatch?",
+  "section": "Application performance monitoring (APM)",
+  "content": "## Application performance monitoring (APM)\n\nWith Application Signals\nyou can automatically detect and monitor your applications' key performance indicators like latency, error rates, and request rates without manual instrumentation or code changes. Application Signals\nalso provides curated dashboards so you can begin monitoring with a minimum of setup.\n\nCloudWatch Synthetics complements this by enabling you to proactively monitor your endpoints and APIs through configurable scripts called *canaries* that simulate user behavior and alert you to availability\nissues or performance degradation before they impact real users. You\ncan also use CloudWatch RUM to gather performance data from real user sessions.\n\nUse Service Level Objectives (SLOs) in CloudWatch to define, track, and alert on specific reliability targets for your applications, helping you maintain service quality commitments by\nsetting error budgets and monitoring SLO compliance over time.",
+  "token_count": 171,
+  "char_count": 961,
+  "chunk_index": 3,
+  "total_chunks": 22,
+  "overlap_with_previous": false,
+  "metadata": {
+    "service_name": "Amazon Cloudwatch",
+    "document_type": "introduction",
+    "header_level": 1,
+    "file_size_chars": 10712,
+    "processing_timestamp": "2025-08-02"
+  }
+}

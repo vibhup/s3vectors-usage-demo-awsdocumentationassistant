@@ -1,0 +1,19 @@
+{
+  "chunk_id": "904bd79d_013",
+  "source_file": "aws_cost_optimization_guide.md",
+  "title": "AWS Cost Optimization Guide",
+  "section": "S3 Cost Optimization",
+  "content": "### S3 Cost Optimization\nOptimize object storage costs through intelligent tiering and lifecycle management.\n\n**S3 Storage Classes:**\n- **S3 Standard**: Frequently accessed data\n- **S3 Standard-IA**: Infrequently accessed data\n- **S3 One Zone-IA**: Infrequently accessed, single AZ\n- **S3 Glacier Instant Retrieval**: Archive with millisecond access\n- **S3 Glacier Flexible Retrieval**: Archive with minutes to hours access\n- **S3 Glacier Deep Archive**: Long-term archive, lowest cost\n- **S3 Intelligent-Tiering**: Automatic cost optimization\n\n**Lifecycle Management:**\n- Transition objects to cheaper storage classes over time\n- Delete objects after specified periods\n- Manage incomplete multipart uploads\n- Handle previous versions of objects\n\n**Best Practices:**\n- Analyze access patterns to choose appropriate storage classes\n- Implement lifecycle policies for automatic transitions\n- Use S3 Intelligent-Tiering for unknown access patterns\n- Monitor storage costs with S3 Storage Lens\n- Optimize data transfer costs",
+  "token_count": 212,
+  "char_count": 1020,
+  "chunk_index": 13,
+  "total_chunks": 46,
+  "overlap_with_previous": false,
+  "metadata": {
+    "service_name": "Aws Cost Optimization Guide.Md",
+    "document_type": "guide",
+    "header_level": 1,
+    "file_size_chars": 20670,
+    "processing_timestamp": "2025-08-02"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "chunk_id": "f0588d57_006",
+  "source_file": "amazon_s3_intro.md",
+  "title": "What is Amazon S3?",
+  "section": "Data processing",
+  "content": "### Data processing\n\nTo transform data and trigger workflows to automate a variety of other processing\nactivities at scale, you can use the following features.\n\n* **S3 Object Lambda** – Add your own code to S3 GET, HEAD, and LIST requests to modify and process data as\n  it is returned to an application. Filter rows, dynamically resize images,\n  redact confidential data, and much more.\n* **Event notifications** – Trigger workflows that use Amazon Simple Notification Service\n  (Amazon SNS), Amazon Simple Queue Service (Amazon SQS), and AWS Lambda when a change is made to your S3\n  resources.",
+  "token_count": 129,
+  "char_count": 596,
+  "chunk_index": 6,
+  "total_chunks": 11,
+  "overlap_with_previous": false,
+  "metadata": {
+    "service_name": "Amazon S3",
+    "document_type": "introduction",
+    "header_level": 1,
+    "file_size_chars": 11018,
+    "processing_timestamp": "2025-08-02"
+  }
+}

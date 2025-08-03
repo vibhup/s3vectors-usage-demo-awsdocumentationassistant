@@ -1,0 +1,19 @@
+{
+  "chunk_id": "42cff905_022",
+  "source_file": "aws_services_comprehensive_overview.md",
+  "title": "Comprehensive AWS Services Overview",
+  "section": "Elastic Load Balancing",
+  "content": "### Elastic Load Balancing\nElastic Load Balancing automatically distributes incoming application traffic across multiple targets.\n\n**Load Balancer Types:**\n- **Application Load Balancer (ALB)**: Layer 7 load balancing for HTTP/HTTPS\n- **Network Load Balancer (NLB)**: Layer 4 load balancing for TCP/UDP\n- **Gateway Load Balancer (GWLB)**: Layer 3 load balancing for third-party appliances\n- **Classic Load Balancer**: Legacy load balancer for EC2-Classic",
+  "token_count": 106,
+  "char_count": 454,
+  "chunk_index": 22,
+  "total_chunks": 81,
+  "overlap_with_previous": false,
+  "metadata": {
+    "service_name": "Aws Services Comprehensive Overview.Md",
+    "document_type": "guide",
+    "header_level": 1,
+    "file_size_chars": 25294,
+    "processing_timestamp": "2025-08-02"
+  }
+}

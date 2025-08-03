@@ -1,0 +1,19 @@
+{
+  "chunk_id": "42cff905_010",
+  "source_file": "aws_services_comprehensive_overview.md",
+  "title": "Comprehensive AWS Services Overview",
+  "section": "Amazon EBS (Elastic Block Store)",
+  "content": "### Amazon EBS (Elastic Block Store)\nAmazon EBS provides persistent block storage volumes for use with Amazon EC2 instances.\n\n**Volume Types:**\n- **gp3**: General Purpose SSD with baseline performance\n- **gp2**: General Purpose SSD with burstable performance\n- **io2**: Provisioned IOPS SSD with high durability\n- **io1**: Provisioned IOPS SSD for critical workloads\n- **st1**: Throughput Optimized HDD for big data workloads\n- **sc1**: Cold HDD for less frequently accessed data\n\n**Key Features:**\n- High availability and durability\n- Encryption at rest and in transit\n- Snapshot capabilities\n- Elastic volumes for dynamic resizing\n- Multi-Attach for shared storage",
+  "token_count": 151,
+  "char_count": 666,
+  "chunk_index": 10,
+  "total_chunks": 81,
+  "overlap_with_previous": false,
+  "metadata": {
+    "service_name": "Aws Services Comprehensive Overview.Md",
+    "document_type": "guide",
+    "header_level": 1,
+    "file_size_chars": 25294,
+    "processing_timestamp": "2025-08-02"
+  }
+}

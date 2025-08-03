@@ -1,0 +1,19 @@
+{
+  "chunk_id": "d4c812ba_007",
+  "source_file": "amazon_cloudwatch_intro.md",
+  "title": "What is Amazon CloudWatch?",
+  "section": "Cross-account monitoring",
+  "content": "## Cross-account monitoring\n\nCloudWatch cross-account observability lets you\nset up a central monitoring account to monitor and troubleshoot applications that span multiple accounts.\nFrom the central account, you can view metrics, logs, and traces from source\naccounts across your organization. This centralized approach enables you to create cross-account dashboards,\nset up alarms that watch metrics from multiple accounts, and perform root-cause analysis across account\nboundaries. With CloudWatch cross-account observability, you can link source accounts either individually or\nlink them automatically through AWS Organizations.",
+  "token_count": 111,
+  "char_count": 632,
+  "chunk_index": 7,
+  "total_chunks": 22,
+  "overlap_with_previous": false,
+  "metadata": {
+    "service_name": "Amazon Cloudwatch",
+    "document_type": "introduction",
+    "header_level": 1,
+    "file_size_chars": 10712,
+    "processing_timestamp": "2025-08-02"
+  }
+}

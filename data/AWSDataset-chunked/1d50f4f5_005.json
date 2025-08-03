@@ -1,0 +1,19 @@
+{
+  "chunk_id": "1d50f4f5_005",
+  "source_file": "amazon_rds_intro.md",
+  "title": "What is Amazon Relational Database Service (Amazon RDS)?",
+  "section": "Amazon RDS DB instances",
+  "content": "## Amazon RDS DB instances\n\nA *DB instance* is an isolated database environment in the\nAWS Cloud. The basic building block of Amazon RDS is the DB instance. Your DB instance can contain one or\nmore user-created databases.\n\nYou can access your DB instances by using the same tools and applications that you use with a\nstandalone database instance. You can create and modify a DB instance by using the AWS Command Line Interface\n(AWS CLI), the Amazon RDS API, or the AWS Management Console.",
+  "token_count": 105,
+  "char_count": 488,
+  "chunk_index": 5,
+  "total_chunks": 10,
+  "overlap_with_previous": false,
+  "metadata": {
+    "service_name": "Amazon Rds",
+    "document_type": "introduction",
+    "header_level": 1,
+    "file_size_chars": 7781,
+    "processing_timestamp": "2025-08-02"
+  }
+}

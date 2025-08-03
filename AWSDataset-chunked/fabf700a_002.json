@@ -1,0 +1,19 @@
+{
+  "chunk_id": "fabf700a_002",
+  "source_file": "amazon_api_gateway_intro.md",
+  "title": "What is Amazon API Gateway?",
+  "section": "Architecture of API Gateway",
+  "content": "## Architecture of API Gateway\n\nAPI Gateway architecture shows how the APIs you build in Amazon API Gateway provide you or your\ndeveloper customers with an integrated and consistent developer experience for building\nAWS serverless applications. API Gateway handles all the tasks involved in accepting and\nprocessing up to hundreds of thousands of concurrent API calls. These tasks include\ntraffic management, authorization and access control, monitoring, and API version\nmanagement.\n\nAPI Gateway acts as a \"front door\" for applications to access data, business logic, or\nfunctionality from your backend services, such as workloads running on Amazon Elastic Compute Cloud\n(Amazon EC2), code running on AWS Lambda, any web application, or real-time communication\napplications.",
+  "token_count": 144,
+  "char_count": 774,
+  "chunk_index": 2,
+  "total_chunks": 21,
+  "overlap_with_previous": false,
+  "metadata": {
+    "service_name": "Amazon Api Gateway",
+    "document_type": "introduction",
+    "header_level": 1,
+    "file_size_chars": 7160,
+    "processing_timestamp": "2025-08-02"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "chunk_id": "904bd79d_005",
+  "source_file": "aws_cost_optimization_guide.md",
+  "title": "AWS Cost Optimization Guide",
+  "section": "Savings Plans",
+  "content": "### Savings Plans\nFlexible pricing model offering lower prices in exchange for usage commitment.\n\n**Types:**\n- **Compute Savings Plans**: Apply to EC2, Lambda, and Fargate usage\n- **EC2 Instance Savings Plans**: Apply to specific EC2 instance families\n\n**Benefits:**\n- Up to 72% savings compared to On-Demand\n- Automatic application to eligible usage\n- Flexibility across instance types, sizes, and regions\n- No capacity reservations required\n\n**Best Practices:**\n- Analyze historical usage to determine commitment level\n- Start with Compute Savings Plans for maximum flexibility\n- Monitor utilization and adjust commitments as needed\n- Combine with Reserved Instances for maximum savings",
+  "token_count": 139,
+  "char_count": 688,
+  "chunk_index": 5,
+  "total_chunks": 46,
+  "overlap_with_previous": false,
+  "metadata": {
+    "service_name": "Aws Cost Optimization Guide.Md",
+    "document_type": "guide",
+    "header_level": 1,
+    "file_size_chars": 20670,
+    "processing_timestamp": "2025-08-02"
+  }
+}

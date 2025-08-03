@@ -1,0 +1,19 @@
+{
+  "chunk_id": "89ab2db9_015",
+  "source_file": "aws_well_architected_framework.md",
+  "title": "AWS Well-Architected Framework",
+  "section": "Best Practices",
+  "content": "### Best Practices\n\n**Architecture Selection**\n- Understand the available cloud services and resources\n- Define a process for architectural choices\n- Factor cost requirements into decisions\n- Use policies or reference architectures\n- Use guidance from your cloud provider or an appropriate partner\n\n**Compute and Hardware**\n- Select the best compute solution for your workload\n- Understand the available compute configuration options\n- Collect compute-related metrics\n- Determine the required configuration by right-sizing\n- Use the available elasticity of resources\n\n**Data Management**\n- Select the best performing data store for your workload\n- Understand how consistency affects performance\n- Collect data store performance metrics\n- Determine the required configuration by right-sizing\n- Use the available elasticity of resources\n\n**Networking and Content Delivery**\n- Understand how networking impacts performance\n- Evaluate available networking features\n- Choose appropriate dedicated connectivity or VPN for your workload\n- Use load balancing to distribute traffic across multiple resources\n- Choose appropriate protocols\n\n**Process and Culture**\n- Establish key performance indicators (KPIs) to measure workload performance\n- Use monitoring to understand performance over time\n- Proactively improve performance\n- Use automation to proactively remediate performance issues",
+  "token_count": 234,
+  "char_count": 1380,
+  "chunk_index": 15,
+  "total_chunks": 35,
+  "overlap_with_previous": false,
+  "metadata": {
+    "service_name": "Aws Well Architected Framework.Md",
+    "document_type": "guide",
+    "header_level": 1,
+    "file_size_chars": 22435,
+    "processing_timestamp": "2025-08-02"
+  }
+}

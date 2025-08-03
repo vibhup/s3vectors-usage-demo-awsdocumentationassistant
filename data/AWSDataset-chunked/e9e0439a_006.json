@@ -1,0 +1,19 @@
+{
+  "chunk_id": "e9e0439a_006",
+  "source_file": "amazon_eks_intro.md",
+  "title": "What is Amazon EKS?",
+  "section": "Amazon EKS Pricing",
+  "content": "## Amazon EKS Pricing\n\nAmazon EKS has per cluster pricing based on Kubernetes cluster version support, pricing for Amazon EKS Auto Mode, and per vCPU pricing for Amazon EKS Hybrid Nodes.\n\nWhen using Amazon EKS, you pay separately for the AWS resources you use to run your applications on Kubernetes worker nodes. For example, if you are running Kubernetes worker nodes as Amazon EC2 instances with Amazon EBS volumes and public IPv4 addresses, you are charged for the instance capacity through Amazon EC2, the volume capacity through Amazon EBS, and the IPv4 address through Amazon VPC.\n\nVisit the respective pricing pages of the AWS services you are using with your Kubernetes applications for detailed pricing information.",
+  "token_count": 141,
+  "char_count": 724,
+  "chunk_index": 6,
+  "total_chunks": 48,
+  "overlap_with_previous": false,
+  "metadata": {
+    "service_name": "Amazon Eks",
+    "document_type": "introduction",
+    "header_level": 1,
+    "file_size_chars": 10561,
+    "processing_timestamp": "2025-08-02"
+  }
+}

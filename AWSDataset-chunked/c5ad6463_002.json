@@ -1,0 +1,19 @@
+{
+  "chunk_id": "c5ad6463_002",
+  "source_file": "amazon_sns_intro.md",
+  "title": "What is Amazon SNS?",
+  "section": "How it works",
+  "content": "## How it works\n\nIn SNS, publishers send messages to a topic, which acts as a communication channel.\nThe topic acts as a logical access point, ensuring messages are delivered to multiple\nsubscribers across different platforms.\n\nSubscribers to an SNS topic can receive messages through different endpoints,\ndepending on their use case, such as:\n\n* Amazon SQS\n* Lambda\n* HTTP(S) endpoints\n* Email\n* Mobile push notifications\n* Mobile text messages (SMS)\n* Amazon Data Firehose\n* Service providers (For example, Datadog, MongoDB, Splunk)\n\nSNS supports both Application-to-Application (A2A) and Application-to-Person (A2P)\nmessaging, giving flexibility to send messages between different applications or\ndirectly to mobile phones, email addresses, and more.",
+  "token_count": 168,
+  "char_count": 753,
+  "chunk_index": 2,
+  "total_chunks": 33,
+  "overlap_with_previous": false,
+  "metadata": {
+    "service_name": "Amazon Sns",
+    "document_type": "introduction",
+    "header_level": 1,
+    "file_size_chars": 7791,
+    "processing_timestamp": "2025-08-02"
+  }
+}

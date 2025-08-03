@@ -1,0 +1,19 @@
+{
+  "chunk_id": "91733595_001",
+  "source_file": "amazon_route53_intro.md",
+  "title": "What is Amazon Route 53?",
+  "section": "What is Amazon Route 53?",
+  "content": "# What is Amazon Route 53?\n\nAmazon Route 53 is a highly available and scalable Domain Name System (DNS) web service. You can use Route 53 to perform three main functions\nin any combination: domain registration, DNS routing, and health checking.\n\nIf you choose to use Route 53 for all three functions, be sure to follow the order below:\n\n**1. Register domain names**\n:   Your website needs a name, such as example.com. Route 53 lets you register a name for your website or web application,\n    known as a *domain name*.\n\n**2. Route internet traffic to the resources for your domain**\n:   When a user opens a web browser and enters your domain name (example.com) or subdomain name (acme.example.com) in the address bar,\n    Route 53 helps connect the browser with your website or web application.\n\n**3. Check the health of your resources**\n:   Route 53 sends automated requests over the internet to a resource, such as a web server, to verify that it's reachable, available,\n    and functional. You also can choose to receive notifications when a resource becomes unavailable and choose to route internet traffic\n    away from unhealthy resources.",
+  "token_count": 248,
+  "char_count": 1145,
+  "chunk_index": 1,
+  "total_chunks": 50,
+  "overlap_with_previous": false,
+  "metadata": {
+    "service_name": "Amazon Route53",
+    "document_type": "introduction",
+    "header_level": 1,
+    "file_size_chars": 9714,
+    "processing_timestamp": "2025-08-02"
+  }
+}

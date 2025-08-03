@@ -1,0 +1,19 @@
+{
+  "chunk_id": "4f7f371e_001",
+  "source_file": "amazon_ecs_intro.md",
+  "title": "What is Amazon Elastic Container Service?",
+  "section": "What is Amazon Elastic Container Service?",
+  "content": "# What is Amazon Elastic Container Service?\n\nAmazon Elastic Container Service (Amazon ECS) is a fully managed container orchestration service that helps you easily\ndeploy, manage, and scale containerized applications. As a fully managed service, Amazon ECS\ncomes with AWS configuration and operational best practices built-in. It's integrated with\nboth AWS tools, such as Amazon Elastic Container Registry, and third-party tools, such as Docker. This integration\nmakes it easier for teams to focus on building the applications, not the environment. You\ncan run and scale your container workloads across AWS Regions in the cloud, and\non-premises, without the complexity of managing a control plane.",
+  "token_count": 136,
+  "char_count": 697,
+  "chunk_index": 1,
+  "total_chunks": 45,
+  "overlap_with_previous": false,
+  "metadata": {
+    "service_name": "Amazon Ecs",
+    "document_type": "introduction",
+    "header_level": 1,
+    "file_size_chars": 10169,
+    "processing_timestamp": "2025-08-02"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "chunk_id": "a4cdff55_002",
+  "source_file": "aws_cloudformation_intro.md",
+  "title": "What is AWS CloudFormation?",
+  "section": "Simplify infrastructure management",
+  "content": "## Simplify infrastructure management\n\nFor a scalable web application that also includes a backend database, you might use an\nAuto Scaling group, an Elastic Load Balancing load balancer, and an Amazon Relational Database Service database instance. You might use\neach individual service to provision these resources and after you create the resources,\nyou would have to configure them to work together. All these tasks can add complexity\nand time before you even get your application up and running.\n\nInstead, you can create a CloudFormation template or modify an existing one. A\n*template* describes all your resources and their properties.\nWhen you use that template to create a CloudFormation stack, CloudFormation provisions the Auto Scaling\ngroup, load balancer, and database for you. After the stack has been successfully\ncreated, your AWS resources are up and running. You can delete the stack just as\neasily, which deletes all the resources in the stack. By using CloudFormation, you easily\nmanage a collection of resources as a single unit.",
+  "token_count": 206,
+  "char_count": 1048,
+  "chunk_index": 2,
+  "total_chunks": 21,
+  "overlap_with_previous": false,
+  "metadata": {
+    "service_name": "Aws Cloudformation",
+    "document_type": "introduction",
+    "header_level": 1,
+    "file_size_chars": 6410,
+    "processing_timestamp": "2025-08-02"
+  }
+}

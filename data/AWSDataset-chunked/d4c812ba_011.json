@@ -1,0 +1,19 @@
+{
+  "chunk_id": "d4c812ba_011",
+  "source_file": "amazon_cloudwatch_intro.md",
+  "title": "What is Amazon CloudWatch?",
+  "section": "Amazon CloudWatch resources",
+  "content": "## Amazon CloudWatch resources\n\nThe following related resources\ncan help you as you work with this service.\n\n| Resource | Description |\n| --- | --- |\n| Amazon CloudWatch FAQs | The FAQ covers the top questions developers have asked about this product. |\n| AWS Developer Center | A central starting point to find documentation, code examples, release notes, and other information to help you build innovative applications with AWS. |\n| AWS Management Console | The console allows you to perform most of the functions of Amazon CloudWatch and various other AWS offerings without programming. |\n| Amazon CloudWatch Discussion Forums | Community-based forum for developers to discuss technical questions related to Amazon CloudWatch. |\n| AWS Support | The hub for creating and managing your AWS Support cases. Also includes links to other helpful resources, such as forums, technical FAQs, service health status, and AWS Trusted Advisor. |\n| Amazon CloudWatch product information | The primary web page for information about Amazon CloudWatch. |\n| Contact Us | A central contact point for inquiries concerning AWS billing, account, events, abuse, etc. |",
+  "token_count": 216,
+  "char_count": 1149,
+  "chunk_index": 11,
+  "total_chunks": 22,
+  "overlap_with_previous": false,
+  "metadata": {
+    "service_name": "Amazon Cloudwatch",
+    "document_type": "introduction",
+    "header_level": 1,
+    "file_size_chars": 10712,
+    "processing_timestamp": "2025-08-02"
+  }
+}

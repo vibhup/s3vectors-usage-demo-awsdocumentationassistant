@@ -1,0 +1,19 @@
+{
+  "chunk_id": "89ab2db9_005",
+  "source_file": "aws_well_architected_framework.md",
+  "title": "AWS Well-Architected Framework",
+  "section": "Design Principles",
+  "content": "### Design Principles\n\n**Perform operations as code**\nIn the cloud, you can apply the same engineering discipline that you use for application code to your entire environment. You can define your entire workload (applications, infrastructure) as code and update it with code.\n\n**Make frequent, small, reversible changes**\nDesign workloads to allow components to be updated regularly. Make changes in small increments that can be reversed if they fail (without affecting customers when possible).\n\n**Refine operations procedures frequently**\nAs you use operations procedures, look for opportunities to improve them. As you evolve your workload, evolve your procedures appropriately.\n\n**Anticipate failure**\nPerform \"pre-mortem\" exercises to identify potential sources of failure so that they can be removed or mitigated. Test your failure scenarios and validate your understanding of their impact.\n\n**Learn from all operational failures**\nDrive improvement through lessons learned from all operational events and failures. Share what is learned across teams and through the entire organization.",
+  "token_count": 193,
+  "char_count": 1093,
+  "chunk_index": 5,
+  "total_chunks": 35,
+  "overlap_with_previous": false,
+  "metadata": {
+    "service_name": "Aws Well Architected Framework.Md",
+    "document_type": "guide",
+    "header_level": 1,
+    "file_size_chars": 22435,
+    "processing_timestamp": "2025-08-02"
+  }
+}

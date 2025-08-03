@@ -1,0 +1,19 @@
+{
+  "chunk_id": "42cff905_020",
+  "source_file": "aws_services_comprehensive_overview.md",
+  "title": "Comprehensive AWS Services Overview",
+  "section": "Amazon VPC (Virtual Private Cloud)",
+  "content": "### Amazon VPC (Virtual Private Cloud)\nAmazon VPC lets you provision a logically isolated section of the AWS Cloud.\n\n**Key Components:**\n- Subnets for network segmentation\n- Internet Gateways for internet access\n- NAT Gateways for outbound internet access\n- Route Tables for traffic routing\n- Security Groups for instance-level firewalls\n- Network ACLs for subnet-level firewalls\n\n**Advanced Features:**\n- VPC Peering for connecting VPCs\n- Transit Gateway for scalable connectivity\n- VPC Endpoints for private service access\n- AWS PrivateLink for secure service connectivity",
+  "token_count": 120,
+  "char_count": 574,
+  "chunk_index": 20,
+  "total_chunks": 81,
+  "overlap_with_previous": false,
+  "metadata": {
+    "service_name": "Aws Services Comprehensive Overview.Md",
+    "document_type": "guide",
+    "header_level": 1,
+    "file_size_chars": 25294,
+    "processing_timestamp": "2025-08-02"
+  }
+}

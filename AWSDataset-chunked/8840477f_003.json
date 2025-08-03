@@ -1,0 +1,19 @@
+{
+  "chunk_id": "8840477f_003",
+  "source_file": "aws_iam_policies.md",
+  "title": "What is IAM?",
+  "section": "Access management",
+  "content": "## Access management\n\nAfter a user is set up in IAM, they use their sign-in credentials to authenticate with\nAWS. Authentication is provided by matching the sign-in credentials to a principal (an\nIAM user, AWS STS federated principal, IAM role, or application) trusted by the AWS account. Next, a\nrequest is made to grant the principal access to resources. Access is granted in response to an\nauthorization request if the user has been given permission to the resource. For example, when\nyou first sign in to the console and are on the console Home page, you aren't accessing a\nspecific service. When you select a service, the request for authorization is sent to that\nservice and it looks to see if your identity is on the list of authorized users, what policies\nare being enforced to control the level of access granted, and any other policies that might be\nin effect. Authorization requests can be made by principals within your AWS account or from\nanother AWS account that you trust.\n\nOnce authorized, the principal can take action or perform operations on resources in your\nAWS account. For example, the principal could launch a new Amazon Elastic Compute Cloud instance, modify\nIAM group membership, or delete Amazon Simple Storage Service buckets.",
+  "token_count": 253,
+  "char_count": 1254,
+  "chunk_index": 3,
+  "total_chunks": 12,
+  "overlap_with_previous": false,
+  "metadata": {
+    "service_name": "Aws Iam Policies.Md",
+    "document_type": "guide",
+    "header_level": 1,
+    "file_size_chars": 11549,
+    "processing_timestamp": "2025-08-02"
+  }
+}

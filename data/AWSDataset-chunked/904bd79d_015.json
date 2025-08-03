@@ -1,0 +1,19 @@
+{
+  "chunk_id": "904bd79d_015",
+  "source_file": "aws_cost_optimization_guide.md",
+  "title": "AWS Cost Optimization Guide",
+  "section": "Data Transfer Cost Optimization",
+  "content": "### Data Transfer Cost Optimization\nMinimize data transfer costs between AWS services and regions.\n\n**Data Transfer Pricing:**\n- Data transfer in: Generally free\n- Data transfer out: Charged based on volume and destination\n- Inter-region transfer: Charged for both directions\n- Intra-region transfer: Free between most services\n\n**Optimization Strategies:**\n- Use CloudFront for content delivery\n- Implement VPC endpoints for AWS service access\n- Minimize cross-region data transfer\n- Use Direct Connect for large data volumes\n- Optimize application architecture for data locality",
+  "token_count": 115,
+  "char_count": 580,
+  "chunk_index": 15,
+  "total_chunks": 46,
+  "overlap_with_previous": false,
+  "metadata": {
+    "service_name": "Aws Cost Optimization Guide.Md",
+    "document_type": "guide",
+    "header_level": 1,
+    "file_size_chars": 20670,
+    "processing_timestamp": "2025-08-02"
+  }
+}

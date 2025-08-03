@@ -1,0 +1,19 @@
+{
+  "chunk_id": "89ab2db9_018",
+  "source_file": "aws_well_architected_framework.md",
+  "title": "AWS Well-Architected Framework",
+  "section": "Best Practices",
+  "content": "### Best Practices\n\n**Practice Cloud Financial Management**\n- Establish a cost optimization function\n- Establish a partnership between finance and technology\n- Establish cloud budgets and forecasts\n- Implement cost awareness in your organizational processes\n- Report and notify on cost optimization\n- Monitor cost proactively\n- Keep up to date with new service releases\n\n**Expenditure and Usage Awareness**\n- Govern usage\n- Monitor cost and usage\n- Decommission resources\n- Evaluate new services\n\n**Cost-Effective Resources**\n- Evaluate cost when selecting services\n- Select the correct resource type, size, and number\n- Select the best pricing model\n- Plan for data transfer charges\n\n**Manage Demand and Supply Resources**\n- Perform analysis on the workload demand\n- Implement a buffer or throttle to manage demand\n- Supply resources dynamically\n\n**Optimize Over Time**\n- Review and analyze this workload regularly\n- Implement a process to evaluate new services\n- Implement a process to evaluate the workload and implement optimization",
+  "token_count": 197,
+  "char_count": 1036,
+  "chunk_index": 18,
+  "total_chunks": 35,
+  "overlap_with_previous": false,
+  "metadata": {
+    "service_name": "Aws Well Architected Framework.Md",
+    "document_type": "guide",
+    "header_level": 1,
+    "file_size_chars": 22435,
+    "processing_timestamp": "2025-08-02"
+  }
+}

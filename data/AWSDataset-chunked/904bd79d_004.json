@@ -1,0 +1,19 @@
+{
+  "chunk_id": "904bd79d_004",
+  "source_file": "aws_cost_optimization_guide.md",
+  "title": "AWS Cost Optimization Guide",
+  "section": "Reserved Instances (RIs)",
+  "content": "### Reserved Instances (RIs)\nCommit to using specific instance types in particular regions for 1 or 3 years.\n\n**Discount Levels:**\n- 1-year term: Up to 40% discount\n- 3-year term: Up to 60% discount\n\n**Payment Options:**\n- **All Upfront**: Highest discount, pay entire amount upfront\n- **Partial Upfront**: Moderate discount, pay portion upfront and monthly\n- **No Upfront**: Lowest discount, pay monthly with no upfront payment\n\n**RI Types:**\n- **Standard RIs**: Highest discount, less flexibility\n- **Convertible RIs**: Lower discount, can change instance attributes\n- **Scheduled RIs**: For predictable recurring schedules\n\n**Best Practices:**\n- Analyze usage patterns before purchasing\n- Start with Standard RIs for stable workloads\n- Use Convertible RIs for changing requirements\n- Monitor RI utilization and coverage\n- Consider RI marketplace for unused reservations",
+  "token_count": 195,
+  "char_count": 872,
+  "chunk_index": 4,
+  "total_chunks": 46,
+  "overlap_with_previous": false,
+  "metadata": {
+    "service_name": "Aws Cost Optimization Guide.Md",
+    "document_type": "guide",
+    "header_level": 1,
+    "file_size_chars": 20670,
+    "processing_timestamp": "2025-08-02"
+  }
+}

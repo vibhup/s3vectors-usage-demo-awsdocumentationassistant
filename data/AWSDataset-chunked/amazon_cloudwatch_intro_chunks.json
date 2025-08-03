@@ -1,0 +1,158 @@
+{
+  "source_file": "amazon_cloudwatch_intro.md",
+  "total_chunks": 8,
+  "chunks": [
+    {
+      "chunk_id": "d4c812ba_002",
+      "source_file": "amazon_cloudwatch_intro.md",
+      "title": "What is Amazon CloudWatch?",
+      "section": "Operational visibility with metrics, alarms, and dashboards",
+      "content": "## Operational visibility with metrics, alarms, and dashboards\n\nMetrics collect and track key performance data at user-defined intervals. Many AWS services automatically report metrics into CloudWatch, and you can also publish\ncustom metrics in CloudWatch from your applications.\n\nDashboards offer a unified view of your resources and applications with visualizations of your metrics and logs in a single location. You can also\nshare dashboards across accounts and Regions for enhanced operational awareness. CloudWatch provides curated automatic dashboards for many AWS services,\nso that you don't have to build them yourself.\n\nYou can set up alarms that continuously monitor CloudWatch metrics against user-defined thresholds. They can automatically alert you to breaches of the thresholds, and\ncan also automatically respond to changes in your resources' behavior by triggering automated actions.",
+      "token_count": 157,
+      "char_count": 899,
+      "chunk_index": 2,
+      "total_chunks": 22,
+      "overlap_with_previous": false,
+      "metadata": {
+        "service_name": "Amazon Cloudwatch",
+        "document_type": "introduction",
+        "header_level": 1,
+        "file_size_chars": 10712,
+        "processing_timestamp": "2025-08-02"
+      }
+    },
+    {
+      "chunk_id": "d4c812ba_003",
+      "source_file": "amazon_cloudwatch_intro.md",
+      "title": "What is Amazon CloudWatch?",
+      "section": "Application performance monitoring (APM)",
+      "content": "## Application performance monitoring (APM)\n\nWith Application Signals\nyou can automatically detect and monitor your applications' key performance indicators like latency, error rates, and request rates without manual instrumentation or code changes. Application Signals\nalso provides curated dashboards so you can begin monitoring with a minimum of setup.\n\nCloudWatch Synthetics complements this by enabling you to proactively monitor your endpoints and APIs through configurable scripts called *canaries* that simulate user behavior and alert you to availability\nissues or performance degradation before they impact real users. You\ncan also use CloudWatch RUM to gather performance data from real user sessions.\n\nUse Service Level Objectives (SLOs) in CloudWatch to define, track, and alert on specific reliability targets for your applications, helping you maintain service quality commitments by\nsetting error budgets and monitoring SLO compliance over time.",
+      "token_count": 171,
+      "char_count": 961,
+      "chunk_index": 3,
+      "total_chunks": 22,
+      "overlap_with_previous": false,
+      "metadata": {
+        "service_name": "Amazon Cloudwatch",
+        "document_type": "introduction",
+        "header_level": 1,
+        "file_size_chars": 10712,
+        "processing_timestamp": "2025-08-02"
+      }
+    },
+    {
+      "chunk_id": "d4c812ba_004",
+      "source_file": "amazon_cloudwatch_intro.md",
+      "title": "What is Amazon CloudWatch?",
+      "section": "Infrastructure monitoring",
+      "content": "## Infrastructure monitoring\n\nMany AWS services automatically send basic metrics to CloudWatch for free. Services that send metrics are listed here. Additionally, CloudWatch provides additional monitoring capabilities\nfor several key pieces of AWS infrastructure:\n\n* **Database Insights** allows you to monitor database performance metrics in real time, analyze SQL query performance, and troubleshoot database load issues for\n  AWS database services.\n* **Lambda Insights** provides system-level metrics for Lambda functions, including memory and CPU utilization tracking, and cold start detection and analysis.\n* **Container Insights** allows you to collect and analyze metrics from containerized applications,\n  on Amazon ECS clusters, Amazon EKS clusters, and self-managed Kubernetes clusters on Amazon EC2.",
+      "token_count": 142,
+      "char_count": 810,
+      "chunk_index": 4,
+      "total_chunks": 22,
+      "overlap_with_previous": false,
+      "metadata": {
+        "service_name": "Amazon Cloudwatch",
+        "document_type": "introduction",
+        "header_level": 1,
+        "file_size_chars": 10712,
+        "processing_timestamp": "2025-08-02"
+      }
+    },
+    {
+      "chunk_id": "d4c812ba_005",
+      "source_file": "amazon_cloudwatch_intro.md",
+      "title": "What is Amazon CloudWatch?",
+      "section": "Collect, store, and query logs",
+      "content": "## Collect, store, and query logs\n\nCloudWatch Logs offers a suite of powerful features for comprehensive log management and analysis. Logs ingested from AWS services and custom applications are stored in\nlog groups and streams for easy organization.\nUse CloudWatch Logs Insights to perform interactive, fast queries on your log data, with a choice of three query languages including SQL and PPL.\nUse log anomaly detection to find unusual patterns in log events in a log group, which can indicate issues.\nCreate metric filters to extract numerical values from logs and generate CloudWatch metrics, which you can use for alerting and dashboards.\nSet up subscription filters to process and analyze logs in real-time or route them to other services like Amazon S3 or Firehose.",
+      "token_count": 149,
+      "char_count": 772,
+      "chunk_index": 5,
+      "total_chunks": 22,
+      "overlap_with_previous": false,
+      "metadata": {
+        "service_name": "Amazon Cloudwatch",
+        "document_type": "introduction",
+        "header_level": 1,
+        "file_size_chars": 10712,
+        "processing_timestamp": "2025-08-02"
+      }
+    },
+    {
+      "chunk_id": "d4c812ba_006",
+      "source_file": "amazon_cloudwatch_intro.md",
+      "title": "What is Amazon CloudWatch?",
+      "section": "Use the CloudWatch agent to gather metrics, logs, and traces from Amazon EC2 fleets",
+      "content": "## Use the CloudWatch agent to gather metrics, logs, and traces from Amazon EC2 fleets\n\nUse the CloudWatch agent to collect detailed system\nmetrics about processes, CPU, memory, disk usage, and network performance from your fleets of Amazon EC2 instances and on-premises servers.\nYou can also collect and monitor custom metrics from your applications, aggregate logs from multiple sources, and configure alarms based on the collected data.\nYou can also use the agent to gather GPU metrics. The agent supports both Windows and Linux operating systems and can integrate with Systems Manager for centralized configuration management.",
+      "token_count": 117,
+      "char_count": 630,
+      "chunk_index": 6,
+      "total_chunks": 22,
+      "overlap_with_previous": false,
+      "metadata": {
+        "service_name": "Amazon Cloudwatch",
+        "document_type": "introduction",
+        "header_level": 1,
+        "file_size_chars": 10712,
+        "processing_timestamp": "2025-08-02"
+      }
+    },
+    {
+      "chunk_id": "d4c812ba_007",
+      "source_file": "amazon_cloudwatch_intro.md",
+      "title": "What is Amazon CloudWatch?",
+      "section": "Cross-account monitoring",
+      "content": "## Cross-account monitoring\n\nCloudWatch cross-account observability lets you\nset up a central monitoring account to monitor and troubleshoot applications that span multiple accounts.\nFrom the central account, you can view metrics, logs, and traces from source\naccounts across your organization. This centralized approach enables you to create cross-account dashboards,\nset up alarms that watch metrics from multiple accounts, and perform root-cause analysis across account\nboundaries. With CloudWatch cross-account observability, you can link source accounts either individually or\nlink them automatically through AWS Organizations.",
+      "token_count": 111,
+      "char_count": 632,
+      "chunk_index": 7,
+      "total_chunks": 22,
+      "overlap_with_previous": false,
+      "metadata": {
+        "service_name": "Amazon Cloudwatch",
+        "document_type": "introduction",
+        "header_level": 1,
+        "file_size_chars": 10712,
+        "processing_timestamp": "2025-08-02"
+      }
+    },
+    {
+      "chunk_id": "d4c812ba_009",
+      "source_file": "amazon_cloudwatch_intro.md",
+      "title": "What is Amazon CloudWatch?",
+      "section": "Network and internet monitoring",
+      "content": "## Network and internet monitoring\n\nCloudWatch provides comprehensive network and internet monitoring capabilities through CloudWatch Network Monitoring.\n\nInternet Monitor uses AWS global networking data to analyze\ninternet performance and availability between your applications and end users. With an internet monitor,\nyou can identify or get notifications for increased latency or regional disruptions that impact your customers.\nInternet monitors work by analyzing your VPC flow logs to provide automated insights about network traffic\npatterns and performance. You can also get suggestions for how to optimize application performance for your\nclients.\n\nNetwork Flow Monitor displays network performance\ninformation gathered by lightweight software agents that you install on your instances. Using a flow monitor,\nyou can quickly visualize packet loss and latency of your network connections over a time\nframe that\nyou specify. Each monitor also generates a network health indicator (NHI), which tells you whether there\nwere AWS network issues for the network flows tracked by your monitor during the time period that you're\nevaluating.\n\nWhen you connect by using AWS Direct Connect, you can use synthetic monitors in Network Synthetic Monitor to proactively monitor network connectivity\nby running synthetic tests between a VPC and on-premises endpoints. When you create a synthetic monitor, you\nspecify probes by providing a VPC subnet and on-premises IP addresses. AWS creates and manages the\ninfrastructure in the background that is required to perform round-trip time and packet loss measurements\nwith the probes. These tests detect issues with connectivity, DNS, and latency before they impact your\napplications, so that you can take action to improve your end users' experience.",
+      "token_count": 317,
+      "char_count": 1788,
+      "chunk_index": 9,
+      "total_chunks": 22,
+      "overlap_with_previous": false,
+      "metadata": {
+        "service_name": "Amazon Cloudwatch",
+        "document_type": "introduction",
+        "header_level": 1,
+        "file_size_chars": 10712,
+        "processing_timestamp": "2025-08-02"
+      }
+    },
+    {
+      "chunk_id": "d4c812ba_011",
+      "source_file": "amazon_cloudwatch_intro.md",
+      "title": "What is Amazon CloudWatch?",
+      "section": "Amazon CloudWatch resources",
+      "content": "## Amazon CloudWatch resources\n\nThe following related resources\ncan help you as you work with this service.\n\n| Resource | Description |\n| --- | --- |\n| Amazon CloudWatch FAQs | The FAQ covers the top questions developers have asked about this product. |\n| AWS Developer Center | A central starting point to find documentation, code examples, release notes, and other information to help you build innovative applications with AWS. |\n| AWS Management Console | The console allows you to perform most of the functions of Amazon CloudWatch and various other AWS offerings without programming. |\n| Amazon CloudWatch Discussion Forums | Community-based forum for developers to discuss technical questions related to Amazon CloudWatch. |\n| AWS Support | The hub for creating and managing your AWS Support cases. Also includes links to other helpful resources, such as forums, technical FAQs, service health status, and AWS Trusted Advisor. |\n| Amazon CloudWatch product information | The primary web page for information about Amazon CloudWatch. |\n| Contact Us | A central contact point for inquiries concerning AWS billing, account, events, abuse, etc. |",
+      "token_count": 216,
+      "char_count": 1149,
+      "chunk_index": 11,
+      "total_chunks": 22,
+      "overlap_with_previous": false,
+      "metadata": {
+        "service_name": "Amazon Cloudwatch",
+        "document_type": "introduction",
+        "header_level": 1,
+        "file_size_chars": 10712,
+        "processing_timestamp": "2025-08-02"
+      }
+    }
+  ]
+}

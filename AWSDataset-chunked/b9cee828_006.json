@@ -1,0 +1,19 @@
+{
+  "chunk_id": "b9cee828_006",
+  "source_file": "amazon_ec2_intro.md",
+  "title": "What is Amazon EC2?",
+  "section": "Access Amazon EC2",
+  "content": "## Access Amazon EC2\n\nYou can create and manage your Amazon EC2 instances using the following interfaces:\n\n**Amazon EC2 console**\n:   A simple web interface to create and manage Amazon EC2 instances and resources.\n    If you've signed up for an AWS account, you can access the Amazon EC2 console\n    by signing into the AWS Management Console and selecting **EC2** from\n    the console home page.\n\n**AWS Command Line Interface**\n:   Enables you to interact with AWS services using commands in your command-line shell. It\n    is supported on Windows, Mac, and Linux.\n\n**AWS CloudFormation**\n:   Amazon EC2 supports creating resources using AWS CloudFormation. You create a template, in JSON or YAML\n    format, that describes your AWS resources, and AWS CloudFormation provisions and\n    configures those resources for you.\n\n**AWS SDKs**\n:   If you prefer to build applications using language-specific APIs instead\n    of submitting a request over HTTP or HTTPS, AWS provides libraries, sample\n    code, tutorials, and other resources for software developers.\n\n**AWS Tools for PowerShell**\n:   A set of PowerShell modules that are built on the functionality exposed by\n    the SDK for .NET. The Tools for PowerShell enable you to script operations on your AWS\n    resources from the PowerShell command line.\n\n**Query API**\n:   Amazon EC2 provides a Query API. These requests are HTTP or HTTPS requests that\n    use the HTTP verbs GET or POST and a Query parameter named\n    `Action`.",
+  "token_count": 312,
+  "char_count": 1482,
+  "chunk_index": 6,
+  "total_chunks": 7,
+  "overlap_with_previous": false,
+  "metadata": {
+    "service_name": "Amazon Ec2",
+    "document_type": "introduction",
+    "header_level": 1,
+    "file_size_chars": 6316,
+    "processing_timestamp": "2025-08-02"
+  }
+}

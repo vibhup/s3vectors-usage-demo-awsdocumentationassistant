@@ -1,0 +1,19 @@
+{
+  "chunk_id": "76e3f83e_007",
+  "source_file": "amazon_dynamodb_intro.md",
+  "title": "What is Amazon DynamoDB?",
+  "section": "DynamoDB use cases",
+  "content": "## DynamoDB use cases\n\nCustomers across all sizes, industries, and geographies use DynamoDB to build modern, serverless applications that can start small and scale globally. DynamoDB is ideal for use cases that require consistent\nperformance at any scale with little to zero operational overhead. The following list\npresents some use cases where you can use DynamoDB:\n\n* **Financial service applications** –\n  Suppose you're a financial services company building applications, such as live\n  trading and routing, loan management, token generation, and transaction ledgers.\n  With DynamoDB global tables, your applications\n  can respond to events and serve traffic from your chosen AWS Regions with\n  fast, local read and write performance.\n\n  DynamoDB is suitable for applications with the most stringent availability\n  requirements. It removes the operational burden of manually scaling instances\n  for increased storage or throughput, versioning, and licensing.\n\n  You can use DynamoDB transactions to achieve\n  atomicity, consistency, isolation, and durability (ACID) across one or more\n  tables with a single request. ACID\n  transactions suit workloads that include processing financial\n  transactions or fulfilling orders. DynamoDB instantly accommodates your workloads\n  as they ramp up or down, enabling you to efficiently scale your database for\n  market conditions, such as trading hours.\n\n* **Gaming applications** – As a gaming\n  company, you can use DynamoDB for all parts of game platforms, for example, game\n  state, player data, session history, and leaderboards. Choose DynamoDB for its\n  scale, consistent performance, and the ease of operations provided by its\n  serverless architecture. DynamoDB is well suited for scale-out architectures needed\n  to support successful games. It quickly scales your game's throughput both in\n  and out (scale to zero with no cold start). This scalability optimizes your\n  architecture's efficiency whether you're scaling out for peak traffic or scaling\n  back when gameplay usage is low.\n\n* **Streaming applications** – Media and\n  entertainment companies use DynamoDB as a metadata index for content, content\n  management service, or to serve near real-time sports statistics. They also use\n  DynamoDB to run user watchlist and bookmarking services and process billions of\n  daily customer events for generating recommendations. These customers benefit\n  from DynamoDB's scalability, performance, and resiliency. DynamoDB scales to workload\n  changes as they ramp up or down, enabling streaming media use cases that can\n  support any levels of demand.",
+  "token_count": 526,
+  "char_count": 2605,
+  "chunk_index": 7,
+  "total_chunks": 13,
+  "overlap_with_previous": false,
+  "metadata": {
+    "service_name": "Amazon Dynamodb",
+    "document_type": "introduction",
+    "header_level": 1,
+    "file_size_chars": 8856,
+    "processing_timestamp": "2025-08-02"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "chunk_id": "89ab2db9_020",
+  "source_file": "aws_well_architected_framework.md",
+  "title": "AWS Well-Architected Framework",
+  "section": "Design Principles",
+  "content": "### Design Principles\n\n**Understand your impact**\nEstablish performance indicators, evaluate improvements, and estimate the impact of proposed changes over the full lifecycle of a workload.\n\n**Establish sustainability goals**\nEstablish long-term sustainability goals for each workload, model return on investment (ROI), and give owners the resources they need to invest in sustainability goals.\n\n**Maximize utilization**\nRight size each workload to maximize the energy efficiency of the underlying hardware and minimize idle resources.\n\n**Anticipate and adopt new, more efficient hardware and software offerings**\nDesign for flexibility to adopt new technologies over time, and support the upstream improvements your partners and suppliers make to help you reduce the impact of your cloud workloads.\n\n**Use managed services**\nManaged services shift responsibility for maintaining high average utilization and sustainability optimization of the deployed hardware to AWS.\n\n**Reduce the downstream impact of your cloud workloads**\nReduce the amount of energy or resources required to use your services and reduce the need for your customers to upgrade their hardware.",
+  "token_count": 195,
+  "char_count": 1164,
+  "chunk_index": 20,
+  "total_chunks": 35,
+  "overlap_with_previous": false,
+  "metadata": {
+    "service_name": "Aws Well Architected Framework.Md",
+    "document_type": "guide",
+    "header_level": 1,
+    "file_size_chars": 22435,
+    "processing_timestamp": "2025-08-02"
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "source_file": "amazon_rds_intro.md",
+  "total_chunks": 6,
+  "chunks": [
+    {
+      "chunk_id": "1d50f4f5_002",
+      "source_file": "amazon_rds_intro.md",
+      "title": "What is Amazon Relational Database Service (Amazon RDS)?",
+      "section": "Advantages of Amazon RDS",
+      "content": "## Advantages of Amazon RDS\n\nAmazon RDS is a managed database service. It's responsible for most management tasks. By\neliminating tedious manual processes, Amazon RDS frees you to focus on your application and\nyour users.\n\nAmazon RDS provides the following principal advantages over database deployments that aren't\nfully managed:\n\n* You can use database engines that you are already familiar with: IBM Db2, MariaDB,\n  Microsoft SQL Server, MySQL, Oracle Database, and PostgreSQL.\n* Amazon RDS manages backups, software patching, automatic failure detection, and\n  recovery.\n* You can turn on automated backups, or manually create your own backup\n  snapshots. You can use these backups to restore a database. The Amazon RDS restore\n  process works reliably and efficiently.\n* You can get high availability with a primary DB instance and a synchronous secondary\n  DB instance that you can fail over to when problems occur. You can also use read\n  replicas to increase read scaling.\n* In addition to the security in your database package, you can control access by using\n  AWS Identity and Access Management (IAM) to define users and permissions. You can also help protect\n  your databases by putting them in a virtual private cloud (VPC).",
+      "token_count": 256,
+      "char_count": 1237,
+      "chunk_index": 2,
+      "total_chunks": 10,
+      "overlap_with_previous": false,
+      "metadata": {
+        "service_name": "Amazon Rds",
+        "document_type": "introduction",
+        "header_level": 1,
+        "file_size_chars": 7781,
+        "processing_timestamp": "2025-08-02"
+      }
+    },
+    {
+      "chunk_id": "1d50f4f5_003",
+      "source_file": "amazon_rds_intro.md",
+      "title": "What is Amazon Relational Database Service (Amazon RDS)?",
+      "section": "Comparison of responsibilities with Amazon EC2 and on-premises deployments",
+      "content": "## Comparison of responsibilities with Amazon EC2 and on-premises deployments\n\nWe recommend Amazon RDS as your default choice for most relational database deployments.\nThe following alternatives have the disadvantage of making you spend more time managing\nsoftware and hardware:\n\n**On-premises deployment**\n:   When you buy an on-premises server, you get CPU, memory, storage, and\n    IOPS, all bundled together. You assume full responsibility for the server,\n    operating system, and database software.\n\n**Amazon EC2**\n:   Amazon Elastic Compute Cloud (Amazon EC2) provides scalable computing capacity in the AWS Cloud.\n    Unlike in an on-premises server, CPU, memory, storage, and IOPS are\n    separated so that you can scale them independently. AWS manages the\n    hardware layers, which eliminates some of the burden of managing an\n    on-premises database server.\n\n    The disadvantage to running a database on Amazon EC2 is that you're more prone to user errors.\n    For example, when you update the operating system or database software\n    manually, you might accidentally cause application downtime.\n\nThe following table compares the management models for on-premises databases, Amazon EC2,\nand Amazon RDS.\n\n| Feature | On-premises management | Amazon EC2 management | Amazon RDS management |\n| --- | --- | --- | --- |\n| Application optimization | Customer | Customer | Customer |\n| Scaling | Customer | Customer | AWS |\n| High availability | Customer | Customer | AWS |\n| Database backups | Customer | Customer | AWS |\n| Database software patching | Customer | Customer | AWS |\n| Database software install | Customer | Customer | AWS |\n| Operating system (OS) patching | Customer | Customer | AWS |\n| OS installation | Customer | Customer | AWS |\n| Server maintenance | Customer | AWS | AWS |\n| Hardware lifecycle | Customer | AWS | AWS |\n| Power, network, and cooling | Customer | AWS | AWS |",
+      "token_count": 400,
+      "char_count": 1905,
+      "chunk_index": 3,
+      "total_chunks": 10,
+      "overlap_with_previous": false,
+      "metadata": {
+        "service_name": "Amazon Rds",
+        "document_type": "introduction",
+        "header_level": 1,
+        "file_size_chars": 7781,
+        "processing_timestamp": "2025-08-02"
+      }
+    },
+    {
+      "chunk_id": "1d50f4f5_004",
+      "source_file": "amazon_rds_intro.md",
+      "title": "What is Amazon Relational Database Service (Amazon RDS)?",
+      "section": "Amazon RDS shared responsibility model",
+      "content": "## Amazon RDS shared responsibility model\n\nAmazon RDS is responsible for hosting the software components and infrastructure of DB instances and\nDB clusters. You are responsible for query tuning, which is the process of adjusting SQL queries\nto improve performance. Query performance is highly dependent on database design, data size,\ndata distribution, application workload, and query patterns, which can vary greatly.\nMonitoring and tuning are highly individualized processes that you own for your RDS\ndatabases. You can use Amazon RDS Performance Insights and other tools to identify problematic\nqueries.",
+      "token_count": 111,
+      "char_count": 606,
+      "chunk_index": 4,
+      "total_chunks": 10,
+      "overlap_with_previous": false,
+      "metadata": {
+        "service_name": "Amazon Rds",
+        "document_type": "introduction",
+        "header_level": 1,
+        "file_size_chars": 7781,
+        "processing_timestamp": "2025-08-02"
+      }
+    },
+    {
+      "chunk_id": "1d50f4f5_005",
+      "source_file": "amazon_rds_intro.md",
+      "title": "What is Amazon Relational Database Service (Amazon RDS)?",
+      "section": "Amazon RDS DB instances",
+      "content": "## Amazon RDS DB instances\n\nA *DB instance* is an isolated database environment in the\nAWS Cloud. The basic building block of Amazon RDS is the DB instance. Your DB instance can contain one or\nmore user-created databases.\n\nYou can access your DB instances by using the same tools and applications that you use with a\nstandalone database instance. You can create and modify a DB instance by using the AWS Command Line Interface\n(AWS CLI), the Amazon RDS API, or the AWS Management Console.",
+      "token_count": 105,
+      "char_count": 488,
+      "chunk_index": 5,
+      "total_chunks": 10,
+      "overlap_with_previous": false,
+      "metadata": {
+        "service_name": "Amazon Rds",
+        "document_type": "introduction",
+        "header_level": 1,
+        "file_size_chars": 7781,
+        "processing_timestamp": "2025-08-02"
+      }
+    },
+    {
+      "chunk_id": "1d50f4f5_006",
+      "source_file": "amazon_rds_intro.md",
+      "title": "What is Amazon Relational Database Service (Amazon RDS)?",
+      "section": "Amazon RDS application architecture: example",
+      "content": "### Amazon RDS application architecture: example\n\nThe following components are typical in an Amazon RDS architecture:\n\n**Elastic Load Balancing**\n:   AWS routes user traffic through Elastic Load Balancing. A load balancer\n    distributes workloads across multiple compute resources, such as virtual\n    servers. In this sample use case, the Elastic Load Balancer forwards client\n    requests to application servers.\n\n**Application servers**\n:   Application servers interact with RDS DB instances. An application server in\n    AWS is typically hosted on EC2 instances, which provide scalable computing\n    capacity. The application servers reside in public subnets with different\n    Availability Zones (AZs) within the same Virtual Private Cloud (VPC).\n\n**RDS DB instances**\n:   The EC2 application servers interact with RDS DB instances. The DB instances reside in\n    private subnets within different Availability Zones (AZs) within the same\n    Virtual Private Cloud (VPC). Because the subnets are private, no requests\n    from the internet are permitted.\n\n    The primary DB instance replicates to another DB instance, called a *read\n    replica*. Both DB instances are in private subnets within the VPC,\n    which means that Internet users can't access them directly.",
+      "token_count": 259,
+      "char_count": 1272,
+      "chunk_index": 6,
+      "total_chunks": 10,
+      "overlap_with_previous": false,
+      "metadata": {
+        "service_name": "Amazon Rds",
+        "document_type": "introduction",
+        "header_level": 1,
+        "file_size_chars": 7781,
+        "processing_timestamp": "2025-08-02"
+      }
+    },
+    {
+      "chunk_id": "1d50f4f5_007",
+      "source_file": "amazon_rds_intro.md",
+      "title": "What is Amazon Relational Database Service (Amazon RDS)?",
+      "section": "DB engines",
+      "content": "### DB engines\n\nA *DB engine* is the specific relational database software\nthat runs on your DB instance. Amazon RDS supports the following database engines:\n\n* **IBM Db2** - Enterprise-grade database for mission-critical applications\n* **MariaDB** - Open-source relational database, MySQL-compatible\n* **Microsoft SQL Server** - Microsoft's relational database management system\n* **MySQL** - Popular open-source relational database\n* **Oracle Database** - Enterprise database with advanced features\n* **PostgreSQL** - Advanced open-source object-relational database\n\nEach DB engine has its own supported features, and each version of a DB engine can include\nspecific features. Support for Amazon RDS features varies across AWS Regions and specific\nversions of each DB engine.\n\nAdditionally, each DB engine has a set of parameters in a DB parameter group that control the behavior of the\ndatabases that it manages.",
+      "token_count": 182,
+      "char_count": 915,
+      "chunk_index": 7,
+      "total_chunks": 10,
+      "overlap_with_previous": false,
+      "metadata": {
+        "service_name": "Amazon Rds",
+        "document_type": "introduction",
+        "header_level": 1,
+        "file_size_chars": 7781,
+        "processing_timestamp": "2025-08-02"
+      }
+    }
+  ]
+}

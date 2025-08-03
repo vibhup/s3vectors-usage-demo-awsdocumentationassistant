@@ -1,0 +1,19 @@
+{
+  "chunk_id": "904bd79d_018",
+  "source_file": "aws_cost_optimization_guide.md",
+  "title": "AWS Cost Optimization Guide",
+  "section": "DynamoDB Cost Optimization",
+  "content": "### DynamoDB Cost Optimization\nOptimize NoSQL database costs through capacity management.\n\n**DynamoDB Pricing Models:**\n- **On-Demand**: Pay per request\n- **Provisioned**: Pay for provisioned capacity\n\n**Capacity Management:**\n- Use On-Demand for unpredictable workloads\n- Use Provisioned for predictable workloads\n- Implement auto scaling for provisioned capacity\n- Monitor consumed vs. provisioned capacity\n\n**Design Optimization:**\n- Design efficient partition keys\n- Use sparse indexes\n- Implement item compression\n- Use DynamoDB Accelerator (DAX) for caching\n- Optimize query patterns",
+  "token_count": 127,
+  "char_count": 589,
+  "chunk_index": 18,
+  "total_chunks": 46,
+  "overlap_with_previous": false,
+  "metadata": {
+    "service_name": "Aws Cost Optimization Guide.Md",
+    "document_type": "guide",
+    "header_level": 1,
+    "file_size_chars": 20670,
+    "processing_timestamp": "2025-08-02"
+  }
+}

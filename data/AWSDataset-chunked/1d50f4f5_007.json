@@ -1,0 +1,19 @@
+{
+  "chunk_id": "1d50f4f5_007",
+  "source_file": "amazon_rds_intro.md",
+  "title": "What is Amazon Relational Database Service (Amazon RDS)?",
+  "section": "DB engines",
+  "content": "### DB engines\n\nA *DB engine* is the specific relational database software\nthat runs on your DB instance. Amazon RDS supports the following database engines:\n\n* **IBM Db2** - Enterprise-grade database for mission-critical applications\n* **MariaDB** - Open-source relational database, MySQL-compatible\n* **Microsoft SQL Server** - Microsoft's relational database management system\n* **MySQL** - Popular open-source relational database\n* **Oracle Database** - Enterprise database with advanced features\n* **PostgreSQL** - Advanced open-source object-relational database\n\nEach DB engine has its own supported features, and each version of a DB engine can include\nspecific features. Support for Amazon RDS features varies across AWS Regions and specific\nversions of each DB engine.\n\nAdditionally, each DB engine has a set of parameters in a DB parameter group that control the behavior of the\ndatabases that it manages.",
+  "token_count": 182,
+  "char_count": 915,
+  "chunk_index": 7,
+  "total_chunks": 10,
+  "overlap_with_previous": false,
+  "metadata": {
+    "service_name": "Amazon Rds",
+    "document_type": "introduction",
+    "header_level": 1,
+    "file_size_chars": 7781,
+    "processing_timestamp": "2025-08-02"
+  }
+}

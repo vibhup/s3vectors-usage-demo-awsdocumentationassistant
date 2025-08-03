@@ -1,0 +1,19 @@
+{
+  "chunk_id": "1d50f4f5_006",
+  "source_file": "amazon_rds_intro.md",
+  "title": "What is Amazon Relational Database Service (Amazon RDS)?",
+  "section": "Amazon RDS application architecture: example",
+  "content": "### Amazon RDS application architecture: example\n\nThe following components are typical in an Amazon RDS architecture:\n\n**Elastic Load Balancing**\n:   AWS routes user traffic through Elastic Load Balancing. A load balancer\n    distributes workloads across multiple compute resources, such as virtual\n    servers. In this sample use case, the Elastic Load Balancer forwards client\n    requests to application servers.\n\n**Application servers**\n:   Application servers interact with RDS DB instances. An application server in\n    AWS is typically hosted on EC2 instances, which provide scalable computing\n    capacity. The application servers reside in public subnets with different\n    Availability Zones (AZs) within the same Virtual Private Cloud (VPC).\n\n**RDS DB instances**\n:   The EC2 application servers interact with RDS DB instances. The DB instances reside in\n    private subnets within different Availability Zones (AZs) within the same\n    Virtual Private Cloud (VPC). Because the subnets are private, no requests\n    from the internet are permitted.\n\n    The primary DB instance replicates to another DB instance, called a *read\n    replica*. Both DB instances are in private subnets within the VPC,\n    which means that Internet users can't access them directly.",
+  "token_count": 259,
+  "char_count": 1272,
+  "chunk_index": 6,
+  "total_chunks": 10,
+  "overlap_with_previous": false,
+  "metadata": {
+    "service_name": "Amazon Rds",
+    "document_type": "introduction",
+    "header_level": 1,
+    "file_size_chars": 7781,
+    "processing_timestamp": "2025-08-02"
+  }
+}

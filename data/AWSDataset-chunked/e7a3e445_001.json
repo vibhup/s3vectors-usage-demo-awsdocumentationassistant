@@ -1,0 +1,19 @@
+{
+  "chunk_id": "e7a3e445_001",
+  "source_file": "amazon_vpc_intro.md",
+  "title": "What is Amazon VPC?",
+  "section": "What is Amazon VPC?",
+  "content": "# What is Amazon VPC?\n\nWith Amazon Virtual Private Cloud (Amazon VPC), you can launch AWS resources in a logically isolated virtual\nnetwork that you've defined. This virtual network closely resembles a traditional network\nthat you'd operate in your own data center, with the benefits of using the scalable\ninfrastructure of AWS.\n\nThe following diagram shows an example VPC. The VPC has one subnet in each of the\nAvailability Zones in the Region, EC2 instances in each subnet, and an internet gateway\nto allow communication between the resources in your VPC and the internet.",
+  "token_count": 118,
+  "char_count": 574,
+  "chunk_index": 1,
+  "total_chunks": 11,
+  "overlap_with_previous": false,
+  "metadata": {
+    "service_name": "Amazon Vpc",
+    "document_type": "introduction",
+    "header_level": 1,
+    "file_size_chars": 8151,
+    "processing_timestamp": "2025-08-02"
+  }
+}

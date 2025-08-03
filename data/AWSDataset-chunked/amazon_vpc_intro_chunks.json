@@ -1,0 +1,82 @@
+{
+  "source_file": "amazon_vpc_intro.md",
+  "total_chunks": 4,
+  "chunks": [
+    {
+      "chunk_id": "e7a3e445_001",
+      "source_file": "amazon_vpc_intro.md",
+      "title": "What is Amazon VPC?",
+      "section": "What is Amazon VPC?",
+      "content": "# What is Amazon VPC?\n\nWith Amazon Virtual Private Cloud (Amazon VPC), you can launch AWS resources in a logically isolated virtual\nnetwork that you've defined. This virtual network closely resembles a traditional network\nthat you'd operate in your own data center, with the benefits of using the scalable\ninfrastructure of AWS.\n\nThe following diagram shows an example VPC. The VPC has one subnet in each of the\nAvailability Zones in the Region, EC2 instances in each subnet, and an internet gateway\nto allow communication between the resources in your VPC and the internet.",
+      "token_count": 118,
+      "char_count": 574,
+      "chunk_index": 1,
+      "total_chunks": 11,
+      "overlap_with_previous": false,
+      "metadata": {
+        "service_name": "Amazon Vpc",
+        "document_type": "introduction",
+        "header_level": 1,
+        "file_size_chars": 8151,
+        "processing_timestamp": "2025-08-02"
+      }
+    },
+    {
+      "chunk_id": "e7a3e445_002",
+      "source_file": "amazon_vpc_intro.md",
+      "title": "What is Amazon VPC?",
+      "section": "Features",
+      "content": "## Features\n\nThe following features help you configure a VPC to provide the connectivity\nthat your applications need:\n\n**Virtual private clouds (VPC)**\n:   A VPC is a virtual\n    network that closely resembles a traditional network that you'd operate\n    in your own data center. After you create a VPC, you can add subnets.\n\n**Subnets**\n:   A subnet is a range of\n    IP addresses in your VPC. A subnet must reside in a single Availability Zone.\n    After you add subnets, you can deploy AWS resources in your VPC.\n\n**IP addressing**\n:   You can assign IP addresses,\n    both IPv4 and IPv6, to your VPCs and subnets. You can also bring your public\n    IPv4 addresses and IPv6 GUA addresses to AWS and allocate them to resources in your VPC,\n    such as EC2 instances, NAT gateways, and Network Load Balancers.\n\n**Routing**\n:   Use route tables to determine\n    where network traffic from your subnet or gateway is directed.\n\n**Gateways and endpoints**\n:   A gateway connects your VPC to\n    another network. For example, use an internet gateway\n    to connect your VPC to the internet. Use a VPC endpoint to connect to AWS services privately, without\n    the use of an internet gateway or NAT device.\n\n**Peering connections**\n:   Use a VPC peering connection\n    to route traffic between the resources in two VPCs.\n\n**Traffic Mirroring**\n:   Copy network traffic from\n    network interfaces and send it to security and monitoring appliances for\n    deep packet inspection.\n\n**Transit gateways**\n:   Use a transit gateway, which\n    acts as a central hub, to route traffic between your VPCs, VPN connections,\n    and AWS Direct Connect connections.\n\n**VPC Flow Logs**\n:   A flow log captures information\n    about the IP traffic going to and from network interfaces in your VPC.\n\n**VPN connections**\n:   Connect your VPCs to your on-premises networks using\n    AWS Virtual Private Network (AWS VPN).",
+      "token_count": 440,
+      "char_count": 1899,
+      "chunk_index": 2,
+      "total_chunks": 11,
+      "overlap_with_previous": false,
+      "metadata": {
+        "service_name": "Amazon Vpc",
+        "document_type": "introduction",
+        "header_level": 1,
+        "file_size_chars": 8151,
+        "processing_timestamp": "2025-08-02"
+      }
+    },
+    {
+      "chunk_id": "e7a3e445_004",
+      "source_file": "amazon_vpc_intro.md",
+      "title": "What is Amazon VPC?",
+      "section": "Working with Amazon VPC",
+      "content": "## Working with Amazon VPC\n\nYou can create and manage your VPCs using any of the following interfaces:\n\n* **AWS Management Console** — Provides a web interface that you can\n  use to access your VPCs.\n* **AWS Command Line Interface (AWS CLI)** —\n  Provides commands for a broad set of AWS services, including Amazon VPC, and is\n  supported on Windows, Mac, and Linux.\n* **AWS SDKs** — Provides language-specific\n  APIs and takes care of many of the connection details, such as calculating\n  signatures, handling request retries, and error handling.\n* **Query API** — Provides low-level API actions\n  that you call using HTTPS requests. Using the Query API is the most direct way to\n  access Amazon VPC, but it requires that your application handle low-level details such as\n  generating the hash to sign the request, and error handling.",
+      "token_count": 189,
+      "char_count": 835,
+      "chunk_index": 4,
+      "total_chunks": 11,
+      "overlap_with_previous": false,
+      "metadata": {
+        "service_name": "Amazon Vpc",
+        "document_type": "introduction",
+        "header_level": 1,
+        "file_size_chars": 8151,
+        "processing_timestamp": "2025-08-02"
+      }
+    },
+    {
+      "chunk_id": "e7a3e445_005",
+      "source_file": "amazon_vpc_intro.md",
+      "title": "What is Amazon VPC?",
+      "section": "Pricing for Amazon VPC",
+      "content": "## Pricing for Amazon VPC\n\nThere's no additional charge for using a VPC. There are, however, charges for some VPC\ncomponents, such as NAT gateways, IP Address Manager, traffic mirroring, Reachability Analyzer, and\nNetwork Access Analyzer.\n\nNearly all resources that you launch in your virtual private cloud (VPC) provide you\nwith an IP address for connectivity. The vast majority of resources in your VPC use\nprivate IPv4 addresses. Resources that require direct access to the internet over IPv4,\nhowever, use public IPv4 addresses.\n\nAmazon VPC enables you to launch managed services, such as Elastic Load Balancing, Amazon RDS, and Amazon EMR, without having a VPC set up beforehand. It does this by using the default\nVPC in your account if you have\none. Any public IPv4 addresses provisioned to your account by the managed\nservice will be charged. These charges will be associated with Amazon VPC service in\nyour AWS Cost and Usage Report.\n\n**Pricing for public IPv4 addresses**\n\nA *public IPv4 address* is an IPv4 address that is\nroutable from the internet. A public IPv4 address is necessary for a resource to be\ndirectly reachable from the internet over IPv4.\n\nIf you are an existing or new AWS Free Tier\ncustomer, you get 750 hours of public IPv4 address usage with the EC2 service at no\ncharge. If you are not using the EC2 service in the AWS Free Tier, Public IPv4\naddresses are charged.\n\nPrivate IPv4 addresses (RFC\n1918) are not charged.\n\nPublic IPv4 addresses have the following types:\n\n* **Elastic IP addresses (EIPs)**: Static, public IPv4 addresses\n  provided by Amazon that you can associate with an EC2 instance, elastic network\n  interface, or AWS resource.\n* **EC2 public IPv4 addresses**: Public IPv4 addresses assigned to\n  an EC2 instance by Amazon (if the EC2 instance is launched into a default subnet or\n  if the instance is launched into a subnet that's been configured to automatically\n  assign a public IPv4 address).\n* **BYOIPv4 addresses**: Public IPv4 addresses in the IPv4 address\n  range that you've brought to AWS using Bring your own IP addresses (BYOIP).\n* **Service-managed IPv4 addresses**: Public IPv4 addresses\n  automatically provisioned on AWS resources and managed by an AWS service. For\n  example, public IPv4 addresses on Amazon ECS, Amazon RDS, or Amazon WorkSpaces.\n\nThe following list shows the most common AWS services that can use public IPv4\naddresses:\n\n* Amazon AppStream 2.0\n* AWS Client VPN\n* AWS Database Migration Service\n* Amazon EC2\n* Amazon Elastic Container Service\n* Amazon EKS\n* Amazon EMR\n* Amazon GameLift Servers\n* AWS Global Accelerator\n* AWS Mainframe Modernization\n* Amazon Managed Streaming for Apache Kafka\n* Amazon MQ\n* Amazon RDS\n* Amazon Redshift\n* AWS Site-to-Site VPN\n* Amazon VPC NAT gateway\n* Amazon WorkSpaces\n* Elastic Load Balancing",
+      "token_count": 659,
+      "char_count": 2811,
+      "chunk_index": 5,
+      "total_chunks": 11,
+      "overlap_with_previous": false,
+      "metadata": {
+        "service_name": "Amazon Vpc",
+        "document_type": "introduction",
+        "header_level": 1,
+        "file_size_chars": 8151,
+        "processing_timestamp": "2025-08-02"
+      }
+    }
+  ]
+}

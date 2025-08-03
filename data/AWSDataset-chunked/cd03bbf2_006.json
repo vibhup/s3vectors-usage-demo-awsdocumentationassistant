@@ -1,0 +1,19 @@
+{
+  "chunk_id": "cd03bbf2_006",
+  "source_file": "amazon_sqs_intro.md",
+  "title": "What is Amazon Simple Queue Service?",
+  "section": "Differences between Amazon SQS, Amazon MQ, and Amazon SNS",
+  "content": "## Differences between Amazon SQS, Amazon MQ, and Amazon SNS\n\nAmazon SQS, Amazon SNS, and Amazon MQ offer highly scalable and easy-to-use\nmanaged messaging services, each designed for specific roles within distributed systems.\nHere's an enhanced overview of the differences between these services:\n\n**Amazon SQS** decouples and scales distributed software systems\nand components as a queue service. It processes messages through a single subscriber\ntypically, ideal for workflows where order and loss prevention are critical. For wider\ndistribution, integrating Amazon SQS with Amazon SNS enables a fanout messaging pattern, effectively pushing messages to multiple\nsubscribers at once.\n\n**Amazon SNS** allows publishers to send messages to multiple\nsubscribers through topics, which serve as communication channels. Subscribers receive\npublished messages using a supported endpoint type, such as Amazon Data Firehose, Amazon SQS,\nLambda, HTTP,\nemail, mobile push notifications, and mobile text messages (SMS). This service is ideal\nfor scenarios requiring immediate notifications, such as real-time user engagement or\nalarm systems. To prevent message loss when subscribers are offline, integrating Amazon SNS\nwith Amazon SQS queue messages ensures consistent delivery.\n\n**Amazon MQ** fits best with enterprises looking to migrate\nfrom traditional message brokers, supporting standard messaging protocols like AMQP and\nMQTT, along with Apache ActiveMQ and\nRabbitMQ. It offers compatibility\nwith legacy systems needing stable, reliable messaging without significant\nreconfiguration.\n\nThe following chart provides an overview of each services' resource type:\n\n| Resource type | Amazon SNS | Amazon SQS | Amazon MQ |\n| --- | --- | --- | --- |\n| Synchronous | No | No | Yes |\n| Asynchronous | Yes | Yes | Yes |\n| Queues | No | Yes | Yes |\n| Publisher-subscriber messaging | Yes | No | Yes |\n| Message brokers | No | No | Yes |\n\nBoth Amazon SQS and Amazon SNS are recommended for new applications that can benefit from nearly\nunlimited scalability and simple APIs. They generally offer more cost-effective\nsolutions for high-volume applications with their pay-as-you-go pricing. We recommend\nAmazon MQ for migrating applications from existing message brokers that rely on\ncompatibility with APIs such as JMS or protocols such as Advanced Message Queuing\nProtocol (AMQP), MQTT, OpenWire, and Simple Text Oriented Message Protocol\n(STOMP).",
+  "token_count": 490,
+  "char_count": 2433,
+  "chunk_index": 6,
+  "total_chunks": 29,
+  "overlap_with_previous": false,
+  "metadata": {
+    "service_name": "Amazon Sqs",
+    "document_type": "introduction",
+    "header_level": 1,
+    "file_size_chars": 9711,
+    "processing_timestamp": "2025-08-02"
+  }
+}

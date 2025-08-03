@@ -1,0 +1,19 @@
+{
+  "chunk_id": "fabf700a_001",
+  "source_file": "amazon_api_gateway_intro.md",
+  "title": "What is Amazon API Gateway?",
+  "section": "What is Amazon API Gateway?",
+  "content": "# What is Amazon API Gateway?\n\nAmazon API Gateway is an AWS service for creating, publishing, maintaining, monitoring, and\nsecuring REST, HTTP, and WebSocket APIs at any scale. API developers can create APIs that\naccess AWS or other web services, as well as data stored in the AWS Cloud. As an API Gateway\nAPI developer, you can create APIs for use in your own client applications. Or you can make\nyour APIs available to third-party app developers.\n\nAPI Gateway creates RESTful APIs that:\n\n* Are HTTP-based.\n* Enable stateless client-server communication.\n* Implement standard HTTP methods such as GET, POST, PUT, PATCH, and DELETE.\n\nAPI Gateway creates WebSocket APIs that:\n\n* Adhere to the WebSocket\n  protocol, which enables stateful, full-duplex communication between client and\n  server.\n* Route incoming messages based on message content.",
+  "token_count": 178,
+  "char_count": 844,
+  "chunk_index": 1,
+  "total_chunks": 21,
+  "overlap_with_previous": false,
+  "metadata": {
+    "service_name": "Amazon Api Gateway",
+    "document_type": "introduction",
+    "header_level": 1,
+    "file_size_chars": 7160,
+    "processing_timestamp": "2025-08-02"
+  }
+}

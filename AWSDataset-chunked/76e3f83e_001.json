@@ -1,0 +1,19 @@
+{
+  "chunk_id": "76e3f83e_001",
+  "source_file": "amazon_dynamodb_intro.md",
+  "title": "What is Amazon DynamoDB?",
+  "section": "What is Amazon DynamoDB?",
+  "content": "# What is Amazon DynamoDB?\n\nAmazon DynamoDB is a serverless, NoSQL, fully managed database with single-digit millisecond performance at any scale.\n\nDynamoDB addresses your needs to overcome scaling and operational complexities of relational\ndatabases. DynamoDB is purpose-built and optimized for operational workloads that require\nconsistent performance at any scale. For example, DynamoDB delivers consistent single-digit\nmillisecond performance for a shopping cart use case, whether you've 10 or 100 million\nusers. Launched in 2012, DynamoDB continues to help you move away from relational\ndatabases while reducing cost and improving performance at scale.\n\nCustomers across all sizes, industries, and geographies use DynamoDB to build modern, serverless applications that can start small and scale globally. DynamoDB scales to support tables of virtually any size while\nproviding consistent single-digit millisecond performance and high availability.\n\nFor events, such as Amazon Prime Day, DynamoDB\npowers multiple high-traffic Amazon properties and systems, including Alexa, Amazon.com sites, and all Amazon fulfillment\ncenters. For such events, DynamoDB APIs have handled trillions of calls from Amazon\nproperties and systems. DynamoDB continuously serves hundreds of customers with tables that\nhave peak traffic of over half a million requests per second. It also serves hundreds of\ncustomers whose table sizes exceed 200 TB, and processes over one billion requests per hour.",
+  "token_count": 286,
+  "char_count": 1480,
+  "chunk_index": 1,
+  "total_chunks": 13,
+  "overlap_with_previous": false,
+  "metadata": {
+    "service_name": "Amazon Dynamodb",
+    "document_type": "introduction",
+    "header_level": 1,
+    "file_size_chars": 8856,
+    "processing_timestamp": "2025-08-02"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "chunk_id": "76e3f83e_009",
+  "source_file": "amazon_dynamodb_intro.md",
+  "title": "What is Amazon DynamoDB?",
+  "section": "Multi-active replication with global tables",
+  "content": "### Multi-active replication with global tables\n\nGlobal tables provide multi-active replication\nof your data across your chosen AWS Regions with 99.999% availability. Global\ntables deliver a fully managed solution for deploying a multi-Region, multi-active\ndatabase, without building and maintaining your own replication solution. With\nglobal tables, you can specify the AWS Regions where you want the tables to be\navailable. DynamoDB replicates ongoing data changes to all of these tables.\n\nYour globally distributed applications can access data locally in your selected\nRegions to achieve single-digit millisecond read and write performance. Because\nglobal tables are multi-active, you don't need a primary table. This means there are\nno complicated or delayed fail-overs, or database downtime when failing over an\napplication between Regions.",
+  "token_count": 159,
+  "char_count": 845,
+  "chunk_index": 9,
+  "total_chunks": 13,
+  "overlap_with_previous": false,
+  "metadata": {
+    "service_name": "Amazon Dynamodb",
+    "document_type": "introduction",
+    "header_level": 1,
+    "file_size_chars": 8856,
+    "processing_timestamp": "2025-08-02"
+  }
+}

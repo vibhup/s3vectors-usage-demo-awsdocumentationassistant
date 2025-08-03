@@ -1,0 +1,19 @@
+{
+  "chunk_id": "e7a3e445_004",
+  "source_file": "amazon_vpc_intro.md",
+  "title": "What is Amazon VPC?",
+  "section": "Working with Amazon VPC",
+  "content": "## Working with Amazon VPC\n\nYou can create and manage your VPCs using any of the following interfaces:\n\n* **AWS Management Console** — Provides a web interface that you can\n  use to access your VPCs.\n* **AWS Command Line Interface (AWS CLI)** —\n  Provides commands for a broad set of AWS services, including Amazon VPC, and is\n  supported on Windows, Mac, and Linux.\n* **AWS SDKs** — Provides language-specific\n  APIs and takes care of many of the connection details, such as calculating\n  signatures, handling request retries, and error handling.\n* **Query API** — Provides low-level API actions\n  that you call using HTTPS requests. Using the Query API is the most direct way to\n  access Amazon VPC, but it requires that your application handle low-level details such as\n  generating the hash to sign the request, and error handling.",
+  "token_count": 189,
+  "char_count": 835,
+  "chunk_index": 4,
+  "total_chunks": 11,
+  "overlap_with_previous": false,
+  "metadata": {
+    "service_name": "Amazon Vpc",
+    "document_type": "introduction",
+    "header_level": 1,
+    "file_size_chars": 8151,
+    "processing_timestamp": "2025-08-02"
+  }
+}

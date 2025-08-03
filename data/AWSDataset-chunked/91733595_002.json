@@ -1,0 +1,19 @@
+{
+  "chunk_id": "91733595_002",
+  "source_file": "amazon_route53_intro.md",
+  "title": "What is Amazon Route 53?",
+  "section": "Other Route 53 features",
+  "content": "## Other Route 53 features\n\nIn addition to being a Domain Name System (DNS) web service, Route 53 offers the following\nfeatures:\n\n**Route 53 Resolver**\n:   Get recursive DNS for your Amazon VPCs in AWS Regions, VPCs in AWS Outposts racks, or any other on-premises networks.\n    Create conditional forwarding rules and\n    Route 53 endpoints to resolve custom names mastered in Route 53 private hosted zones or in your on-premises DNS servers.\n\n**Amazon Route 53 Resolver on Outposts**\n:   Connect Route 53 Resolver on Outpost racks with DNS servers in your on-premises data\n    centers through Route 53 Resolver endpoints. This enables resolution of DNS queries between\n    the Outposts racks and your other on-premises resources.\n\n**Route 53 Resolver DNS Firewall**\n:   Protect your recursive DNS queries within the Route 53 Resolver. Create domain lists and build firewall rules that filter outbound DNS traffic against these rules.\n\n**Traffic Flow**\n:   Easy-to-use and cost-effective global traffic management: route end users to the best endpoint for your application based on geoproximity, latency, health, and other considerations.\n\n**Amazon Route 53 Profiles**\n:   With Route 53 Profiles, you can apply and manage DNS-related Route 53 configurations across many VPCs and in different AWS account.",
+  "token_count": 281,
+  "char_count": 1304,
+  "chunk_index": 2,
+  "total_chunks": 50,
+  "overlap_with_previous": false,
+  "metadata": {
+    "service_name": "Amazon Route53",
+    "document_type": "introduction",
+    "header_level": 1,
+    "file_size_chars": 9714,
+    "processing_timestamp": "2025-08-02"
+  }
+}

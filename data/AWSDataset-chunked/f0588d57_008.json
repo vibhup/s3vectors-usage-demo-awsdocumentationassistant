@@ -1,0 +1,19 @@
+{
+  "chunk_id": "f0588d57_008",
+  "source_file": "amazon_s3_intro.md",
+  "title": "What is Amazon S3?",
+  "section": "Analytics and insights",
+  "content": "### Analytics and insights\n\nAmazon S3 offers features to help you gain visibility into your storage usage, which\nempowers you to better understand, analyze, and optimize your storage at\nscale.\n\n* **Amazon S3 Storage Lens** – Understand, analyze, and optimize your storage. S3 Storage Lens provides\n  60+ usage and activity metrics and interactive dashboards to aggregate data\n  for your entire organization, specific accounts, AWS Regions, buckets, or\n  prefixes.\n* **Storage Class Analysis** – Analyze storage access patterns to\n  decide when it's time to move data to a more cost-effective storage class.\n* **S3 Inventory with Inventory reports** – Audit and report on objects and their\n  corresponding metadata and configure other Amazon S3 features to take action in\n  Inventory reports.",
+  "token_count": 166,
+  "char_count": 791,
+  "chunk_index": 8,
+  "total_chunks": 11,
+  "overlap_with_previous": false,
+  "metadata": {
+    "service_name": "Amazon S3",
+    "document_type": "introduction",
+    "header_level": 1,
+    "file_size_chars": 11018,
+    "processing_timestamp": "2025-08-02"
+  }
+}

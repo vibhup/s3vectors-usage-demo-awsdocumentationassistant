@@ -1,0 +1,63 @@
+{
+  "source_file": "amazon_sns_intro.md",
+  "total_chunks": 3,
+  "chunks": [
+    {
+      "chunk_id": "c5ad6463_002",
+      "source_file": "amazon_sns_intro.md",
+      "title": "What is Amazon SNS?",
+      "section": "How it works",
+      "content": "## How it works\n\nIn SNS, publishers send messages to a topic, which acts as a communication channel.\nThe topic acts as a logical access point, ensuring messages are delivered to multiple\nsubscribers across different platforms.\n\nSubscribers to an SNS topic can receive messages through different endpoints,\ndepending on their use case, such as:\n\n* Amazon SQS\n* Lambda\n* HTTP(S) endpoints\n* Email\n* Mobile push notifications\n* Mobile text messages (SMS)\n* Amazon Data Firehose\n* Service providers (For example, Datadog, MongoDB, Splunk)\n\nSNS supports both Application-to-Application (A2A) and Application-to-Person (A2P)\nmessaging, giving flexibility to send messages between different applications or\ndirectly to mobile phones, email addresses, and more.",
+      "token_count": 168,
+      "char_count": 753,
+      "chunk_index": 2,
+      "total_chunks": 33,
+      "overlap_with_previous": false,
+      "metadata": {
+        "service_name": "Amazon Sns",
+        "document_type": "introduction",
+        "header_level": 1,
+        "file_size_chars": 7791,
+        "processing_timestamp": "2025-08-02"
+      }
+    },
+    {
+      "chunk_id": "c5ad6463_003",
+      "source_file": "amazon_sns_intro.md",
+      "title": "What is Amazon SNS?",
+      "section": "Accessing Amazon SNS",
+      "content": "## Accessing Amazon SNS\n\nYou can access and manage Amazon SNS through the console, AWS CLI, or AWS SDKs, depending\non your preferred method of interaction. The console offers a graphical interface for\nbasic tasks, while the AWS CLI and SDKs provide advanced configuration and automation\ncapabilities for more complex use cases.\n\n* The Amazon SNS console\n  provides a convenient user interface for creating topics and subscriptions,\n  sending and receiving messages, and monitoring events and logs.\n* The AWS Command Line Interface (AWS CLI) gives you direct access to the Amazon SNS API for advanced\n  configuration and automation use cases.\n* AWS provides SDKs in various languages.",
+      "token_count": 137,
+      "char_count": 683,
+      "chunk_index": 3,
+      "total_chunks": 33,
+      "overlap_with_previous": false,
+      "metadata": {
+        "service_name": "Amazon Sns",
+        "document_type": "introduction",
+        "header_level": 1,
+        "file_size_chars": 7791,
+        "processing_timestamp": "2025-08-02"
+      }
+    },
+    {
+      "chunk_id": "c5ad6463_005",
+      "source_file": "amazon_sns_intro.md",
+      "title": "What is Amazon SNS?",
+      "section": "Application integration",
+      "content": "### Application integration\n\nThe *Fanout* scenario is when a message published\nto an SNS topic is replicated and pushed to multiple endpoints, such as Firehose\ndelivery streams, Amazon SQS queues, HTTP(S) endpoints, and Lambda functions. This allows\nfor parallel asynchronous processing.\n\nFor example, you can develop an application that publishes a message to an SNS\ntopic whenever an order is placed for a product. Then, SQS queues that are\nsubscribed to the SNS topic receive identical notifications for the new order. An\nAmazon Elastic Compute Cloud (Amazon EC2) server instance attached to one of the SQS queues can handle the\nprocessing or fulfillment of the order. And you can attach another Amazon EC2 server\ninstance to a data warehouse for analysis of all orders received.\n\nYou can also use fanout to replicate data sent to your production environment with\nyour test environment. Expanding upon the previous example, you can subscribe\nanother SQS queue to the same SNS topic for new incoming orders. Then, by attaching\nthis new SQS queue to your test environment, you can continue to improve and test\nyour application using data received from your production environment.\n\n**Important**\n\nMake sure that you consider data privacy and security before you send any\nproduction data to your test environment.",
+      "token_count": 267,
+      "char_count": 1313,
+      "chunk_index": 5,
+      "total_chunks": 33,
+      "overlap_with_previous": false,
+      "metadata": {
+        "service_name": "Amazon Sns",
+        "document_type": "introduction",
+        "header_level": 1,
+        "file_size_chars": 7791,
+        "processing_timestamp": "2025-08-02"
+      }
+    }
+  ]
+}

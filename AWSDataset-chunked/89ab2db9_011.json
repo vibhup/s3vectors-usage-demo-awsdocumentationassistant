@@ -1,0 +1,19 @@
+{
+  "chunk_id": "89ab2db9_011",
+  "source_file": "aws_well_architected_framework.md",
+  "title": "AWS Well-Architected Framework",
+  "section": "Design Principles",
+  "content": "### Design Principles\n\n**Automatically recover from failure**\nBy monitoring a workload for key performance indicators (KPIs), you can trigger automation when a threshold is breached.\n\n**Test recovery procedures**\nIn an on-premises environment, testing is often conducted to prove that the workload works in a particular scenario. Testing is not typically used to validate recovery strategies.\n\n**Scale horizontally to increase aggregate workload availability**\nReplace one large resource with multiple small resources to reduce the impact of a single failure on the overall workload.\n\n**Stop guessing capacity**\nA common cause of failure in on-premises workloads is resource saturation, when the demands placed on a workload exceed the capacity of that workload.\n\n**Manage change in automation**\nChanges to your infrastructure should be made using automation. The changes that need to be managed include changes to the automation, which then can be tracked and reviewed.",
+  "token_count": 174,
+  "char_count": 970,
+  "chunk_index": 11,
+  "total_chunks": 35,
+  "overlap_with_previous": false,
+  "metadata": {
+    "service_name": "Aws Well Architected Framework.Md",
+    "document_type": "guide",
+    "header_level": 1,
+    "file_size_chars": 22435,
+    "processing_timestamp": "2025-08-02"
+  }
+}

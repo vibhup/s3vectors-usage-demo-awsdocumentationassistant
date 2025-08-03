@@ -1,0 +1,19 @@
+{
+  "chunk_id": "e7a3e445_002",
+  "source_file": "amazon_vpc_intro.md",
+  "title": "What is Amazon VPC?",
+  "section": "Features",
+  "content": "## Features\n\nThe following features help you configure a VPC to provide the connectivity\nthat your applications need:\n\n**Virtual private clouds (VPC)**\n:   A VPC is a virtual\n    network that closely resembles a traditional network that you'd operate\n    in your own data center. After you create a VPC, you can add subnets.\n\n**Subnets**\n:   A subnet is a range of\n    IP addresses in your VPC. A subnet must reside in a single Availability Zone.\n    After you add subnets, you can deploy AWS resources in your VPC.\n\n**IP addressing**\n:   You can assign IP addresses,\n    both IPv4 and IPv6, to your VPCs and subnets. You can also bring your public\n    IPv4 addresses and IPv6 GUA addresses to AWS and allocate them to resources in your VPC,\n    such as EC2 instances, NAT gateways, and Network Load Balancers.\n\n**Routing**\n:   Use route tables to determine\n    where network traffic from your subnet or gateway is directed.\n\n**Gateways and endpoints**\n:   A gateway connects your VPC to\n    another network. For example, use an internet gateway\n    to connect your VPC to the internet. Use a VPC endpoint to connect to AWS services privately, without\n    the use of an internet gateway or NAT device.\n\n**Peering connections**\n:   Use a VPC peering connection\n    to route traffic between the resources in two VPCs.\n\n**Traffic Mirroring**\n:   Copy network traffic from\n    network interfaces and send it to security and monitoring appliances for\n    deep packet inspection.\n\n**Transit gateways**\n:   Use a transit gateway, which\n    acts as a central hub, to route traffic between your VPCs, VPN connections,\n    and AWS Direct Connect connections.\n\n**VPC Flow Logs**\n:   A flow log captures information\n    about the IP traffic going to and from network interfaces in your VPC.\n\n**VPN connections**\n:   Connect your VPCs to your on-premises networks using\n    AWS Virtual Private Network (AWS VPN).",
+  "token_count": 440,
+  "char_count": 1899,
+  "chunk_index": 2,
+  "total_chunks": 11,
+  "overlap_with_previous": false,
+  "metadata": {
+    "service_name": "Amazon Vpc",
+    "document_type": "introduction",
+    "header_level": 1,
+    "file_size_chars": 8151,
+    "processing_timestamp": "2025-08-02"
+  }
+}

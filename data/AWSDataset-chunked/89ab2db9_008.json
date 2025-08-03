@@ -1,0 +1,19 @@
+{
+  "chunk_id": "89ab2db9_008",
+  "source_file": "aws_well_architected_framework.md",
+  "title": "AWS Well-Architected Framework",
+  "section": "Design Principles",
+  "content": "### Design Principles\n\n**Implement a strong identity foundation**\nImplement the principle of least privilege and enforce separation of duties with appropriate authorization for each interaction with your AWS resources.\n\n**Apply security at all layers**\nApply a defense in depth approach with multiple security controls. Apply to all layers (edge network, VPC, subnet, load balancer, every instance, operating system, and application).\n\n**Automate security best practices**\nAutomated software-based security mechanisms improve your ability to securely scale more rapidly and cost-effectively.\n\n**Protect data in transit and at rest**\nClassify your data into sensitivity levels and use mechanisms, such as encryption, tokenization, and access control, where appropriate.\n\n**Keep people away from data**\nReduce or eliminate the need for direct access or manual processing of data to reduce the risk of mishandling or modification and human error when handling sensitive data.\n\n**Prepare for security events**\nPrepare for an incident by having incident management and investigation policy and processes that align to your organizational requirements.",
+  "token_count": 201,
+  "char_count": 1146,
+  "chunk_index": 8,
+  "total_chunks": 35,
+  "overlap_with_previous": false,
+  "metadata": {
+    "service_name": "Aws Well Architected Framework.Md",
+    "document_type": "guide",
+    "header_level": 1,
+    "file_size_chars": 22435,
+    "processing_timestamp": "2025-08-02"
+  }
+}

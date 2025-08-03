@@ -1,0 +1,19 @@
+{
+  "chunk_id": "904bd79d_041",
+  "source_file": "aws_cost_optimization_guide.md",
+  "title": "AWS Cost Optimization Guide",
+  "section": "Cost Optimization for Specific Workloads",
+  "content": "### Cost Optimization for Specific Workloads\n\n**Big Data and Analytics:**\n- Use Spot instances for EMR clusters\n- Optimize data formats (Parquet, ORC)\n- Implement data lifecycle management\n- Use appropriate storage tiers\n- Optimize query performance\n\n**Machine Learning:**\n- Use Spot instances for training\n- Optimize model serving costs\n- Implement model versioning and lifecycle\n- Use appropriate instance types for inference\n- Consider SageMaker cost optimization features\n\n**Web Applications:**\n- Implement auto scaling\n- Use CloudFront for static content\n- Optimize database queries\n- Implement caching strategies\n- Use serverless for variable workloads",
+  "token_count": 134,
+  "char_count": 658,
+  "chunk_index": 41,
+  "total_chunks": 46,
+  "overlap_with_previous": false,
+  "metadata": {
+    "service_name": "Aws Cost Optimization Guide.Md",
+    "document_type": "guide",
+    "header_level": 1,
+    "file_size_chars": 20670,
+    "processing_timestamp": "2025-08-02"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "chunk_id": "fabf700a_003",
+  "source_file": "amazon_api_gateway_intro.md",
+  "title": "What is Amazon API Gateway?",
+  "section": "Features of API Gateway",
+  "content": "## Features of API Gateway\n\nAmazon API Gateway offers features such as the following:\n\n* Support for stateful (WebSocket) and stateless (HTTP and\n  REST) APIs.\n* Powerful, flexible authentication mechanisms, such as AWS Identity and Access Management policies, Lambda\n  authorizer functions, and Amazon Cognito user pools.\n* Canary release deployments for safely\n  rolling out changes.\n* CloudTrail logging and monitoring of API usage and\n  API changes.\n* CloudWatch access logging and execution logging, including the ability to set\n  alarms.\n* Ability to use AWS CloudFormation templates to enable API creation.\n* Support for custom domain\n  names.\n* Integration with AWS WAF for protecting your APIs against common web exploits.\n* Integration with AWS X-Ray for\n  understanding and triaging performance latencies.",
+  "token_count": 165,
+  "char_count": 816,
+  "chunk_index": 3,
+  "total_chunks": 21,
+  "overlap_with_previous": false,
+  "metadata": {
+    "service_name": "Amazon Api Gateway",
+    "document_type": "introduction",
+    "header_level": 1,
+    "file_size_chars": 7160,
+    "processing_timestamp": "2025-08-02"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "chunk_id": "0e610fa8_001",
+  "source_file": "amazon_kinesis_intro.md",
+  "title": "What is Amazon Kinesis Data Streams?",
+  "section": "What is Amazon Kinesis Data Streams?",
+  "content": "# What is Amazon Kinesis Data Streams?\n\nYou can use Amazon Kinesis Data Streams to collect and process large streams of data records in real time. You\ncan create data-processing applications, known as *Kinesis Data Streams applications*. A\ntypical Kinesis Data Streams application reads data from a *data stream* as data\nrecords. These applications can use the Kinesis Client Library, and they can run on Amazon EC2\ninstances. You can send the processed records to dashboards, use them to generate alerts,\ndynamically change pricing and advertising strategies, or send data to a variety of other\nAWS services.\n\nKinesis Data Streams is part of the Kinesis streaming data platform, along with Firehose, Kinesis Video Streams, and Managed Service for Apache Flink.",
+  "token_count": 160,
+  "char_count": 761,
+  "chunk_index": 1,
+  "total_chunks": 46,
+  "overlap_with_previous": false,
+  "metadata": {
+    "service_name": "Amazon Kinesis",
+    "document_type": "introduction",
+    "header_level": 1,
+    "file_size_chars": 9924,
+    "processing_timestamp": "2025-08-02"
+  }
+}

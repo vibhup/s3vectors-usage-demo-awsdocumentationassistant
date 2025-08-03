@@ -1,0 +1,19 @@
+{
+  "chunk_id": "8671b16b_020",
+  "source_file": "aws_security_best_practices.md",
+  "title": "AWS Security Best Practices Guide",
+  "section": "Network Access Control Lists (NACLs)",
+  "content": "### Network Access Control Lists (NACLs)\nImplement subnet-level network filtering with NACLs.\n\n**Key Characteristics:**\n- Stateless (must configure both inbound and outbound rules)\n- Processed in rule number order\n- Support both allow and deny rules\n- Apply to all instances in associated subnets\n\n**Best Practices:**\n- Use NACLs as an additional layer of security\n- Keep rules simple and well-documented\n- Use allow rules for normal traffic\n- Use deny rules for known bad traffic\n- Monitor NACL metrics in CloudWatch",
+  "token_count": 113,
+  "char_count": 517,
+  "chunk_index": 20,
+  "total_chunks": 54,
+  "overlap_with_previous": false,
+  "metadata": {
+    "service_name": "Aws Security Best Practices.Md",
+    "document_type": "guide",
+    "header_level": 1,
+    "file_size_chars": 18249,
+    "processing_timestamp": "2025-08-02"
+  }
+}

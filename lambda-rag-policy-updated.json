@@ -1,0 +1,39 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": [
+        "logs:CreateLogGroup",
+        "logs:CreateLogStream",
+        "logs:PutLogEvents"
+      ],
+      "Resource": "arn:aws:logs:*:*:*"
+    },
+    {
+      "Effect": "Allow",
+      "Action": [
+        "s3vectors:QueryVectors",
+        "s3vectors:GetVectors",
+        "s3vectors:ListVectors",
+        "s3vectors:GetIndex",
+        "s3vectors:ListIndexes",
+        "s3vectors:GetVectorBucket"
+      ],
+      "Resource": [
+        "arn:aws:s3vectors:us-east-1:681007183786:bucket/vibhup-aws-docs-vectors",
+        "arn:aws:s3vectors:us-east-1:681007183786:bucket/vibhup-aws-docs-vectors/index/*"
+      ]
+    },
+    {
+      "Effect": "Allow",
+      "Action": [
+        "bedrock:InvokeModel"
+      ],
+      "Resource": [
+        "arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-5-sonnet-20240620-v1:0",
+        "arn:aws:bedrock:us-west-2::foundation-model/amazon.titan-embed-text-v2:0"
+      ]
+    }
+  ]
+}

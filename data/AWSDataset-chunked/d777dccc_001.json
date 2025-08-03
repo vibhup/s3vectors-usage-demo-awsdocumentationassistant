@@ -1,0 +1,19 @@
+{
+  "chunk_id": "d777dccc_001",
+  "source_file": "aws_lambda_intro.md",
+  "title": "What is AWS Lambda?",
+  "section": "What is AWS Lambda?",
+  "content": "# What is AWS Lambda?\n\nYou can use AWS Lambda to run code without provisioning or managing servers. Lambda runs your code on a high-availability compute infrastructure and manages all the computing resources,\nincluding server and operating system maintenance, capacity provisioning, automatic scaling, and logging. You organize your code into Lambda functions.\nThe Lambda service runs your function only when needed and scales automatically. For pricing information, see [AWS Lambda Pricing](https://aws.amazon.com/lambda/pricing/ \"https://aws.amazon.com/lambda/pricing/\") for details.\n\nWhen using Lambda, you are responsible only for your code. Lambda manages the compute fleet that offers a\nbalance of memory, CPU, network, and other resources to run your code. Because Lambda manages these resources, you\ncannot log in to compute instances or customize the operating system on provided\nruntimes.",
+  "token_count": 172,
+  "char_count": 898,
+  "chunk_index": 1,
+  "total_chunks": 6,
+  "overlap_with_previous": false,
+  "metadata": {
+    "service_name": "Aws Lambda",
+    "document_type": "introduction",
+    "header_level": 1,
+    "file_size_chars": 7547,
+    "processing_timestamp": "2025-08-02"
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "source_file": "aws_services_comprehensive_overview.md",
+  "total_chunks": 9,
+  "chunks": [
+    {
+      "chunk_id": "42cff905_003",
+      "source_file": "aws_services_comprehensive_overview.md",
+      "title": "Comprehensive AWS Services Overview",
+      "section": "Amazon EC2 (Elastic Compute Cloud)",
+      "content": "### Amazon EC2 (Elastic Compute Cloud)\nAmazon EC2 provides secure, resizable compute capacity in the cloud. It is designed to make web-scale cloud computing easier for developers.\n\n**Key Features:**\n- Virtual servers in the cloud\n- Multiple instance types optimized for different use cases\n- Auto Scaling capabilities\n- Elastic Load Balancing integration\n- Spot Instances for cost optimization\n- Reserved Instances for predictable workloads\n\n**Instance Types:**\n- **General Purpose**: Balanced compute, memory, and networking (t3, t4g, m5, m6i)\n- **Compute Optimized**: High-performance processors (c5, c6i, c7g)\n- **Memory Optimized**: Fast performance for memory-intensive workloads (r5, r6i, x1e)\n- **Storage Optimized**: High sequential read/write access (i3, d2, h1)\n- **Accelerated Computing**: Hardware accelerators or co-processors (p3, p4, g4)\n\n**Use Cases:**\n- Web applications and websites\n- Development and test environments\n- Backup and disaster recovery\n- High-performance computing (HPC)\n- Machine learning and AI workloads",
+      "token_count": 245,
+      "char_count": 1038,
+      "chunk_index": 3,
+      "total_chunks": 81,
+      "overlap_with_previous": false,
+      "metadata": {
+        "service_name": "Aws Services Comprehensive Overview.Md",
+        "document_type": "guide",
+        "header_level": 1,
+        "file_size_chars": 25294,
+        "processing_timestamp": "2025-08-02"
+      }
+    },
+    {
+      "chunk_id": "42cff905_004",
+      "source_file": "aws_services_comprehensive_overview.md",
+      "title": "Comprehensive AWS Services Overview",
+      "section": "AWS Lambda",
+      "content": "### AWS Lambda\nAWS Lambda is a serverless compute service that lets you run code without provisioning or managing servers.\n\n**Key Features:**\n- Event-driven execution\n- Automatic scaling\n- Pay-per-request pricing\n- Support for multiple programming languages\n- Integration with other AWS services\n- Built-in fault tolerance\n\n**Supported Languages:**\n- Node.js, Python, Ruby, Java, Go, .NET Core, Custom Runtime API\n\n**Use Cases:**\n- Real-time file processing\n- Real-time stream processing\n- Web applications and backends\n- IoT backends\n- Mobile backends",
+      "token_count": 121,
+      "char_count": 552,
+      "chunk_index": 4,
+      "total_chunks": 81,
+      "overlap_with_previous": false,
+      "metadata": {
+        "service_name": "Aws Services Comprehensive Overview.Md",
+        "document_type": "guide",
+        "header_level": 1,
+        "file_size_chars": 25294,
+        "processing_timestamp": "2025-08-02"
+      }
+    },
+    {
+      "chunk_id": "42cff905_009",
+      "source_file": "aws_services_comprehensive_overview.md",
+      "title": "Comprehensive AWS Services Overview",
+      "section": "Amazon S3 (Simple Storage Service)",
+      "content": "### Amazon S3 (Simple Storage Service)\nAmazon S3 is an object storage service that offers industry-leading scalability, data availability, security, and performance.\n\n**Storage Classes:**\n- **S3 Standard**: General-purpose storage for frequently accessed data\n- **S3 Standard-IA**: Infrequently accessed data with rapid access when needed\n- **S3 One Zone-IA**: Lower-cost option for infrequently accessed data\n- **S3 Glacier Instant Retrieval**: Archive data with milliseconds retrieval\n- **S3 Glacier Flexible Retrieval**: Archive data with retrieval times from minutes to hours\n- **S3 Glacier Deep Archive**: Lowest-cost storage for long-term retention\n- **S3 Intelligent-Tiering**: Automatic cost optimization by moving data between tiers\n\n**Key Features:**\n- 99.999999999% (11 9's) durability\n- Virtually unlimited scalability\n- Comprehensive security and compliance capabilities\n- Management features for cost optimization\n- Query-in-place and analytics capabilities",
+      "token_count": 202,
+      "char_count": 971,
+      "chunk_index": 9,
+      "total_chunks": 81,
+      "overlap_with_previous": false,
+      "metadata": {
+        "service_name": "Aws Services Comprehensive Overview.Md",
+        "document_type": "guide",
+        "header_level": 1,
+        "file_size_chars": 25294,
+        "processing_timestamp": "2025-08-02"
+      }
+    },
+    {
+      "chunk_id": "42cff905_010",
+      "source_file": "aws_services_comprehensive_overview.md",
+      "title": "Comprehensive AWS Services Overview",
+      "section": "Amazon EBS (Elastic Block Store)",
+      "content": "### Amazon EBS (Elastic Block Store)\nAmazon EBS provides persistent block storage volumes for use with Amazon EC2 instances.\n\n**Volume Types:**\n- **gp3**: General Purpose SSD with baseline performance\n- **gp2**: General Purpose SSD with burstable performance\n- **io2**: Provisioned IOPS SSD with high durability\n- **io1**: Provisioned IOPS SSD for critical workloads\n- **st1**: Throughput Optimized HDD for big data workloads\n- **sc1**: Cold HDD for less frequently accessed data\n\n**Key Features:**\n- High availability and durability\n- Encryption at rest and in transit\n- Snapshot capabilities\n- Elastic volumes for dynamic resizing\n- Multi-Attach for shared storage",
+      "token_count": 151,
+      "char_count": 666,
+      "chunk_index": 10,
+      "total_chunks": 81,
+      "overlap_with_previous": false,
+      "metadata": {
+        "service_name": "Aws Services Comprehensive Overview.Md",
+        "document_type": "guide",
+        "header_level": 1,
+        "file_size_chars": 25294,
+        "processing_timestamp": "2025-08-02"
+      }
+    },
+    {
+      "chunk_id": "42cff905_014",
+      "source_file": "aws_services_comprehensive_overview.md",
+      "title": "Comprehensive AWS Services Overview",
+      "section": "Amazon RDS (Relational Database Service)",
+      "content": "### Amazon RDS (Relational Database Service)\nAmazon RDS makes it easy to set up, operate, and scale a relational database in the cloud.\n\n**Supported Engines:**\n- Amazon Aurora (MySQL and PostgreSQL compatible)\n- MySQL\n- PostgreSQL\n- MariaDB\n- Oracle Database\n- Microsoft SQL Server\n\n**Key Features:**\n- Automated backups and point-in-time recovery\n- Multi-AZ deployments for high availability\n- Read replicas for read scaling\n- Automated software patching\n- Performance monitoring and insights",
+      "token_count": 105,
+      "char_count": 493,
+      "chunk_index": 14,
+      "total_chunks": 81,
+      "overlap_with_previous": false,
+      "metadata": {
+        "service_name": "Aws Services Comprehensive Overview.Md",
+        "document_type": "guide",
+        "header_level": 1,
+        "file_size_chars": 25294,
+        "processing_timestamp": "2025-08-02"
+      }
+    },
+    {
+      "chunk_id": "42cff905_020",
+      "source_file": "aws_services_comprehensive_overview.md",
+      "title": "Comprehensive AWS Services Overview",
+      "section": "Amazon VPC (Virtual Private Cloud)",
+      "content": "### Amazon VPC (Virtual Private Cloud)\nAmazon VPC lets you provision a logically isolated section of the AWS Cloud.\n\n**Key Components:**\n- Subnets for network segmentation\n- Internet Gateways for internet access\n- NAT Gateways for outbound internet access\n- Route Tables for traffic routing\n- Security Groups for instance-level firewalls\n- Network ACLs for subnet-level firewalls\n\n**Advanced Features:**\n- VPC Peering for connecting VPCs\n- Transit Gateway for scalable connectivity\n- VPC Endpoints for private service access\n- AWS PrivateLink for secure service connectivity",
+      "token_count": 120,
+      "char_count": 574,
+      "chunk_index": 20,
+      "total_chunks": 81,
+      "overlap_with_previous": false,
+      "metadata": {
+        "service_name": "Aws Services Comprehensive Overview.Md",
+        "document_type": "guide",
+        "header_level": 1,
+        "file_size_chars": 25294,
+        "processing_timestamp": "2025-08-02"
+      }
+    },
+    {
+      "chunk_id": "42cff905_022",
+      "source_file": "aws_services_comprehensive_overview.md",
+      "title": "Comprehensive AWS Services Overview",
+      "section": "Elastic Load Balancing",
+      "content": "### Elastic Load Balancing\nElastic Load Balancing automatically distributes incoming application traffic across multiple targets.\n\n**Load Balancer Types:**\n- **Application Load Balancer (ALB)**: Layer 7 load balancing for HTTP/HTTPS\n- **Network Load Balancer (NLB)**: Layer 4 load balancing for TCP/UDP\n- **Gateway Load Balancer (GWLB)**: Layer 3 load balancing for third-party appliances\n- **Classic Load Balancer**: Legacy load balancer for EC2-Classic",
+      "token_count": 106,
+      "char_count": 454,
+      "chunk_index": 22,
+      "total_chunks": 81,
+      "overlap_with_previous": false,
+      "metadata": {
+        "service_name": "Aws Services Comprehensive Overview.Md",
+        "document_type": "guide",
+        "header_level": 1,
+        "file_size_chars": 25294,
+        "processing_timestamp": "2025-08-02"
+      }
+    },
+    {
+      "chunk_id": "42cff905_067",
+      "source_file": "aws_services_comprehensive_overview.md",
+      "title": "Comprehensive AWS Services Overview",
+      "section": "Amazon SQS (Simple Queue Service)",
+      "content": "### Amazon SQS (Simple Queue Service)\nAmazon SQS is a fully managed message queuing service that enables you to decouple and scale microservices, distributed systems, and serverless applications.\n\n**Queue Types:**\n- **Standard Queues**: Maximum throughput, at-least-once delivery\n- **FIFO Queues**: Exactly-once processing, first-in-first-out delivery\n\n**Key Features:**\n- Fully managed message queuing\n- Unlimited throughput and messages\n- Message retention up to 14 days\n- Dead letter queues\n- Server-side encryption",
+      "token_count": 114,
+      "char_count": 518,
+      "chunk_index": 67,
+      "total_chunks": 81,
+      "overlap_with_previous": false,
+      "metadata": {
+        "service_name": "Aws Services Comprehensive Overview.Md",
+        "document_type": "guide",
+        "header_level": 1,
+        "file_size_chars": 25294,
+        "processing_timestamp": "2025-08-02"
+      }
+    },
+    {
+      "chunk_id": "42cff905_081",
+      "source_file": "aws_services_comprehensive_overview.md",
+      "title": "Comprehensive AWS Services Overview",
+      "section": "Conclusion",
+      "content": "## Conclusion\n\nAWS offers a comprehensive suite of cloud services that enable organizations to build, deploy, and scale applications and infrastructure in the cloud. From compute and storage to machine learning and IoT, AWS provides the building blocks for modern cloud architectures.\n\nThe key to success with AWS is understanding which services best fit your specific use cases and requirements. This overview provides a foundation for exploring the vast ecosystem of AWS services and their capabilities.\n\nAs AWS continues to innovate and expand its service offerings, staying current with new releases and best practices is essential for maximizing the value of your cloud investments. Regular review of your architecture against the AWS Well-Architected Framework can help ensure you're following best practices across all aspects of your cloud infrastructure.",
+      "token_count": 144,
+      "char_count": 863,
+      "chunk_index": 81,
+      "total_chunks": 81,
+      "overlap_with_previous": false,
+      "metadata": {
+        "service_name": "Aws Services Comprehensive Overview.Md",
+        "document_type": "guide",
+        "header_level": 1,
+        "file_size_chars": 25294,
+        "processing_timestamp": "2025-08-02"
+      }
+    }
+  ]
+}

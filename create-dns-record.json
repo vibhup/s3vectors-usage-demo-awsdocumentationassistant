@@ -1,0 +1,18 @@
+{
+  "Comment": "Create CNAME record for s3vectorstest.vibhup.sa.aws.dev pointing to CloudFront",
+  "Changes": [
+    {
+      "Action": "CREATE",
+      "ResourceRecordSet": {
+        "Name": "s3vectorstest.vibhup.sa.aws.dev",
+        "Type": "CNAME",
+        "TTL": 300,
+        "ResourceRecords": [
+          {
+            "Value": "d2wjslgl1ujvp5.cloudfront.net"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "chunk_id": "cd03bbf2_005",
+  "source_file": "amazon_sqs_intro.md",
+  "title": "What is Amazon Simple Queue Service?",
+  "section": "Message lifecycle",
+  "content": "### Message lifecycle\n\nThe following scenario describes the lifecycle of an Amazon SQS message in a queue, from\ncreation to deletion.\n\n1. A producer (Component 1) sends message A to a queue, and the\nmessage is distributed across the Amazon SQS servers redundantly.\n\n2. When a consumer (Component 2) is ready to process messages, it\nconsumes messages from the queue, and message A is returned. While message A is being\nprocessed, it remains in the queue and isn't returned to subsequent receive requests for\nthe duration of the visibility\ntimeout.\n\n3. The consumer (Component 2) deletes message A from the queue to\nprevent the message from being received and processed again when the visibility timeout\nexpires.\n\n**Note**\n\nAmazon SQS automatically deletes messages that have been in a queue for more than the\nmaximum message retention period. The default message retention period is 4 days.\nHowever, you can set the message retention period to a value from 60 seconds to\n1,209,600 seconds (14 days) using the `SetQueueAttributes` action.",
+  "token_count": 224,
+  "char_count": 1036,
+  "chunk_index": 5,
+  "total_chunks": 29,
+  "overlap_with_previous": false,
+  "metadata": {
+    "service_name": "Amazon Sqs",
+    "document_type": "introduction",
+    "header_level": 1,
+    "file_size_chars": 9711,
+    "processing_timestamp": "2025-08-02"
+  }
+}

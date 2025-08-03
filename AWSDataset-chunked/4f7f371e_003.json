@@ -1,0 +1,19 @@
+{
+  "chunk_id": "4f7f371e_003",
+  "source_file": "amazon_ecs_intro.md",
+  "title": "What is Amazon Elastic Container Service?",
+  "section": "Features",
+  "content": "## Features\n\nAmazon ECS provides the following high-level features:\n\n**Task definition**\n:   The blueprint for the application.\n\n**Cluster**\n:   The infrastructure your application runs on.\n\n**Task**\n:   An application such as a batch job that performs work, and then\n    stops.\n\n**Service**\n:   A long running stateless application.\n\n**Account Setting**\n:   Allows access to features.\n\n**Cluster Auto Scaling**\n:   Amazon ECS manages the scaling of Amazon EC2 instances that are registered to your\n    cluster.\n\n**Service Auto Scaling**\n:   Amazon ECS increases or decreases the desired number of tasks in your service\n    automatically.",
+  "token_count": 131,
+  "char_count": 638,
+  "chunk_index": 3,
+  "total_chunks": 45,
+  "overlap_with_previous": false,
+  "metadata": {
+    "service_name": "Amazon Ecs",
+    "document_type": "introduction",
+    "header_level": 1,
+    "file_size_chars": 10169,
+    "processing_timestamp": "2025-08-02"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "chunk_id": "904bd79d_010",
+  "source_file": "aws_cost_optimization_guide.md",
+  "title": "AWS Cost Optimization Guide",
+  "section": "Lambda Cost Optimization",
+  "content": "### Lambda Cost Optimization\nOptimize serverless function costs through efficient design.\n\n**Lambda Pricing Factors:**\n- Number of requests\n- Duration of execution\n- Memory allocation\n- Architecture (x86 vs ARM)\n\n**Optimization Strategies:**\n- Right-size memory allocation\n- Optimize code for faster execution\n- Use ARM-based Graviton2 processors\n- Implement connection pooling\n- Minimize cold starts\n- Use provisioned concurrency judiciously\n\n**Memory Optimization:**\n- Start with default 128MB and adjust based on performance\n- Monitor memory utilization in CloudWatch\n- Consider that CPU scales with memory allocation\n- Test different memory settings for optimal price/performance",
+  "token_count": 138,
+  "char_count": 683,
+  "chunk_index": 10,
+  "total_chunks": 46,
+  "overlap_with_previous": false,
+  "metadata": {
+    "service_name": "Aws Cost Optimization Guide.Md",
+    "document_type": "guide",
+    "header_level": 1,
+    "file_size_chars": 20670,
+    "processing_timestamp": "2025-08-02"
+  }
+}

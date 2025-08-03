@@ -1,0 +1,19 @@
+{
+  "chunk_id": "42cff905_014",
+  "source_file": "aws_services_comprehensive_overview.md",
+  "title": "Comprehensive AWS Services Overview",
+  "section": "Amazon RDS (Relational Database Service)",
+  "content": "### Amazon RDS (Relational Database Service)\nAmazon RDS makes it easy to set up, operate, and scale a relational database in the cloud.\n\n**Supported Engines:**\n- Amazon Aurora (MySQL and PostgreSQL compatible)\n- MySQL\n- PostgreSQL\n- MariaDB\n- Oracle Database\n- Microsoft SQL Server\n\n**Key Features:**\n- Automated backups and point-in-time recovery\n- Multi-AZ deployments for high availability\n- Read replicas for read scaling\n- Automated software patching\n- Performance monitoring and insights",
+  "token_count": 105,
+  "char_count": 493,
+  "chunk_index": 14,
+  "total_chunks": 81,
+  "overlap_with_previous": false,
+  "metadata": {
+    "service_name": "Aws Services Comprehensive Overview.Md",
+    "document_type": "guide",
+    "header_level": 1,
+    "file_size_chars": 25294,
+    "processing_timestamp": "2025-08-02"
+  }
+}

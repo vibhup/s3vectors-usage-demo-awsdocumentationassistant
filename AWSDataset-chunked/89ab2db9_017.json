@@ -1,0 +1,19 @@
+{
+  "chunk_id": "89ab2db9_017",
+  "source_file": "aws_well_architected_framework.md",
+  "title": "AWS Well-Architected Framework",
+  "section": "Design Principles",
+  "content": "### Design Principles\n\n**Implement cloud financial management**\nTo achieve financial success and accelerate business value realization in the cloud, invest in Cloud Financial Management and Cost Optimization.\n\n**Adopt a consumption model**\nPay only for the computing resources you consume, and increase or decrease usage depending on business requirements.\n\n**Measure overall efficiency**\nMeasure the business output of the workload and the costs associated with delivery. Use this data to make informed decisions about future resource investments.\n\n**Stop spending money on undifferentiated heavy lifting**\nAWS does the heavy lifting of data center operations like racking, stacking, and powering servers. It also removes the operational burden of managing operating systems and applications with managed services.\n\n**Analyze and attribute expenditure**\nThe cloud makes it easier to accurately identify the cost and usage of workloads, which then allows transparent attribution of IT costs to revenue streams and individual workload owners.",
+  "token_count": 174,
+  "char_count": 1041,
+  "chunk_index": 17,
+  "total_chunks": 35,
+  "overlap_with_previous": false,
+  "metadata": {
+    "service_name": "Aws Well Architected Framework.Md",
+    "document_type": "guide",
+    "header_level": 1,
+    "file_size_chars": 22435,
+    "processing_timestamp": "2025-08-02"
+  }
+}

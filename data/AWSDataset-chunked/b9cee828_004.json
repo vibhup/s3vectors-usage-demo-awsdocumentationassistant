@@ -1,0 +1,19 @@
+{
+  "chunk_id": "b9cee828_004",
+  "source_file": "amazon_ec2_intro.md",
+  "title": "What is Amazon EC2?",
+  "section": "Services to use with Amazon EC2",
+  "content": "### Services to use with Amazon EC2\n\nYou can use other AWS services with the instances that you deploy using Amazon EC2.\n\n**Amazon EC2 Auto Scaling**\n:   Helps ensure you have the correct number of Amazon EC2 instances available to\n    handle the load for your application.\n\n**AWS Backup**\n:   Automate backing up your Amazon EC2 instances and the Amazon EBS volumes attached to\n    them.\n\n**Amazon CloudWatch**\n:   Monitor your instances and Amazon EBS volumes.\n\n**Elastic Load Balancing**\n:   Automatically distribute incoming application traffic across multiple\n    instances.\n\n**Amazon GuardDuty**\n:   Detect potentially unauthorized or malicious use of your EC2 instances.\n\n**EC2 Image Builder**\n:   Automate the creation, management, and deployment of customized, secure, and\n    up-to-date server images.\n\n**AWS Launch Wizard**\n:   Size, configure, and deploy AWS resources for third-party applications\n    without having to manually identify and provision individual AWS\n    resources.\n\n**AWS Systems Manager**\n:   Perform operations at scale on EC2 instances with this secure end-to-end\n    management solution.",
+  "token_count": 232,
+  "char_count": 1120,
+  "chunk_index": 4,
+  "total_chunks": 7,
+  "overlap_with_previous": false,
+  "metadata": {
+    "service_name": "Amazon Ec2",
+    "document_type": "introduction",
+    "header_level": 1,
+    "file_size_chars": 6316,
+    "processing_timestamp": "2025-08-02"
+  }
+}

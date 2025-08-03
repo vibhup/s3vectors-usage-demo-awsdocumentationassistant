@@ -1,0 +1,19 @@
+{
+  "chunk_id": "8671b16b_013",
+  "source_file": "aws_security_best_practices.md",
+  "title": "AWS Security Best Practices Guide",
+  "section": "Encryption at Rest",
+  "content": "### Encryption at Rest\nEncrypt sensitive data stored in AWS services.\n\n**AWS Services with Encryption:**\n- **S3**: Server-side encryption with S3-managed keys (SSE-S3), KMS keys (SSE-KMS), or customer-provided keys (SSE-C)\n- **EBS**: Encryption using AWS KMS keys\n- **RDS**: Transparent data encryption for database instances\n- **DynamoDB**: Encryption at rest using AWS managed or customer managed KMS keys\n- **Redshift**: Cluster encryption using AWS KMS or HSM\n\n**Best Practices:**\n- Enable encryption by default where possible\n- Use AWS KMS for key management\n- Implement key rotation policies\n- Monitor key usage with CloudTrail",
+  "token_count": 152,
+  "char_count": 633,
+  "chunk_index": 13,
+  "total_chunks": 54,
+  "overlap_with_previous": false,
+  "metadata": {
+    "service_name": "Aws Security Best Practices.Md",
+    "document_type": "guide",
+    "header_level": 1,
+    "file_size_chars": 18249,
+    "processing_timestamp": "2025-08-02"
+  }
+}

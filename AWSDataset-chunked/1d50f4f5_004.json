@@ -1,0 +1,19 @@
+{
+  "chunk_id": "1d50f4f5_004",
+  "source_file": "amazon_rds_intro.md",
+  "title": "What is Amazon Relational Database Service (Amazon RDS)?",
+  "section": "Amazon RDS shared responsibility model",
+  "content": "## Amazon RDS shared responsibility model\n\nAmazon RDS is responsible for hosting the software components and infrastructure of DB instances and\nDB clusters. You are responsible for query tuning, which is the process of adjusting SQL queries\nto improve performance. Query performance is highly dependent on database design, data size,\ndata distribution, application workload, and query patterns, which can vary greatly.\nMonitoring and tuning are highly individualized processes that you own for your RDS\ndatabases. You can use Amazon RDS Performance Insights and other tools to identify problematic\nqueries.",
+  "token_count": 111,
+  "char_count": 606,
+  "chunk_index": 4,
+  "total_chunks": 10,
+  "overlap_with_previous": false,
+  "metadata": {
+    "service_name": "Amazon Rds",
+    "document_type": "introduction",
+    "header_level": 1,
+    "file_size_chars": 7781,
+    "processing_timestamp": "2025-08-02"
+  }
+}

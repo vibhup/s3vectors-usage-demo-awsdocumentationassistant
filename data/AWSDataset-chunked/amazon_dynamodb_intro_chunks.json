@@ -1,0 +1,139 @@
+{
+  "source_file": "amazon_dynamodb_intro.md",
+  "total_chunks": 7,
+  "chunks": [
+    {
+      "chunk_id": "76e3f83e_001",
+      "source_file": "amazon_dynamodb_intro.md",
+      "title": "What is Amazon DynamoDB?",
+      "section": "What is Amazon DynamoDB?",
+      "content": "# What is Amazon DynamoDB?\n\nAmazon DynamoDB is a serverless, NoSQL, fully managed database with single-digit millisecond performance at any scale.\n\nDynamoDB addresses your needs to overcome scaling and operational complexities of relational\ndatabases. DynamoDB is purpose-built and optimized for operational workloads that require\nconsistent performance at any scale. For example, DynamoDB delivers consistent single-digit\nmillisecond performance for a shopping cart use case, whether you've 10 or 100 million\nusers. Launched in 2012, DynamoDB continues to help you move away from relational\ndatabases while reducing cost and improving performance at scale.\n\nCustomers across all sizes, industries, and geographies use DynamoDB to build modern, serverless applications that can start small and scale globally. DynamoDB scales to support tables of virtually any size while\nproviding consistent single-digit millisecond performance and high availability.\n\nFor events, such as Amazon Prime Day, DynamoDB\npowers multiple high-traffic Amazon properties and systems, including Alexa, Amazon.com sites, and all Amazon fulfillment\ncenters. For such events, DynamoDB APIs have handled trillions of calls from Amazon\nproperties and systems. DynamoDB continuously serves hundreds of customers with tables that\nhave peak traffic of over half a million requests per second. It also serves hundreds of\ncustomers whose table sizes exceed 200 TB, and processes over one billion requests per hour.",
+      "token_count": 286,
+      "char_count": 1480,
+      "chunk_index": 1,
+      "total_chunks": 13,
+      "overlap_with_previous": false,
+      "metadata": {
+        "service_name": "Amazon Dynamodb",
+        "document_type": "introduction",
+        "header_level": 1,
+        "file_size_chars": 8856,
+        "processing_timestamp": "2025-08-02"
+      }
+    },
+    {
+      "chunk_id": "76e3f83e_003",
+      "source_file": "amazon_dynamodb_intro.md",
+      "title": "What is Amazon DynamoDB?",
+      "section": "Serverless",
+      "content": "### Serverless\n\nWith DynamoDB, you don't need to provision any servers, or patch, manage, install,\nmaintain, or operate any software. DynamoDB provides zero downtime maintenance. It has\nno versions (major, minor, or patch), and there are no maintenance windows.\n\nDynamoDB's on-demand capacity mode\noffers pay-as-you-go pricing for read and write requests so you only pay for what\nyou use. With on-demand, DynamoDB instantly scales up or down your tables to adjust for\ncapacity and maintains performance with zero administration. It also scales down to\nzero so you don't pay for throughput when your table doesn't have traffic and there\nare no cold starts.",
+      "token_count": 143,
+      "char_count": 655,
+      "chunk_index": 3,
+      "total_chunks": 13,
+      "overlap_with_previous": false,
+      "metadata": {
+        "service_name": "Amazon Dynamodb",
+        "document_type": "introduction",
+        "header_level": 1,
+        "file_size_chars": 8856,
+        "processing_timestamp": "2025-08-02"
+      }
+    },
+    {
+      "chunk_id": "76e3f83e_004",
+      "source_file": "amazon_dynamodb_intro.md",
+      "title": "What is Amazon DynamoDB?",
+      "section": "NoSQL",
+      "content": "### NoSQL\n\nAs a NoSQL database, DynamoDB is purpose-built to deliver improved performance,\nscalability, manageability, and flexibility compared to traditional relational\ndatabases. To support a wide variety of use cases, DynamoDB supports both key-value and\ndocument data models.\n\nUnlike relational databases, DynamoDB doesn't support a JOIN operator. We recommend\nthat you denormalize your data model to reduce database round trips and processing\npower needed to answer queries. As a NoSQL database, DynamoDB provides strong read consistency and ACID\ntransactions to build enterprise-grade applications.",
+      "token_count": 118,
+      "char_count": 604,
+      "chunk_index": 4,
+      "total_chunks": 13,
+      "overlap_with_previous": false,
+      "metadata": {
+        "service_name": "Amazon Dynamodb",
+        "document_type": "introduction",
+        "header_level": 1,
+        "file_size_chars": 8856,
+        "processing_timestamp": "2025-08-02"
+      }
+    },
+    {
+      "chunk_id": "76e3f83e_005",
+      "source_file": "amazon_dynamodb_intro.md",
+      "title": "What is Amazon DynamoDB?",
+      "section": "Fully managed",
+      "content": "### Fully managed\n\nAs a fully managed database service, DynamoDB handles the undifferentiated heavy\nlifting of managing a database so that you can focus on building value for your\ncustomers. It handles setup, configurations, maintenance, high availability,\nhardware provisioning, security, backups, monitoring, and more. This ensures that\nwhen you create a DynamoDB table, it's instantly ready for production workloads. DynamoDB\nconstantly improves its availability, reliability, performance, security, and\nfunctionality without requiring upgrades or downtime.",
+      "token_count": 107,
+      "char_count": 560,
+      "chunk_index": 5,
+      "total_chunks": 13,
+      "overlap_with_previous": false,
+      "metadata": {
+        "service_name": "Amazon Dynamodb",
+        "document_type": "introduction",
+        "header_level": 1,
+        "file_size_chars": 8856,
+        "processing_timestamp": "2025-08-02"
+      }
+    },
+    {
+      "chunk_id": "76e3f83e_006",
+      "source_file": "amazon_dynamodb_intro.md",
+      "title": "What is Amazon DynamoDB?",
+      "section": "Single-digit millisecond performance at any scale",
+      "content": "### Single-digit millisecond performance at any scale\n\nDynamoDB was purpose-built to improve upon the performance and scalability of\nrelational databases to deliver single-digit millisecond performance at any scale.\nTo achieve this scale and performance, DynamoDB is optimized for high-performance\nworkloads and provides APIs that encourage efficient database usage. It omits\nfeatures that are inefficient and non-performing at scale, for example, JOIN\noperations. DynamoDB delivers consistent single-digit millisecond performance for your\napplication, whether you've 100 or 100 million users.",
+      "token_count": 112,
+      "char_count": 593,
+      "chunk_index": 6,
+      "total_chunks": 13,
+      "overlap_with_previous": false,
+      "metadata": {
+        "service_name": "Amazon Dynamodb",
+        "document_type": "introduction",
+        "header_level": 1,
+        "file_size_chars": 8856,
+        "processing_timestamp": "2025-08-02"
+      }
+    },
+    {
+      "chunk_id": "76e3f83e_007",
+      "source_file": "amazon_dynamodb_intro.md",
+      "title": "What is Amazon DynamoDB?",
+      "section": "DynamoDB use cases",
+      "content": "## DynamoDB use cases\n\nCustomers across all sizes, industries, and geographies use DynamoDB to build modern, serverless applications that can start small and scale globally. DynamoDB is ideal for use cases that require consistent\nperformance at any scale with little to zero operational overhead. The following list\npresents some use cases where you can use DynamoDB:\n\n* **Financial service applications** –\n  Suppose you're a financial services company building applications, such as live\n  trading and routing, loan management, token generation, and transaction ledgers.\n  With DynamoDB global tables, your applications\n  can respond to events and serve traffic from your chosen AWS Regions with\n  fast, local read and write performance.\n\n  DynamoDB is suitable for applications with the most stringent availability\n  requirements. It removes the operational burden of manually scaling instances\n  for increased storage or throughput, versioning, and licensing.\n\n  You can use DynamoDB transactions to achieve\n  atomicity, consistency, isolation, and durability (ACID) across one or more\n  tables with a single request. ACID\n  transactions suit workloads that include processing financial\n  transactions or fulfilling orders. DynamoDB instantly accommodates your workloads\n  as they ramp up or down, enabling you to efficiently scale your database for\n  market conditions, such as trading hours.\n\n* **Gaming applications** – As a gaming\n  company, you can use DynamoDB for all parts of game platforms, for example, game\n  state, player data, session history, and leaderboards. Choose DynamoDB for its\n  scale, consistent performance, and the ease of operations provided by its\n  serverless architecture. DynamoDB is well suited for scale-out architectures needed\n  to support successful games. It quickly scales your game's throughput both in\n  and out (scale to zero with no cold start). This scalability optimizes your\n  architecture's efficiency whether you're scaling out for peak traffic or scaling\n  back when gameplay usage is low.\n\n* **Streaming applications** – Media and\n  entertainment companies use DynamoDB as a metadata index for content, content\n  management service, or to serve near real-time sports statistics. They also use\n  DynamoDB to run user watchlist and bookmarking services and process billions of\n  daily customer events for generating recommendations. These customers benefit\n  from DynamoDB's scalability, performance, and resiliency. DynamoDB scales to workload\n  changes as they ramp up or down, enabling streaming media use cases that can\n  support any levels of demand.",
+      "token_count": 526,
+      "char_count": 2605,
+      "chunk_index": 7,
+      "total_chunks": 13,
+      "overlap_with_previous": false,
+      "metadata": {
+        "service_name": "Amazon Dynamodb",
+        "document_type": "introduction",
+        "header_level": 1,
+        "file_size_chars": 8856,
+        "processing_timestamp": "2025-08-02"
+      }
+    },
+    {
+      "chunk_id": "76e3f83e_009",
+      "source_file": "amazon_dynamodb_intro.md",
+      "title": "What is Amazon DynamoDB?",
+      "section": "Multi-active replication with global tables",
+      "content": "### Multi-active replication with global tables\n\nGlobal tables provide multi-active replication\nof your data across your chosen AWS Regions with 99.999% availability. Global\ntables deliver a fully managed solution for deploying a multi-Region, multi-active\ndatabase, without building and maintaining your own replication solution. With\nglobal tables, you can specify the AWS Regions where you want the tables to be\navailable. DynamoDB replicates ongoing data changes to all of these tables.\n\nYour globally distributed applications can access data locally in your selected\nRegions to achieve single-digit millisecond read and write performance. Because\nglobal tables are multi-active, you don't need a primary table. This means there are\nno complicated or delayed fail-overs, or database downtime when failing over an\napplication between Regions.",
+      "token_count": 159,
+      "char_count": 845,
+      "chunk_index": 9,
+      "total_chunks": 13,
+      "overlap_with_previous": false,
+      "metadata": {
+        "service_name": "Amazon Dynamodb",
+        "document_type": "introduction",
+        "header_level": 1,
+        "file_size_chars": 8856,
+        "processing_timestamp": "2025-08-02"
+      }
+    }
+  ]
+}

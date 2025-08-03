@@ -1,0 +1,19 @@
+{
+  "chunk_id": "8671b16b_015",
+  "source_file": "aws_security_best_practices.md",
+  "title": "AWS Security Best Practices Guide",
+  "section": "Key Management with AWS KMS",
+  "content": "### Key Management with AWS KMS\nAWS Key Management Service (KMS) provides centralized key management.\n\n**Key Types:**\n- **AWS Managed Keys**: Created and managed by AWS services\n- **Customer Managed Keys**: Created and managed by customers\n- **AWS Owned Keys**: Used by AWS services, not visible to customers\n\n**Best Practices:**\n- Use customer managed keys for sensitive data\n- Implement key rotation policies\n- Use key policies and IAM policies together\n- Monitor key usage with CloudTrail\n- Use grants for temporary access",
+  "token_count": 110,
+  "char_count": 525,
+  "chunk_index": 15,
+  "total_chunks": 54,
+  "overlap_with_previous": false,
+  "metadata": {
+    "service_name": "Aws Security Best Practices.Md",
+    "document_type": "guide",
+    "header_level": 1,
+    "file_size_chars": 18249,
+    "processing_timestamp": "2025-08-02"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "chunk_id": "f0588d57_001",
+  "source_file": "amazon_s3_intro.md",
+  "title": "What is Amazon S3?",
+  "section": "What is Amazon S3?",
+  "content": "# What is Amazon S3?\n\nAmazon Simple Storage Service (Amazon S3) is an object storage service that offers industry-leading scalability,\ndata availability, security, and performance. Customers of all sizes and industries can use\nAmazon S3 to store and protect any amount of data for a range of use cases, such as data lakes,\nwebsites, mobile applications, backup and restore, archive, enterprise applications, IoT\ndevices, and big data analytics. Amazon S3 provides management features so that you can optimize,\norganize, and configure access to your data to meet your specific business, organizational,\nand compliance requirements.",
+  "token_count": 124,
+  "char_count": 630,
+  "chunk_index": 1,
+  "total_chunks": 11,
+  "overlap_with_previous": false,
+  "metadata": {
+    "service_name": "Amazon S3",
+    "document_type": "introduction",
+    "header_level": 1,
+    "file_size_chars": 11018,
+    "processing_timestamp": "2025-08-02"
+  }
+}

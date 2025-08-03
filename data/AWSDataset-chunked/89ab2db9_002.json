@@ -1,0 +1,19 @@
+{
+  "chunk_id": "89ab2db9_002",
+  "source_file": "aws_well_architected_framework.md",
+  "title": "AWS Well-Architected Framework",
+  "section": "Introduction",
+  "content": "## Introduction\n\nThe AWS Well-Architected Framework helps you understand the pros and cons of decisions\nyou make while building systems on AWS. Using the Framework helps you learn architectural\nbest practices for designing and operating secure, reliable, efficient, cost-effective, and\nsustainable workloads in the AWS Cloud. It provides a way for you to consistently measure\nyour architectures against best practices and identify areas for improvement. The process for\nreviewing an architecture is a constructive conversation about architectural decisions, and is\nnot an audit mechanism. We believe that having well-architected systems greatly increases the\nlikelihood of business success.\n\nAWS Solutions Architects have years of experience architecting solutions across a wide\nvariety of business verticals and use cases. We have helped design and review thousands of\ncustomers' architectures on AWS. From this experience, we have identified best practices and\ncore strategies for architecting systems in the cloud.\n\nThe AWS Well-Architected Framework documents a set of foundational questions that help\nyou to understand if a specific architecture aligns well with cloud best practices. The\nframework provides a consistent approach to evaluating systems against the qualities you expect\nfrom modern cloud-based systems, and the remediation that would be required to achieve those\nqualities. As AWS continues to evolve, and we continue to learn more from working with our\ncustomers, we will continue to refine the definition of well-architected.\n\nThis framework is intended for those in technology roles, such as chief technology\nofficers (CTOs), architects, developers, and operations team members. It describes AWS best\npractices and strategies to use when designing and operating a cloud workload, and provides\nlinks to further implementation details and architectural patterns.\n\nAWS also provides a service for reviewing your workloads at no charge. The AWS Well-Architected\nTool (AWS WA Tool) is a service in the cloud that provides a consistent process for\nyou to review and measure your architecture using the AWS Well-Architected Framework. The AWS WA\nTool provides recommendations for making your workloads more reliable, secure, efficient, and\ncost-effective.\n\nTo help you apply best practices, we have created AWS Well-Architected\nLabs, which provides you with a repository of code and documentation to give you\nhands-on experience implementing best practices. We also have teamed up with select AWS Partner\nNetwork (APN) Partners, who are members of the AWS Well-Architected\nPartner program. These AWS Partners have deep AWS knowledge, and can help you review\nand improve your workloads.",
+  "token_count": 524,
+  "char_count": 2701,
+  "chunk_index": 2,
+  "total_chunks": 35,
+  "overlap_with_previous": false,
+  "metadata": {
+    "service_name": "Aws Well Architected Framework.Md",
+    "document_type": "guide",
+    "header_level": 1,
+    "file_size_chars": 22435,
+    "processing_timestamp": "2025-08-02"
+  }
+}

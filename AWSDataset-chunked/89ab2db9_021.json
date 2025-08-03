@@ -1,0 +1,19 @@
+{
+  "chunk_id": "89ab2db9_021",
+  "source_file": "aws_well_architected_framework.md",
+  "title": "AWS Well-Architected Framework",
+  "section": "Best Practices",
+  "content": "### Best Practices\n\n**Region Selection**\n- Choose Regions near your users for reduced latency\n- Choose Regions based on your sustainability goals\n- Use Regions with published PUE and carbon intensity information\n\n**User Behavior Patterns**\n- Scale infrastructure with user load\n- Align SLA with sustainability goals\n- Eliminate or reduce the need for customers to upgrade hardware\n\n**Software and Architecture Patterns**\n- Optimize software and architecture for asynchronous and scheduled jobs\n- Remove or refactor workload components with low or no use\n- Optimize areas of code that consume the most time or resources\n- Optimize impact on customer devices and equipment\n- Use software patterns and architectures that best support data access and storage patterns\n\n**Data Patterns**\n- Implement a data classification policy\n- Use technologies that support data access and storage patterns\n- Use lifecycle policies to delete unnecessary data\n- Minimize over-provisioning in block storage\n- Remove unneeded data in snapshots\n\n**Hardware Patterns**\n- Use the minimum amount of hardware to meet your needs\n- Use instance types with the least impact\n- Use managed services\n- Optimize your use of hardware-based compute accelerators\n\n**Development and Deployment Patterns**\n- Adopt methods that can rapidly introduce sustainability improvements\n- Keep your workload up-to-date\n- Increase utilization of build environments\n- Use managed device farms for testing",
+  "token_count": 271,
+  "char_count": 1454,
+  "chunk_index": 21,
+  "total_chunks": 35,
+  "overlap_with_previous": false,
+  "metadata": {
+    "service_name": "Aws Well Architected Framework.Md",
+    "document_type": "guide",
+    "header_level": 1,
+    "file_size_chars": 22435,
+    "processing_timestamp": "2025-08-02"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "chunk_id": "e9e0439a_003",
+  "source_file": "amazon_eks_intro.md",
+  "title": "What is Amazon EKS?",
+  "section": "Features of Amazon EKS",
+  "content": "## Features of Amazon EKS\n\nAmazon EKS provides the following high-level features:\n\n**Management interfaces**\n:   EKS offers multiple interfaces to provision, manage, and maintain clusters, including AWS Management Console, Amazon EKS API/SDKs, CDK, AWS CLI, eksctl CLI, AWS CloudFormation, and Terraform.\n\n**Access control tools**\n:   EKS relies on both Kubernetes and AWS Identity and Access Management (AWS IAM) features to manage access\n    from users and workloads.\n\n**Compute resources**\n:   For compute resources, EKS allows the full range of Amazon EC2 instance types and AWS innovations such as Nitro and Graviton with Amazon EKS for you to optimize the compute for your workloads.\n\n**Storage**\n:   EKS Auto Mode automatically creates storage classes using EBS volumes.\n    Using Container Storage Interface (CSI) drivers, you can also use Amazon S3, Amazon EFS, Amazon FSX, and Amazon File Cache for your application storage needs.\n\n**Security**\n:   The shared responsibility model is employed as it relates to Security in Amazon EKS.\n\n**Monitoring tools**\n:   Use the observability dashboard to monitor Amazon EKS clusters.\n    Monitoring tools include Prometheus, CloudWatch, Cloudtrail,\n    and ADOT Operator.\n\n**Kubernetes compatibility and support**\n:   Amazon EKS is certified Kubernetes-conformant, so you can deploy Kubernetes-compatible applications without refactoring and use Kubernetes community tooling and plugins.\n    EKS offers both standard support and extended support for Kubernetes.",
+  "token_count": 313,
+  "char_count": 1511,
+  "chunk_index": 3,
+  "total_chunks": 48,
+  "overlap_with_previous": false,
+  "metadata": {
+    "service_name": "Amazon Eks",
+    "document_type": "introduction",
+    "header_level": 1,
+    "file_size_chars": 10561,
+    "processing_timestamp": "2025-08-02"
+  }
+}

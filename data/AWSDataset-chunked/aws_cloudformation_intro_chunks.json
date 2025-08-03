@@ -1,0 +1,82 @@
+{
+  "source_file": "aws_cloudformation_intro.md",
+  "total_chunks": 4,
+  "chunks": [
+    {
+      "chunk_id": "a4cdff55_001",
+      "source_file": "aws_cloudformation_intro.md",
+      "title": "What is AWS CloudFormation?",
+      "section": "What is AWS CloudFormation?",
+      "content": "# What is AWS CloudFormation?\n\nAWS CloudFormation is a service that helps you model and set up your AWS resources so that you can\nspend less time managing those resources and more time focusing on your applications that\nrun in AWS. You create a template that describes all the AWS resources that you want\n(like Amazon EC2 instances or Amazon RDS DB instances), and CloudFormation takes care of provisioning and\nconfiguring those resources for you. You don't need to individually create and configure\nAWS resources and figure out what's dependent on what; CloudFormation handles that. The\nfollowing scenarios demonstrate how CloudFormation can help.",
+      "token_count": 128,
+      "char_count": 648,
+      "chunk_index": 1,
+      "total_chunks": 21,
+      "overlap_with_previous": false,
+      "metadata": {
+        "service_name": "Aws Cloudformation",
+        "document_type": "introduction",
+        "header_level": 1,
+        "file_size_chars": 6410,
+        "processing_timestamp": "2025-08-02"
+      }
+    },
+    {
+      "chunk_id": "a4cdff55_002",
+      "source_file": "aws_cloudformation_intro.md",
+      "title": "What is AWS CloudFormation?",
+      "section": "Simplify infrastructure management",
+      "content": "## Simplify infrastructure management\n\nFor a scalable web application that also includes a backend database, you might use an\nAuto Scaling group, an Elastic Load Balancing load balancer, and an Amazon Relational Database Service database instance. You might use\neach individual service to provision these resources and after you create the resources,\nyou would have to configure them to work together. All these tasks can add complexity\nand time before you even get your application up and running.\n\nInstead, you can create a CloudFormation template or modify an existing one. A\n*template* describes all your resources and their properties.\nWhen you use that template to create a CloudFormation stack, CloudFormation provisions the Auto Scaling\ngroup, load balancer, and database for you. After the stack has been successfully\ncreated, your AWS resources are up and running. You can delete the stack just as\neasily, which deletes all the resources in the stack. By using CloudFormation, you easily\nmanage a collection of resources as a single unit.",
+      "token_count": 206,
+      "char_count": 1048,
+      "chunk_index": 2,
+      "total_chunks": 21,
+      "overlap_with_previous": false,
+      "metadata": {
+        "service_name": "Aws Cloudformation",
+        "document_type": "introduction",
+        "header_level": 1,
+        "file_size_chars": 6410,
+        "processing_timestamp": "2025-08-02"
+      }
+    },
+    {
+      "chunk_id": "a4cdff55_003",
+      "source_file": "aws_cloudformation_intro.md",
+      "title": "What is AWS CloudFormation?",
+      "section": "Quickly replicate your infrastructure",
+      "content": "## Quickly replicate your infrastructure\n\nIf your application requires additional availability, you might replicate it in\nmultiple regions so that if one region becomes unavailable, your users can still use\nyour application in other regions. The challenge in replicating your application is that\nit also requires you to replicate your resources. Not only do you need to record all the\nresources that your application requires, but you must also provision and configure\nthose resources in each region.\n\nReuse your CloudFormation template to create your resources in a consistent and repeatable\nmanner. To reuse your template, describe your resources once and then provision the same\nresources over and over in multiple regions.",
+      "token_count": 132,
+      "char_count": 726,
+      "chunk_index": 3,
+      "total_chunks": 21,
+      "overlap_with_previous": false,
+      "metadata": {
+        "service_name": "Aws Cloudformation",
+        "document_type": "introduction",
+        "header_level": 1,
+        "file_size_chars": 6410,
+        "processing_timestamp": "2025-08-02"
+      }
+    },
+    {
+      "chunk_id": "a4cdff55_004",
+      "source_file": "aws_cloudformation_intro.md",
+      "title": "What is AWS CloudFormation?",
+      "section": "Easily control and track changes to your infrastructure",
+      "content": "## Easily control and track changes to your infrastructure\n\nIn some cases, you might have underlying resources that you want to upgrade\nincrementally. For example, you might change to a higher performing instance type in\nyour Auto Scaling launch configuration so that you can reduce the maximum number of instances in\nyour Auto Scaling group. If problems occur after you complete the update, you might need to roll\nback your infrastructure to the original settings. To do this manually, you not only\nhave to remember which resources were changed, you also have to know what the original\nsettings were.\n\nWhen you provision your infrastructure with CloudFormation, the CloudFormation template\ndescribes exactly what resources are provisioned and their settings. Because these\ntemplates are text files, you simply track differences in your templates to track\nchanges to your infrastructure, similar to the way developers control revisions to\nsource code. For example, you can use a version control system with your templates so\nthat you know exactly what changes were made, who made them, and when. If at any point\nyou need to reverse changes to your infrastructure, you can use a previous version of\nyour template.",
+      "token_count": 233,
+      "char_count": 1212,
+      "chunk_index": 4,
+      "total_chunks": 21,
+      "overlap_with_previous": false,
+      "metadata": {
+        "service_name": "Aws Cloudformation",
+        "document_type": "introduction",
+        "header_level": 1,
+        "file_size_chars": 6410,
+        "processing_timestamp": "2025-08-02"
+      }
+    }
+  ]
+}

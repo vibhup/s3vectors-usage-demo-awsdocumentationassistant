@@ -1,0 +1,19 @@
+{
+  "chunk_id": "76e3f83e_004",
+  "source_file": "amazon_dynamodb_intro.md",
+  "title": "What is Amazon DynamoDB?",
+  "section": "NoSQL",
+  "content": "### NoSQL\n\nAs a NoSQL database, DynamoDB is purpose-built to deliver improved performance,\nscalability, manageability, and flexibility compared to traditional relational\ndatabases. To support a wide variety of use cases, DynamoDB supports both key-value and\ndocument data models.\n\nUnlike relational databases, DynamoDB doesn't support a JOIN operator. We recommend\nthat you denormalize your data model to reduce database round trips and processing\npower needed to answer queries. As a NoSQL database, DynamoDB provides strong read consistency and ACID\ntransactions to build enterprise-grade applications.",
+  "token_count": 118,
+  "char_count": 604,
+  "chunk_index": 4,
+  "total_chunks": 13,
+  "overlap_with_previous": false,
+  "metadata": {
+    "service_name": "Amazon Dynamodb",
+    "document_type": "introduction",
+    "header_level": 1,
+    "file_size_chars": 8856,
+    "processing_timestamp": "2025-08-02"
+  }
+}

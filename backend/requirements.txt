@@ -1,0 +1,7 @@
+tiktoken>=0.5.0
+pathlib
+dataclasses
+hashlib
+json
+re
+os

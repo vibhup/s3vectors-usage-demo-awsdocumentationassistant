@@ -1,0 +1,19 @@
+{
+  "chunk_id": "c5ad6463_003",
+  "source_file": "amazon_sns_intro.md",
+  "title": "What is Amazon SNS?",
+  "section": "Accessing Amazon SNS",
+  "content": "## Accessing Amazon SNS\n\nYou can access and manage Amazon SNS through the console, AWS CLI, or AWS SDKs, depending\non your preferred method of interaction. The console offers a graphical interface for\nbasic tasks, while the AWS CLI and SDKs provide advanced configuration and automation\ncapabilities for more complex use cases.\n\n* The Amazon SNS console\n  provides a convenient user interface for creating topics and subscriptions,\n  sending and receiving messages, and monitoring events and logs.\n* The AWS Command Line Interface (AWS CLI) gives you direct access to the Amazon SNS API for advanced\n  configuration and automation use cases.\n* AWS provides SDKs in various languages.",
+  "token_count": 137,
+  "char_count": 683,
+  "chunk_index": 3,
+  "total_chunks": 33,
+  "overlap_with_previous": false,
+  "metadata": {
+    "service_name": "Amazon Sns",
+    "document_type": "introduction",
+    "header_level": 1,
+    "file_size_chars": 7791,
+    "processing_timestamp": "2025-08-02"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "chunk_id": "d4c812ba_009",
+  "source_file": "amazon_cloudwatch_intro.md",
+  "title": "What is Amazon CloudWatch?",
+  "section": "Network and internet monitoring",
+  "content": "## Network and internet monitoring\n\nCloudWatch provides comprehensive network and internet monitoring capabilities through CloudWatch Network Monitoring.\n\nInternet Monitor uses AWS global networking data to analyze\ninternet performance and availability between your applications and end users. With an internet monitor,\nyou can identify or get notifications for increased latency or regional disruptions that impact your customers.\nInternet monitors work by analyzing your VPC flow logs to provide automated insights about network traffic\npatterns and performance. You can also get suggestions for how to optimize application performance for your\nclients.\n\nNetwork Flow Monitor displays network performance\ninformation gathered by lightweight software agents that you install on your instances. Using a flow monitor,\nyou can quickly visualize packet loss and latency of your network connections over a time\nframe that\nyou specify. Each monitor also generates a network health indicator (NHI), which tells you whether there\nwere AWS network issues for the network flows tracked by your monitor during the time period that you're\nevaluating.\n\nWhen you connect by using AWS Direct Connect, you can use synthetic monitors in Network Synthetic Monitor to proactively monitor network connectivity\nby running synthetic tests between a VPC and on-premises endpoints. When you create a synthetic monitor, you\nspecify probes by providing a VPC subnet and on-premises IP addresses. AWS creates and manages the\ninfrastructure in the background that is required to perform round-trip time and packet loss measurements\nwith the probes. These tests detect issues with connectivity, DNS, and latency before they impact your\napplications, so that you can take action to improve your end users' experience.",
+  "token_count": 317,
+  "char_count": 1788,
+  "chunk_index": 9,
+  "total_chunks": 22,
+  "overlap_with_previous": false,
+  "metadata": {
+    "service_name": "Amazon Cloudwatch",
+    "document_type": "introduction",
+    "header_level": 1,
+    "file_size_chars": 10712,
+    "processing_timestamp": "2025-08-02"
+  }
+}

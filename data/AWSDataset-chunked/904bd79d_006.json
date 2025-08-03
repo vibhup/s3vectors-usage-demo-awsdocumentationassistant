@@ -1,0 +1,19 @@
+{
+  "chunk_id": "904bd79d_006",
+  "source_file": "aws_cost_optimization_guide.md",
+  "title": "AWS Cost Optimization Guide",
+  "section": "Spot Instances",
+  "content": "### Spot Instances\nUse spare EC2 capacity at up to 90% discount compared to On-Demand prices.\n\n**Characteristics:**\n- Variable pricing based on supply and demand\n- Can be interrupted with 2-minute notice\n- Best for fault-tolerant and flexible workloads\n\n**Use Cases:**\n- Batch processing jobs\n- Data analysis and processing\n- CI/CD environments\n- Web servers with load balancing\n- High-performance computing (HPC)\n\n**Best Practices:**\n- Design applications to handle interruptions gracefully\n- Use multiple instance types and Availability Zones\n- Implement checkpointing for long-running jobs\n- Monitor Spot price history and trends\n- Use Spot Fleet for automatic diversification",
+  "token_count": 143,
+  "char_count": 679,
+  "chunk_index": 6,
+  "total_chunks": 46,
+  "overlap_with_previous": false,
+  "metadata": {
+    "service_name": "Aws Cost Optimization Guide.Md",
+    "document_type": "guide",
+    "header_level": 1,
+    "file_size_chars": 20670,
+    "processing_timestamp": "2025-08-02"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "chunk_id": "f0588d57_010",
+  "source_file": "amazon_s3_intro.md",
+  "title": "What is Amazon S3?",
+  "section": "How Amazon S3 works",
+  "content": "## How Amazon S3 works\n\nAmazon S3 is an object storage service that stores data as objects within buckets. An\n*object* is a file and any metadata that describes\nthe file. A *bucket* is a container for objects.\n\nTo store your data in Amazon S3, you first create a bucket and specify a bucket name and\nAWS Region. Then, you upload your data to that bucket as objects in Amazon S3. Each object\nhas a *key* (or *key name*), which is the unique identifier for the object within the\nbucket.\n\nS3 provides features that you can configure to support your specific use case. For\nexample, you can use S3 Versioning to keep multiple versions of an object in the same\nbucket, which allows you to restore objects that are accidentally deleted or\noverwritten.\n\nBuckets and the objects in them are private and can be accessed only if you explicitly\ngrant access permissions. You can use bucket policies, AWS Identity and Access Management (IAM) policies,\naccess control lists (ACLs), and S3 Access Points to manage access.",
+  "token_count": 226,
+  "char_count": 1006,
+  "chunk_index": 10,
+  "total_chunks": 11,
+  "overlap_with_previous": false,
+  "metadata": {
+    "service_name": "Amazon S3",
+    "document_type": "introduction",
+    "header_level": 1,
+    "file_size_chars": 11018,
+    "processing_timestamp": "2025-08-02"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "chunk_id": "89ab2db9_023",
+  "source_file": "aws_well_architected_framework.md",
+  "title": "AWS Well-Architected Framework",
+  "section": "Features",
+  "content": "### Features\n\n**Workload Documentation**\nDocument your workloads and applications in the tool to track architectural decisions and improvements over time.\n\n**Review Process**\nAnswer a series of questions about your architecture across the six pillars to identify areas for improvement.\n\n**Improvement Plans**\nReceive prioritized improvement plans with specific guidance on how to address identified issues.\n\n**Milestone Tracking**\nTrack your progress over time by creating milestones that capture the state of your workload at specific points.\n\n**Custom Lenses**\nCreate custom lenses to address specific industry requirements or organizational standards.\n\n**Reporting**\nGenerate reports to share findings and track improvements across your organization.",
+  "token_count": 124,
+  "char_count": 753,
+  "chunk_index": 23,
+  "total_chunks": 35,
+  "overlap_with_previous": false,
+  "metadata": {
+    "service_name": "Aws Well Architected Framework.Md",
+    "document_type": "guide",
+    "header_level": 1,
+    "file_size_chars": 22435,
+    "processing_timestamp": "2025-08-02"
+  }
+}

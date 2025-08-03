@@ -1,0 +1,19 @@
+{
+  "chunk_id": "a4cdff55_004",
+  "source_file": "aws_cloudformation_intro.md",
+  "title": "What is AWS CloudFormation?",
+  "section": "Easily control and track changes to your infrastructure",
+  "content": "## Easily control and track changes to your infrastructure\n\nIn some cases, you might have underlying resources that you want to upgrade\nincrementally. For example, you might change to a higher performing instance type in\nyour Auto Scaling launch configuration so that you can reduce the maximum number of instances in\nyour Auto Scaling group. If problems occur after you complete the update, you might need to roll\nback your infrastructure to the original settings. To do this manually, you not only\nhave to remember which resources were changed, you also have to know what the original\nsettings were.\n\nWhen you provision your infrastructure with CloudFormation, the CloudFormation template\ndescribes exactly what resources are provisioned and their settings. Because these\ntemplates are text files, you simply track differences in your templates to track\nchanges to your infrastructure, similar to the way developers control revisions to\nsource code. For example, you can use a version control system with your templates so\nthat you know exactly what changes were made, who made them, and when. If at any point\nyou need to reverse changes to your infrastructure, you can use a previous version of\nyour template.",
+  "token_count": 233,
+  "char_count": 1212,
+  "chunk_index": 4,
+  "total_chunks": 21,
+  "overlap_with_previous": false,
+  "metadata": {
+    "service_name": "Aws Cloudformation",
+    "document_type": "introduction",
+    "header_level": 1,
+    "file_size_chars": 6410,
+    "processing_timestamp": "2025-08-02"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "chunk_id": "0e610fa8_003",
+  "source_file": "amazon_kinesis_intro.md",
+  "title": "What is Amazon Kinesis Data Streams?",
+  "section": "Benefits of using Kinesis Data Streams",
+  "content": "## Benefits of using Kinesis Data Streams\n\nAlthough you can use Kinesis Data Streams to solve a variety of streaming data problems, a common use\nis the real-time aggregation of data followed by loading the aggregate data into a data\nwarehouse or map-reduce cluster.\n\nData is put into Kinesis data streams, which ensures durability and elasticity. The delay\nbetween the time a record is put into the stream and the time it can be retrieved\n(put-to-get delay) is typically less than 1 second. In other words, a Kinesis Data Streams application\ncan start consuming the data from the stream almost immediately after the data is added.\nThe managed service aspect of Kinesis Data Streams relieves you of the operational burden of creating\nand running a data intake pipeline. You can create streaming map-reduce–type\napplications. The elasticity of Kinesis Data Streams enables you to scale the stream up or down, so\nthat you never lose data records before they expire.\n\nMultiple Kinesis Data Streams applications can consume data from a stream, so that multiple actions,\nlike archiving and processing, can take place concurrently and independently. For\nexample, two applications can read data from the same stream. The first application\ncalculates running aggregates and updates an Amazon DynamoDB table, and the second application\ncompresses and archives data to a data store like Amazon Simple Storage Service (Amazon S3). The DynamoDB table with\nrunning aggregates is then read by a dashboard for up-to-the-minute reports.\n\nThe Kinesis Client Library enables fault-tolerant consumption of data from streams and\nprovides scaling support for Kinesis Data Streams applications.",
+  "token_count": 332,
+  "char_count": 1671,
+  "chunk_index": 3,
+  "total_chunks": 46,
+  "overlap_with_previous": false,
+  "metadata": {
+    "service_name": "Amazon Kinesis",
+    "document_type": "introduction",
+    "header_level": 1,
+    "file_size_chars": 9924,
+    "processing_timestamp": "2025-08-02"
+  }
+}

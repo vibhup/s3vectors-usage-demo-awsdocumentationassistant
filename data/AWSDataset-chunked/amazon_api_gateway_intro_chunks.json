@@ -1,0 +1,101 @@
+{
+  "source_file": "amazon_api_gateway_intro.md",
+  "total_chunks": 5,
+  "chunks": [
+    {
+      "chunk_id": "fabf700a_001",
+      "source_file": "amazon_api_gateway_intro.md",
+      "title": "What is Amazon API Gateway?",
+      "section": "What is Amazon API Gateway?",
+      "content": "# What is Amazon API Gateway?\n\nAmazon API Gateway is an AWS service for creating, publishing, maintaining, monitoring, and\nsecuring REST, HTTP, and WebSocket APIs at any scale. API developers can create APIs that\naccess AWS or other web services, as well as data stored in the AWS Cloud. As an API Gateway\nAPI developer, you can create APIs for use in your own client applications. Or you can make\nyour APIs available to third-party app developers.\n\nAPI Gateway creates RESTful APIs that:\n\n* Are HTTP-based.\n* Enable stateless client-server communication.\n* Implement standard HTTP methods such as GET, POST, PUT, PATCH, and DELETE.\n\nAPI Gateway creates WebSocket APIs that:\n\n* Adhere to the WebSocket\n  protocol, which enables stateful, full-duplex communication between client and\n  server.\n* Route incoming messages based on message content.",
+      "token_count": 178,
+      "char_count": 844,
+      "chunk_index": 1,
+      "total_chunks": 21,
+      "overlap_with_previous": false,
+      "metadata": {
+        "service_name": "Amazon Api Gateway",
+        "document_type": "introduction",
+        "header_level": 1,
+        "file_size_chars": 7160,
+        "processing_timestamp": "2025-08-02"
+      }
+    },
+    {
+      "chunk_id": "fabf700a_002",
+      "source_file": "amazon_api_gateway_intro.md",
+      "title": "What is Amazon API Gateway?",
+      "section": "Architecture of API Gateway",
+      "content": "## Architecture of API Gateway\n\nAPI Gateway architecture shows how the APIs you build in Amazon API Gateway provide you or your\ndeveloper customers with an integrated and consistent developer experience for building\nAWS serverless applications. API Gateway handles all the tasks involved in accepting and\nprocessing up to hundreds of thousands of concurrent API calls. These tasks include\ntraffic management, authorization and access control, monitoring, and API version\nmanagement.\n\nAPI Gateway acts as a \"front door\" for applications to access data, business logic, or\nfunctionality from your backend services, such as workloads running on Amazon Elastic Compute Cloud\n(Amazon EC2), code running on AWS Lambda, any web application, or real-time communication\napplications.",
+      "token_count": 144,
+      "char_count": 774,
+      "chunk_index": 2,
+      "total_chunks": 21,
+      "overlap_with_previous": false,
+      "metadata": {
+        "service_name": "Amazon Api Gateway",
+        "document_type": "introduction",
+        "header_level": 1,
+        "file_size_chars": 7160,
+        "processing_timestamp": "2025-08-02"
+      }
+    },
+    {
+      "chunk_id": "fabf700a_003",
+      "source_file": "amazon_api_gateway_intro.md",
+      "title": "What is Amazon API Gateway?",
+      "section": "Features of API Gateway",
+      "content": "## Features of API Gateway\n\nAmazon API Gateway offers features such as the following:\n\n* Support for stateful (WebSocket) and stateless (HTTP and\n  REST) APIs.\n* Powerful, flexible authentication mechanisms, such as AWS Identity and Access Management policies, Lambda\n  authorizer functions, and Amazon Cognito user pools.\n* Canary release deployments for safely\n  rolling out changes.\n* CloudTrail logging and monitoring of API usage and\n  API changes.\n* CloudWatch access logging and execution logging, including the ability to set\n  alarms.\n* Ability to use AWS CloudFormation templates to enable API creation.\n* Support for custom domain\n  names.\n* Integration with AWS WAF for protecting your APIs against common web exploits.\n* Integration with AWS X-Ray for\n  understanding and triaging performance latencies.",
+      "token_count": 165,
+      "char_count": 816,
+      "chunk_index": 3,
+      "total_chunks": 21,
+      "overlap_with_previous": false,
+      "metadata": {
+        "service_name": "Amazon Api Gateway",
+        "document_type": "introduction",
+        "header_level": 1,
+        "file_size_chars": 7160,
+        "processing_timestamp": "2025-08-02"
+      }
+    },
+    {
+      "chunk_id": "fabf700a_004",
+      "source_file": "amazon_api_gateway_intro.md",
+      "title": "What is Amazon API Gateway?",
+      "section": "Accessing API Gateway",
+      "content": "## Accessing API Gateway\n\nYou can access Amazon API Gateway in the following ways:\n\n* **AWS Management Console** – The AWS Management Console provides a web interface for creating\n  and managing APIs. After you complete the setup steps, you can access the API Gateway\n  console.\n* **AWS SDKs** – If you're using a\n  programming language that AWS provides an SDK for, you can use an SDK to access\n  API Gateway. SDKs simplify authentication, integrate easily with your development\n  environment, and provide access to API Gateway commands.\n* **API Gateway V1 and V2 APIs** – If you're using\n  a programming language that an SDK isn't available for, see the Amazon API Gateway Version 1 API Reference\n  and Amazon API Gateway Version 2 API Reference.\n* **AWS Command Line Interface** – For more information, see\n  Getting Set Up with the AWS Command Line Interface in the\n  *AWS Command Line Interface User Guide*.\n* **AWS Tools for Windows PowerShell** – For more information, see\n  Setting Up the AWS Tools for Windows PowerShell in the\n  *AWS Tools for PowerShell User Guide*.",
+      "token_count": 238,
+      "char_count": 1077,
+      "chunk_index": 4,
+      "total_chunks": 21,
+      "overlap_with_previous": false,
+      "metadata": {
+        "service_name": "Amazon Api Gateway",
+        "document_type": "introduction",
+        "header_level": 1,
+        "file_size_chars": 7160,
+        "processing_timestamp": "2025-08-02"
+      }
+    },
+    {
+      "chunk_id": "fabf700a_005",
+      "source_file": "amazon_api_gateway_intro.md",
+      "title": "What is Amazon API Gateway?",
+      "section": "Part of AWS serverless infrastructure",
+      "content": "## Part of AWS serverless infrastructure\n\nTogether with AWS Lambda, API Gateway forms the app-facing\npart of the AWS serverless infrastructure. To learn more about getting started with serverless, see the\nServerless Developer Guide.\n\nFor an app to call publicly available AWS services, you can use Lambda to interact\nwith required services and expose Lambda functions through API methods in API Gateway.\nAWS Lambda runs your code on a highly available computing infrastructure. It performs the\nnecessary execution and administration of computing resources. To enable serverless\napplications, API Gateway supports streamlined\nproxy integrations with AWS Lambda and HTTP endpoints.",
+      "token_count": 123,
+      "char_count": 679,
+      "chunk_index": 5,
+      "total_chunks": 21,
+      "overlap_with_previous": false,
+      "metadata": {
+        "service_name": "Amazon Api Gateway",
+        "document_type": "introduction",
+        "header_level": 1,
+        "file_size_chars": 7160,
+        "processing_timestamp": "2025-08-02"
+      }
+    }
+  ]
+}

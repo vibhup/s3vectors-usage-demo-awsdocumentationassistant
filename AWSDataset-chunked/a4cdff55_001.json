@@ -1,0 +1,19 @@
+{
+  "chunk_id": "a4cdff55_001",
+  "source_file": "aws_cloudformation_intro.md",
+  "title": "What is AWS CloudFormation?",
+  "section": "What is AWS CloudFormation?",
+  "content": "# What is AWS CloudFormation?\n\nAWS CloudFormation is a service that helps you model and set up your AWS resources so that you can\nspend less time managing those resources and more time focusing on your applications that\nrun in AWS. You create a template that describes all the AWS resources that you want\n(like Amazon EC2 instances or Amazon RDS DB instances), and CloudFormation takes care of provisioning and\nconfiguring those resources for you. You don't need to individually create and configure\nAWS resources and figure out what's dependent on what; CloudFormation handles that. The\nfollowing scenarios demonstrate how CloudFormation can help.",
+  "token_count": 128,
+  "char_count": 648,
+  "chunk_index": 1,
+  "total_chunks": 21,
+  "overlap_with_previous": false,
+  "metadata": {
+    "service_name": "Aws Cloudformation",
+    "document_type": "introduction",
+    "header_level": 1,
+    "file_size_chars": 6410,
+    "processing_timestamp": "2025-08-02"
+  }
+}

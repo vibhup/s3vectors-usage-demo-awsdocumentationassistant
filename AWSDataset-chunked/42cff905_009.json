@@ -1,0 +1,19 @@
+{
+  "chunk_id": "42cff905_009",
+  "source_file": "aws_services_comprehensive_overview.md",
+  "title": "Comprehensive AWS Services Overview",
+  "section": "Amazon S3 (Simple Storage Service)",
+  "content": "### Amazon S3 (Simple Storage Service)\nAmazon S3 is an object storage service that offers industry-leading scalability, data availability, security, and performance.\n\n**Storage Classes:**\n- **S3 Standard**: General-purpose storage for frequently accessed data\n- **S3 Standard-IA**: Infrequently accessed data with rapid access when needed\n- **S3 One Zone-IA**: Lower-cost option for infrequently accessed data\n- **S3 Glacier Instant Retrieval**: Archive data with milliseconds retrieval\n- **S3 Glacier Flexible Retrieval**: Archive data with retrieval times from minutes to hours\n- **S3 Glacier Deep Archive**: Lowest-cost storage for long-term retention\n- **S3 Intelligent-Tiering**: Automatic cost optimization by moving data between tiers\n\n**Key Features:**\n- 99.999999999% (11 9's) durability\n- Virtually unlimited scalability\n- Comprehensive security and compliance capabilities\n- Management features for cost optimization\n- Query-in-place and analytics capabilities",
+  "token_count": 202,
+  "char_count": 971,
+  "chunk_index": 9,
+  "total_chunks": 81,
+  "overlap_with_previous": false,
+  "metadata": {
+    "service_name": "Aws Services Comprehensive Overview.Md",
+    "document_type": "guide",
+    "header_level": 1,
+    "file_size_chars": 25294,
+    "processing_timestamp": "2025-08-02"
+  }
+}

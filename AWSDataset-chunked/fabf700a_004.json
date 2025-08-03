@@ -1,0 +1,19 @@
+{
+  "chunk_id": "fabf700a_004",
+  "source_file": "amazon_api_gateway_intro.md",
+  "title": "What is Amazon API Gateway?",
+  "section": "Accessing API Gateway",
+  "content": "## Accessing API Gateway\n\nYou can access Amazon API Gateway in the following ways:\n\n* **AWS Management Console** – The AWS Management Console provides a web interface for creating\n  and managing APIs. After you complete the setup steps, you can access the API Gateway\n  console.\n* **AWS SDKs** – If you're using a\n  programming language that AWS provides an SDK for, you can use an SDK to access\n  API Gateway. SDKs simplify authentication, integrate easily with your development\n  environment, and provide access to API Gateway commands.\n* **API Gateway V1 and V2 APIs** – If you're using\n  a programming language that an SDK isn't available for, see the Amazon API Gateway Version 1 API Reference\n  and Amazon API Gateway Version 2 API Reference.\n* **AWS Command Line Interface** – For more information, see\n  Getting Set Up with the AWS Command Line Interface in the\n  *AWS Command Line Interface User Guide*.\n* **AWS Tools for Windows PowerShell** – For more information, see\n  Setting Up the AWS Tools for Windows PowerShell in the\n  *AWS Tools for PowerShell User Guide*.",
+  "token_count": 238,
+  "char_count": 1077,
+  "chunk_index": 4,
+  "total_chunks": 21,
+  "overlap_with_previous": false,
+  "metadata": {
+    "service_name": "Amazon Api Gateway",
+    "document_type": "introduction",
+    "header_level": 1,
+    "file_size_chars": 7160,
+    "processing_timestamp": "2025-08-02"
+  }
+}

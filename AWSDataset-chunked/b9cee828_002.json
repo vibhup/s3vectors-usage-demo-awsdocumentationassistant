@@ -1,0 +1,19 @@
+{
+  "chunk_id": "b9cee828_002",
+  "source_file": "amazon_ec2_intro.md",
+  "title": "What is Amazon EC2?",
+  "section": "Features of Amazon EC2",
+  "content": "## Features of Amazon EC2\n\nAmazon EC2 provides the following high-level features:\n\n**Instances**\n:   Virtual servers.\n\n**Amazon Machine Images (AMIs)**\n:   Preconfigured templates for your instances that package the components you\n    need for your server (including the operating system and additional\n    software).\n\n**Instance types**\n:   Various configurations of CPU, memory, storage, networking capacity, and\n    graphics hardware for your instances.\n\n**Amazon EBS volumes**\n:   Persistent storage volumes for your data using Amazon Elastic Block Store (Amazon EBS).\n\n**Instance store volumes**\n:   Storage volumes for temporary data that is deleted when you stop,\n    hibernate, or terminate your instance.\n\n**Key pairs**\n:   Secure login information for your instances. AWS stores the public key\n    and you store the private key in a secure place.\n\n**Security groups**\n:   A virtual firewall that allows you to specify the protocols, ports, and\n    source IP ranges that can reach your instances, and the destination IP\n    ranges to which your instances can connect.\n\nAmazon EC2 supports the processing, storage, and transmission\nof credit card data by a merchant or service provider, and has been\nvalidated as being compliant with Payment Card Industry (PCI) Data Security Standard (DSS).",
+  "token_count": 264,
+  "char_count": 1299,
+  "chunk_index": 2,
+  "total_chunks": 7,
+  "overlap_with_previous": false,
+  "metadata": {
+    "service_name": "Amazon Ec2",
+    "document_type": "introduction",
+    "header_level": 1,
+    "file_size_chars": 6316,
+    "processing_timestamp": "2025-08-02"
+  }
+}

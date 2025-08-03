@@ -1,0 +1,19 @@
+{
+  "chunk_id": "904bd79d_026",
+  "source_file": "aws_cost_optimization_guide.md",
+  "title": "AWS Cost Optimization Guide",
+  "section": "AWS Budgets",
+  "content": "### AWS Budgets\nSet custom budgets and receive alerts when costs exceed thresholds.\n\n**Budget Types:**\n- **Cost Budgets**: Track spending against budget\n- **Usage Budgets**: Track usage metrics\n- **Reservation Budgets**: Track RI and Savings Plans utilization\n- **Savings Plans Budgets**: Track Savings Plans coverage\n\n**Alert Configuration:**\n- Set multiple alert thresholds\n- Configure email and SNS notifications\n- Include budget actions for automated responses\n- Monitor both actual and forecasted costs",
+  "token_count": 103,
+  "char_count": 507,
+  "chunk_index": 26,
+  "total_chunks": 46,
+  "overlap_with_previous": false,
+  "metadata": {
+    "service_name": "Aws Cost Optimization Guide.Md",
+    "document_type": "guide",
+    "header_level": 1,
+    "file_size_chars": 20670,
+    "processing_timestamp": "2025-08-02"
+  }
+}

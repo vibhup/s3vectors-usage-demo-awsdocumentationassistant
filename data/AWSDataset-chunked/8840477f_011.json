@@ -1,0 +1,19 @@
+{
+  "chunk_id": "8840477f_011",
+  "source_file": "aws_iam_policies.md",
+  "title": "What is IAM?",
+  "section": "IAM permissions boundaries",
+  "content": "### IAM permissions boundaries\n\nA permissions boundary is an advanced feature in which you set the maximum permissions\nthat an identity-based policy can grant to an IAM entity. When you set a permissions\nboundary for an entity, the entity can perform only the actions that are allowed by both its\nidentity-based policies and its permissions boundaries. If you specify a role session or\nuser in the principal element of a resource-based policy, an explicit allow in the\npermission boundary is not required. However, if you specify a role ARN in the principal\nelement of a resource-based policy, an explicit allow in the permission boundary is\nrequired. In both cases, an explicit deny in the permission boundary is effective. An\nexplicit deny in any of these policies overrides the allow.",
+  "token_count": 154,
+  "char_count": 787,
+  "chunk_index": 11,
+  "total_chunks": 12,
+  "overlap_with_previous": false,
+  "metadata": {
+    "service_name": "Aws Iam Policies.Md",
+    "document_type": "guide",
+    "header_level": 1,
+    "file_size_chars": 11549,
+    "processing_timestamp": "2025-08-02"
+  }
+}

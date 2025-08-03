@@ -1,0 +1,19 @@
+{
+  "chunk_id": "d777dccc_003",
+  "source_file": "aws_lambda_intro.md",
+  "title": "What is AWS Lambda?",
+  "section": "How Lambda works",
+  "content": "## How Lambda works\n\nBecause Lambda is a serverless, event-driven compute service, it uses a different programming paradigm than traditional web applications.\nThe following model illustrates how Lambda fundamentally works:\n\n1. You write and organize your code in [Lambda functions](./concepts-basics.html#gettingstarted-concepts-function \"./concepts-basics.html#gettingstarted-concepts-function\"), which are the basic building blocks you use to create a Lambda application.\n2. You control security and access through [Lambda permissions](./lambda-permissions.html \"./lambda-permissions.html\"), using [execution roles](./lambda-intro-execution-role.html \"./lambda-intro-execution-role.html\") to manage what AWS services your functions can interact with and what resource policies can interact with your code.\n3. Event sources and AWS services [trigger](./concepts-event-driven-architectures.html \"./concepts-event-driven-architectures.html\") your Lambda functions, passing event data in JSON format, which your functions process (this includes event source mappings).\n4. [Lambda runs your code](./concepts-how-lambda-runs-code.html \"./concepts-how-lambda-runs-code.html\") with language-specific runtimes (like Node.js and Python) in execution environments that package your runtime, layers, and extensions.",
+  "token_count": 261,
+  "char_count": 1305,
+  "chunk_index": 3,
+  "total_chunks": 6,
+  "overlap_with_previous": false,
+  "metadata": {
+    "service_name": "Aws Lambda",
+    "document_type": "introduction",
+    "header_level": 1,
+    "file_size_chars": 7547,
+    "processing_timestamp": "2025-08-02"
+  }
+}

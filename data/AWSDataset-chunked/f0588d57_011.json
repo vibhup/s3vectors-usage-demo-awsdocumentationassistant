@@ -1,0 +1,19 @@
+{
+  "chunk_id": "f0588d57_011",
+  "source_file": "amazon_s3_intro.md",
+  "title": "What is Amazon S3?",
+  "section": "Buckets",
+  "content": "### Buckets\n\nAmazon S3 supports four types of buckets—general purpose buckets, directory buckets, table buckets, and vector buckets. Each type of bucket provides a unique set of features for different use cases.\n\n**General purpose buckets** – General purpose buckets are recommended for most use cases and access patterns and are the original S3 bucket type.\nA general purpose bucket is a container for objects stored in Amazon S3, and you can store any number of objects in a bucket and across all storage classes (except for\nS3 Express One Zone), so you can redundantly store objects across multiple Availability Zones.\n\n**Directory buckets** – Recommended for low-latency use cases and data-residency use cases. By default, you can create up to 100 directory buckets in your\nAWS account, with no limit on the number of objects that you can store in a directory bucket. Directory buckets organize objects into hierarchical directories (prefixes) instead of the flat storage structure\nof general purpose buckets.\n\n* For low-latency use cases, you can create a directory bucket in a single AWS Availability Zone to store data. Directory buckets in Availability Zones support the\n  S3 Express One Zone storage class.\n* For data-residency use cases, you can create a directory bucket in a single AWS Dedicated Local Zone (DLZ) to store data.",
+  "token_count": 269,
+  "char_count": 1339,
+  "chunk_index": 11,
+  "total_chunks": 11,
+  "overlap_with_previous": false,
+  "metadata": {
+    "service_name": "Amazon S3",
+    "document_type": "introduction",
+    "header_level": 1,
+    "file_size_chars": 11018,
+    "processing_timestamp": "2025-08-02"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "chunk_id": "4f7f371e_004",
+  "source_file": "amazon_ecs_intro.md",
+  "title": "What is Amazon Elastic Container Service?",
+  "section": "Provisioning",
+  "content": "## Provisioning\n\nThere are multiple options for provisioning Amazon ECS:\n\n* **AWS Management Console** — Provides a web interface\n  that you can use to access your Amazon ECS resources.\n* **AWS Command Line Interface (AWS CLI)** — Provides commands\n  for a broad set of AWS services, including Amazon ECS. It's supported on Windows,\n  Mac, and Linux.\n* **AWS SDKs** — Provides\n  language-specific APIs and takes care of many of the connection details. These\n  include calculating signatures, handling request retries, and error handling.\n* **AWS CDK** — Provides an open-source\n  software development framework that you can use to model and provision your\n  cloud application resources using familiar programming languages. The AWS CDK\n  provisions your resources in a safe, repeatable manner through\n  AWS CloudFormation.",
+  "token_count": 172,
+  "char_count": 822,
+  "chunk_index": 4,
+  "total_chunks": 45,
+  "overlap_with_previous": false,
+  "metadata": {
+    "service_name": "Amazon Ecs",
+    "document_type": "introduction",
+    "header_level": 1,
+    "file_size_chars": 10169,
+    "processing_timestamp": "2025-08-02"
+  }
+}

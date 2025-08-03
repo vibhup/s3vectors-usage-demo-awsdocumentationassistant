@@ -1,0 +1,310 @@
+{
+  "source_file": "aws_well_architected_framework.md",
+  "total_chunks": 16,
+  "chunks": [
+    {
+      "chunk_id": "89ab2db9_002",
+      "source_file": "aws_well_architected_framework.md",
+      "title": "AWS Well-Architected Framework",
+      "section": "Introduction",
+      "content": "## Introduction\n\nThe AWS Well-Architected Framework helps you understand the pros and cons of decisions\nyou make while building systems on AWS. Using the Framework helps you learn architectural\nbest practices for designing and operating secure, reliable, efficient, cost-effective, and\nsustainable workloads in the AWS Cloud. It provides a way for you to consistently measure\nyour architectures against best practices and identify areas for improvement. The process for\nreviewing an architecture is a constructive conversation about architectural decisions, and is\nnot an audit mechanism. We believe that having well-architected systems greatly increases the\nlikelihood of business success.\n\nAWS Solutions Architects have years of experience architecting solutions across a wide\nvariety of business verticals and use cases. We have helped design and review thousands of\ncustomers' architectures on AWS. From this experience, we have identified best practices and\ncore strategies for architecting systems in the cloud.\n\nThe AWS Well-Architected Framework documents a set of foundational questions that help\nyou to understand if a specific architecture aligns well with cloud best practices. The\nframework provides a consistent approach to evaluating systems against the qualities you expect\nfrom modern cloud-based systems, and the remediation that would be required to achieve those\nqualities. As AWS continues to evolve, and we continue to learn more from working with our\ncustomers, we will continue to refine the definition of well-architected.\n\nThis framework is intended for those in technology roles, such as chief technology\nofficers (CTOs), architects, developers, and operations team members. It describes AWS best\npractices and strategies to use when designing and operating a cloud workload, and provides\nlinks to further implementation details and architectural patterns.\n\nAWS also provides a service for reviewing your workloads at no charge. The AWS Well-Architected\nTool (AWS WA Tool) is a service in the cloud that provides a consistent process for\nyou to review and measure your architecture using the AWS Well-Architected Framework. The AWS WA\nTool provides recommendations for making your workloads more reliable, secure, efficient, and\ncost-effective.\n\nTo help you apply best practices, we have created AWS Well-Architected\nLabs, which provides you with a repository of code and documentation to give you\nhands-on experience implementing best practices. We also have teamed up with select AWS Partner\nNetwork (APN) Partners, who are members of the AWS Well-Architected\nPartner program. These AWS Partners have deep AWS knowledge, and can help you review\nand improve your workloads.",
+      "token_count": 524,
+      "char_count": 2701,
+      "chunk_index": 2,
+      "total_chunks": 35,
+      "overlap_with_previous": false,
+      "metadata": {
+        "service_name": "Aws Well Architected Framework.Md",
+        "document_type": "guide",
+        "header_level": 1,
+        "file_size_chars": 22435,
+        "processing_timestamp": "2025-08-02"
+      }
+    },
+    {
+      "chunk_id": "89ab2db9_003",
+      "source_file": "aws_well_architected_framework.md",
+      "title": "AWS Well-Architected Framework",
+      "section": "The pillars of the framework",
+      "content": "# The pillars of the framework\n\nCreating a software system is a lot like constructing a building. If the foundation is\nnot solid, structural problems can undermine the integrity and function of the building. When\narchitecting technology solutions, if you neglect the six pillars of operational excellence,\nsecurity, reliability, performance efficiency, cost optimization, and sustainability, it can become challenging\nto build a system that delivers on your expectations and requirements. Incorporating these\npillars into your architecture will help you produce stable and efficient systems. This will\nallow you to focus on the other aspects of design, such as functional requirements.",
+      "token_count": 124,
+      "char_count": 685,
+      "chunk_index": 3,
+      "total_chunks": 35,
+      "overlap_with_previous": false,
+      "metadata": {
+        "service_name": "Aws Well Architected Framework.Md",
+        "document_type": "guide",
+        "header_level": 1,
+        "file_size_chars": 22435,
+        "processing_timestamp": "2025-08-02"
+      }
+    },
+    {
+      "chunk_id": "89ab2db9_005",
+      "source_file": "aws_well_architected_framework.md",
+      "title": "AWS Well-Architected Framework",
+      "section": "Design Principles",
+      "content": "### Design Principles\n\n**Perform operations as code**\nIn the cloud, you can apply the same engineering discipline that you use for application code to your entire environment. You can define your entire workload (applications, infrastructure) as code and update it with code.\n\n**Make frequent, small, reversible changes**\nDesign workloads to allow components to be updated regularly. Make changes in small increments that can be reversed if they fail (without affecting customers when possible).\n\n**Refine operations procedures frequently**\nAs you use operations procedures, look for opportunities to improve them. As you evolve your workload, evolve your procedures appropriately.\n\n**Anticipate failure**\nPerform \"pre-mortem\" exercises to identify potential sources of failure so that they can be removed or mitigated. Test your failure scenarios and validate your understanding of their impact.\n\n**Learn from all operational failures**\nDrive improvement through lessons learned from all operational events and failures. Share what is learned across teams and through the entire organization.",
+      "token_count": 193,
+      "char_count": 1093,
+      "chunk_index": 5,
+      "total_chunks": 35,
+      "overlap_with_previous": false,
+      "metadata": {
+        "service_name": "Aws Well Architected Framework.Md",
+        "document_type": "guide",
+        "header_level": 1,
+        "file_size_chars": 22435,
+        "processing_timestamp": "2025-08-02"
+      }
+    },
+    {
+      "chunk_id": "89ab2db9_006",
+      "source_file": "aws_well_architected_framework.md",
+      "title": "AWS Well-Architected Framework",
+      "section": "Best Practices",
+      "content": "### Best Practices\n\n**Organization**\n- Understand your organizational priorities\n- Design for operations\n- Evaluate operational readiness\n- Understand operational health\n\n**Prepare**\n- Design telemetry\n- Implement application telemetry\n- Implement user activity telemetry\n- Implement dependency telemetry\n- Implement distributed tracing\n\n**Operate**\n- Utilize workload observability\n- Understand operational health\n- Respond to unplanned operational events\n- Use runbooks for well-understood events\n- Use playbooks to investigate issues\n\n**Evolve**\n- Learn from experience\n- Share learnings\n- Perform post-incident analysis\n- Implement feedback loops",
+      "token_count": 123,
+      "char_count": 650,
+      "chunk_index": 6,
+      "total_chunks": 35,
+      "overlap_with_previous": false,
+      "metadata": {
+        "service_name": "Aws Well Architected Framework.Md",
+        "document_type": "guide",
+        "header_level": 1,
+        "file_size_chars": 22435,
+        "processing_timestamp": "2025-08-02"
+      }
+    },
+    {
+      "chunk_id": "89ab2db9_008",
+      "source_file": "aws_well_architected_framework.md",
+      "title": "AWS Well-Architected Framework",
+      "section": "Design Principles",
+      "content": "### Design Principles\n\n**Implement a strong identity foundation**\nImplement the principle of least privilege and enforce separation of duties with appropriate authorization for each interaction with your AWS resources.\n\n**Apply security at all layers**\nApply a defense in depth approach with multiple security controls. Apply to all layers (edge network, VPC, subnet, load balancer, every instance, operating system, and application).\n\n**Automate security best practices**\nAutomated software-based security mechanisms improve your ability to securely scale more rapidly and cost-effectively.\n\n**Protect data in transit and at rest**\nClassify your data into sensitivity levels and use mechanisms, such as encryption, tokenization, and access control, where appropriate.\n\n**Keep people away from data**\nReduce or eliminate the need for direct access or manual processing of data to reduce the risk of mishandling or modification and human error when handling sensitive data.\n\n**Prepare for security events**\nPrepare for an incident by having incident management and investigation policy and processes that align to your organizational requirements.",
+      "token_count": 201,
+      "char_count": 1146,
+      "chunk_index": 8,
+      "total_chunks": 35,
+      "overlap_with_previous": false,
+      "metadata": {
+        "service_name": "Aws Well Architected Framework.Md",
+        "document_type": "guide",
+        "header_level": 1,
+        "file_size_chars": 22435,
+        "processing_timestamp": "2025-08-02"
+      }
+    },
+    {
+      "chunk_id": "89ab2db9_009",
+      "source_file": "aws_well_architected_framework.md",
+      "title": "AWS Well-Architected Framework",
+      "section": "Best Practices",
+      "content": "### Best Practices\n\n**Security Foundations**\n- Implement AWS account management and separation\n- Implement identity and access management\n- Automate deployment of standard security controls\n- Identify threats and prioritize mitigations using a threat model\n\n**Identity and Access Management**\n- Use strong sign-in mechanisms\n- Use temporary credentials\n- Store and use secrets securely\n- Rely on a centralized identity provider\n- Audit and rotate credentials regularly\n\n**Detection**\n- Configure service and application logging\n- Analyze logs, findings, and metrics centrally\n- Automate response to events\n- Implement actionable security events\n\n**Infrastructure Protection**\n- Create network layers\n- Control traffic at all layers\n- Automate network protection\n- Implement inspection and protection\n\n**Data Protection**\n- Identify and classify your data\n- Protect data at rest\n- Protect data in transit\n- Automate data protection\n- Prepare for incident response\n\n**Incident Response**\n- Ensure personnel know how to respond to an incident\n- Automate containment capability\n- Identify forensic capabilities\n- Automate recovery capability\n- Pre-provision access and tools",
+      "token_count": 222,
+      "char_count": 1170,
+      "chunk_index": 9,
+      "total_chunks": 35,
+      "overlap_with_previous": false,
+      "metadata": {
+        "service_name": "Aws Well Architected Framework.Md",
+        "document_type": "guide",
+        "header_level": 1,
+        "file_size_chars": 22435,
+        "processing_timestamp": "2025-08-02"
+      }
+    },
+    {
+      "chunk_id": "89ab2db9_011",
+      "source_file": "aws_well_architected_framework.md",
+      "title": "AWS Well-Architected Framework",
+      "section": "Design Principles",
+      "content": "### Design Principles\n\n**Automatically recover from failure**\nBy monitoring a workload for key performance indicators (KPIs), you can trigger automation when a threshold is breached.\n\n**Test recovery procedures**\nIn an on-premises environment, testing is often conducted to prove that the workload works in a particular scenario. Testing is not typically used to validate recovery strategies.\n\n**Scale horizontally to increase aggregate workload availability**\nReplace one large resource with multiple small resources to reduce the impact of a single failure on the overall workload.\n\n**Stop guessing capacity**\nA common cause of failure in on-premises workloads is resource saturation, when the demands placed on a workload exceed the capacity of that workload.\n\n**Manage change in automation**\nChanges to your infrastructure should be made using automation. The changes that need to be managed include changes to the automation, which then can be tracked and reviewed.",
+      "token_count": 174,
+      "char_count": 970,
+      "chunk_index": 11,
+      "total_chunks": 35,
+      "overlap_with_previous": false,
+      "metadata": {
+        "service_name": "Aws Well Architected Framework.Md",
+        "document_type": "guide",
+        "header_level": 1,
+        "file_size_chars": 22435,
+        "processing_timestamp": "2025-08-02"
+      }
+    },
+    {
+      "chunk_id": "89ab2db9_012",
+      "source_file": "aws_well_architected_framework.md",
+      "title": "AWS Well-Architected Framework",
+      "section": "Best Practices",
+      "content": "### Best Practices\n\n**Foundations**\n- Manage service quotas and constraints\n- Plan your network topology\n- Design your workload service architecture\n- Design interactions in a distributed system to prevent failures\n- Design interactions in a distributed system to mitigate or withstand failures\n\n**Workload Architecture**\n- Design your workload to withstand component failures\n- Design your workload to withstand high-availability, multi-AZ, and multi-region scenarios\n- Implement loosely coupled dependencies\n- Design interactions in a distributed system to prevent failures\n- Design interactions in a distributed system to mitigate or withstand failures\n\n**Change Management**\n- Monitor workload resources\n- Design your workload to adapt to changes in demand\n- Implement change\n- Back up data\n- Use fault isolation to protect your workload\n\n**Failure Management**\n- Monitor workload resources\n- Design your workload to withstand component failures\n- Test reliability\n- Plan for disaster recovery (DR)\n- Implement change",
+      "token_count": 186,
+      "char_count": 1021,
+      "chunk_index": 12,
+      "total_chunks": 35,
+      "overlap_with_previous": false,
+      "metadata": {
+        "service_name": "Aws Well Architected Framework.Md",
+        "document_type": "guide",
+        "header_level": 1,
+        "file_size_chars": 22435,
+        "processing_timestamp": "2025-08-02"
+      }
+    },
+    {
+      "chunk_id": "89ab2db9_014",
+      "source_file": "aws_well_architected_framework.md",
+      "title": "AWS Well-Architected Framework",
+      "section": "Design Principles",
+      "content": "### Design Principles\n\n**Democratize advanced technologies**\nMake advanced technology implementation easier for your team by delegating complex tasks to your cloud vendor.\n\n**Go global in minutes**\nDeploying your workload in multiple AWS Regions around the world allows you to provide lower latency and a better experience for your customers at minimal cost.\n\n**Use serverless architectures**\nServerless architectures remove the need for you to run and maintain physical servers for traditional compute activities.\n\n**Experiment more often**\nWith virtual and automatable resources, you can quickly carry out comparative testing using different types of instances, storage, or configurations.\n\n**Consider mechanical sympathy**\nUnderstand how cloud services are consumed and always use the technology approach that aligns best with your workload goals.",
+      "token_count": 145,
+      "char_count": 850,
+      "chunk_index": 14,
+      "total_chunks": 35,
+      "overlap_with_previous": false,
+      "metadata": {
+        "service_name": "Aws Well Architected Framework.Md",
+        "document_type": "guide",
+        "header_level": 1,
+        "file_size_chars": 22435,
+        "processing_timestamp": "2025-08-02"
+      }
+    },
+    {
+      "chunk_id": "89ab2db9_015",
+      "source_file": "aws_well_architected_framework.md",
+      "title": "AWS Well-Architected Framework",
+      "section": "Best Practices",
+      "content": "### Best Practices\n\n**Architecture Selection**\n- Understand the available cloud services and resources\n- Define a process for architectural choices\n- Factor cost requirements into decisions\n- Use policies or reference architectures\n- Use guidance from your cloud provider or an appropriate partner\n\n**Compute and Hardware**\n- Select the best compute solution for your workload\n- Understand the available compute configuration options\n- Collect compute-related metrics\n- Determine the required configuration by right-sizing\n- Use the available elasticity of resources\n\n**Data Management**\n- Select the best performing data store for your workload\n- Understand how consistency affects performance\n- Collect data store performance metrics\n- Determine the required configuration by right-sizing\n- Use the available elasticity of resources\n\n**Networking and Content Delivery**\n- Understand how networking impacts performance\n- Evaluate available networking features\n- Choose appropriate dedicated connectivity or VPN for your workload\n- Use load balancing to distribute traffic across multiple resources\n- Choose appropriate protocols\n\n**Process and Culture**\n- Establish key performance indicators (KPIs) to measure workload performance\n- Use monitoring to understand performance over time\n- Proactively improve performance\n- Use automation to proactively remediate performance issues",
+      "token_count": 234,
+      "char_count": 1380,
+      "chunk_index": 15,
+      "total_chunks": 35,
+      "overlap_with_previous": false,
+      "metadata": {
+        "service_name": "Aws Well Architected Framework.Md",
+        "document_type": "guide",
+        "header_level": 1,
+        "file_size_chars": 22435,
+        "processing_timestamp": "2025-08-02"
+      }
+    },
+    {
+      "chunk_id": "89ab2db9_017",
+      "source_file": "aws_well_architected_framework.md",
+      "title": "AWS Well-Architected Framework",
+      "section": "Design Principles",
+      "content": "### Design Principles\n\n**Implement cloud financial management**\nTo achieve financial success and accelerate business value realization in the cloud, invest in Cloud Financial Management and Cost Optimization.\n\n**Adopt a consumption model**\nPay only for the computing resources you consume, and increase or decrease usage depending on business requirements.\n\n**Measure overall efficiency**\nMeasure the business output of the workload and the costs associated with delivery. Use this data to make informed decisions about future resource investments.\n\n**Stop spending money on undifferentiated heavy lifting**\nAWS does the heavy lifting of data center operations like racking, stacking, and powering servers. It also removes the operational burden of managing operating systems and applications with managed services.\n\n**Analyze and attribute expenditure**\nThe cloud makes it easier to accurately identify the cost and usage of workloads, which then allows transparent attribution of IT costs to revenue streams and individual workload owners.",
+      "token_count": 174,
+      "char_count": 1041,
+      "chunk_index": 17,
+      "total_chunks": 35,
+      "overlap_with_previous": false,
+      "metadata": {
+        "service_name": "Aws Well Architected Framework.Md",
+        "document_type": "guide",
+        "header_level": 1,
+        "file_size_chars": 22435,
+        "processing_timestamp": "2025-08-02"
+      }
+    },
+    {
+      "chunk_id": "89ab2db9_018",
+      "source_file": "aws_well_architected_framework.md",
+      "title": "AWS Well-Architected Framework",
+      "section": "Best Practices",
+      "content": "### Best Practices\n\n**Practice Cloud Financial Management**\n- Establish a cost optimization function\n- Establish a partnership between finance and technology\n- Establish cloud budgets and forecasts\n- Implement cost awareness in your organizational processes\n- Report and notify on cost optimization\n- Monitor cost proactively\n- Keep up to date with new service releases\n\n**Expenditure and Usage Awareness**\n- Govern usage\n- Monitor cost and usage\n- Decommission resources\n- Evaluate new services\n\n**Cost-Effective Resources**\n- Evaluate cost when selecting services\n- Select the correct resource type, size, and number\n- Select the best pricing model\n- Plan for data transfer charges\n\n**Manage Demand and Supply Resources**\n- Perform analysis on the workload demand\n- Implement a buffer or throttle to manage demand\n- Supply resources dynamically\n\n**Optimize Over Time**\n- Review and analyze this workload regularly\n- Implement a process to evaluate new services\n- Implement a process to evaluate the workload and implement optimization",
+      "token_count": 197,
+      "char_count": 1036,
+      "chunk_index": 18,
+      "total_chunks": 35,
+      "overlap_with_previous": false,
+      "metadata": {
+        "service_name": "Aws Well Architected Framework.Md",
+        "document_type": "guide",
+        "header_level": 1,
+        "file_size_chars": 22435,
+        "processing_timestamp": "2025-08-02"
+      }
+    },
+    {
+      "chunk_id": "89ab2db9_020",
+      "source_file": "aws_well_architected_framework.md",
+      "title": "AWS Well-Architected Framework",
+      "section": "Design Principles",
+      "content": "### Design Principles\n\n**Understand your impact**\nEstablish performance indicators, evaluate improvements, and estimate the impact of proposed changes over the full lifecycle of a workload.\n\n**Establish sustainability goals**\nEstablish long-term sustainability goals for each workload, model return on investment (ROI), and give owners the resources they need to invest in sustainability goals.\n\n**Maximize utilization**\nRight size each workload to maximize the energy efficiency of the underlying hardware and minimize idle resources.\n\n**Anticipate and adopt new, more efficient hardware and software offerings**\nDesign for flexibility to adopt new technologies over time, and support the upstream improvements your partners and suppliers make to help you reduce the impact of your cloud workloads.\n\n**Use managed services**\nManaged services shift responsibility for maintaining high average utilization and sustainability optimization of the deployed hardware to AWS.\n\n**Reduce the downstream impact of your cloud workloads**\nReduce the amount of energy or resources required to use your services and reduce the need for your customers to upgrade their hardware.",
+      "token_count": 195,
+      "char_count": 1164,
+      "chunk_index": 20,
+      "total_chunks": 35,
+      "overlap_with_previous": false,
+      "metadata": {
+        "service_name": "Aws Well Architected Framework.Md",
+        "document_type": "guide",
+        "header_level": 1,
+        "file_size_chars": 22435,
+        "processing_timestamp": "2025-08-02"
+      }
+    },
+    {
+      "chunk_id": "89ab2db9_021",
+      "source_file": "aws_well_architected_framework.md",
+      "title": "AWS Well-Architected Framework",
+      "section": "Best Practices",
+      "content": "### Best Practices\n\n**Region Selection**\n- Choose Regions near your users for reduced latency\n- Choose Regions based on your sustainability goals\n- Use Regions with published PUE and carbon intensity information\n\n**User Behavior Patterns**\n- Scale infrastructure with user load\n- Align SLA with sustainability goals\n- Eliminate or reduce the need for customers to upgrade hardware\n\n**Software and Architecture Patterns**\n- Optimize software and architecture for asynchronous and scheduled jobs\n- Remove or refactor workload components with low or no use\n- Optimize areas of code that consume the most time or resources\n- Optimize impact on customer devices and equipment\n- Use software patterns and architectures that best support data access and storage patterns\n\n**Data Patterns**\n- Implement a data classification policy\n- Use technologies that support data access and storage patterns\n- Use lifecycle policies to delete unnecessary data\n- Minimize over-provisioning in block storage\n- Remove unneeded data in snapshots\n\n**Hardware Patterns**\n- Use the minimum amount of hardware to meet your needs\n- Use instance types with the least impact\n- Use managed services\n- Optimize your use of hardware-based compute accelerators\n\n**Development and Deployment Patterns**\n- Adopt methods that can rapidly introduce sustainability improvements\n- Keep your workload up-to-date\n- Increase utilization of build environments\n- Use managed device farms for testing",
+      "token_count": 271,
+      "char_count": 1454,
+      "chunk_index": 21,
+      "total_chunks": 35,
+      "overlap_with_previous": false,
+      "metadata": {
+        "service_name": "Aws Well Architected Framework.Md",
+        "document_type": "guide",
+        "header_level": 1,
+        "file_size_chars": 22435,
+        "processing_timestamp": "2025-08-02"
+      }
+    },
+    {
+      "chunk_id": "89ab2db9_023",
+      "source_file": "aws_well_architected_framework.md",
+      "title": "AWS Well-Architected Framework",
+      "section": "Features",
+      "content": "### Features\n\n**Workload Documentation**\nDocument your workloads and applications in the tool to track architectural decisions and improvements over time.\n\n**Review Process**\nAnswer a series of questions about your architecture across the six pillars to identify areas for improvement.\n\n**Improvement Plans**\nReceive prioritized improvement plans with specific guidance on how to address identified issues.\n\n**Milestone Tracking**\nTrack your progress over time by creating milestones that capture the state of your workload at specific points.\n\n**Custom Lenses**\nCreate custom lenses to address specific industry requirements or organizational standards.\n\n**Reporting**\nGenerate reports to share findings and track improvements across your organization.",
+      "token_count": 124,
+      "char_count": 753,
+      "chunk_index": 23,
+      "total_chunks": 35,
+      "overlap_with_previous": false,
+      "metadata": {
+        "service_name": "Aws Well Architected Framework.Md",
+        "document_type": "guide",
+        "header_level": 1,
+        "file_size_chars": 22435,
+        "processing_timestamp": "2025-08-02"
+      }
+    },
+    {
+      "chunk_id": "89ab2db9_035",
+      "source_file": "aws_well_architected_framework.md",
+      "title": "AWS Well-Architected Framework",
+      "section": "Conclusion",
+      "content": "## Conclusion\n\nThe AWS Well-Architected Framework provides a comprehensive approach to building and operating workloads in the cloud. By following the principles and best practices outlined in the six pillars, organizations can create systems that are secure, reliable, performant, cost-effective, operationally excellent, and sustainable.\n\nRegular application of the framework through reviews and continuous improvement helps ensure that architectures evolve with changing requirements and take advantage of new AWS capabilities. The framework is not a one-time checklist but rather a continuous journey toward architectural excellence.",
+      "token_count": 104,
+      "char_count": 637,
+      "chunk_index": 35,
+      "total_chunks": 35,
+      "overlap_with_previous": false,
+      "metadata": {
+        "service_name": "Aws Well Architected Framework.Md",
+        "document_type": "guide",
+        "header_level": 1,
+        "file_size_chars": 22435,
+        "processing_timestamp": "2025-08-02"
+      }
+    }
+  ]
+}

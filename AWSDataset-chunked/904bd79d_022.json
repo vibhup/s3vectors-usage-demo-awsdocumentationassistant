@@ -1,0 +1,19 @@
+{
+  "chunk_id": "904bd79d_022",
+  "source_file": "aws_cost_optimization_guide.md",
+  "title": "AWS Cost Optimization Guide",
+  "section": "Load Balancer Cost Optimization",
+  "content": "### Load Balancer Cost Optimization\nOptimize load balancer costs based on usage patterns.\n\n**Load Balancer Types:**\n- **Application Load Balancer (ALB)**: Layer 7, HTTP/HTTPS\n- **Network Load Balancer (NLB)**: Layer 4, TCP/UDP\n- **Gateway Load Balancer (GWLB)**: Layer 3, third-party appliances\n- **Classic Load Balancer**: Legacy, not recommended for new deployments\n\n**Optimization Strategies:**\n- Choose appropriate load balancer type\n- Consolidate multiple applications on single ALB\n- Use target groups efficiently\n- Monitor load balancer utilization\n- Consider Application Load Balancer for HTTP/HTTPS traffic",
+  "token_count": 145,
+  "char_count": 615,
+  "chunk_index": 22,
+  "total_chunks": 46,
+  "overlap_with_previous": false,
+  "metadata": {
+    "service_name": "Aws Cost Optimization Guide.Md",
+    "document_type": "guide",
+    "header_level": 1,
+    "file_size_chars": 20670,
+    "processing_timestamp": "2025-08-02"
+  }
+}

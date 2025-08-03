@@ -1,0 +1,19 @@
+{
+  "chunk_id": "fabf700a_005",
+  "source_file": "amazon_api_gateway_intro.md",
+  "title": "What is Amazon API Gateway?",
+  "section": "Part of AWS serverless infrastructure",
+  "content": "## Part of AWS serverless infrastructure\n\nTogether with AWS Lambda, API Gateway forms the app-facing\npart of the AWS serverless infrastructure. To learn more about getting started with serverless, see the\nServerless Developer Guide.\n\nFor an app to call publicly available AWS services, you can use Lambda to interact\nwith required services and expose Lambda functions through API methods in API Gateway.\nAWS Lambda runs your code on a highly available computing infrastructure. It performs the\nnecessary execution and administration of computing resources. To enable serverless\napplications, API Gateway supports streamlined\nproxy integrations with AWS Lambda and HTTP endpoints.",
+  "token_count": 123,
+  "char_count": 679,
+  "chunk_index": 5,
+  "total_chunks": 21,
+  "overlap_with_previous": false,
+  "metadata": {
+    "service_name": "Amazon Api Gateway",
+    "document_type": "introduction",
+    "header_level": 1,
+    "file_size_chars": 7160,
+    "processing_timestamp": "2025-08-02"
+  }
+}

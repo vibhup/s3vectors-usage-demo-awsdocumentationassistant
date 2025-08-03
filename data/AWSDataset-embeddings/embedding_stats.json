@@ -1,0 +1,8 @@
+{
+  "total_chunks": 139,
+  "successful_embeddings": 139,
+  "failed_embeddings": 0,
+  "total_tokens_processed": 27760,
+  "total_embedding_dimensions": 1024,
+  "processing_errors": []
+}

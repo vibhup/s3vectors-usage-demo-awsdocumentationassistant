@@ -1,0 +1,19 @@
+{
+  "chunk_id": "904bd79d_009",
+  "source_file": "aws_cost_optimization_guide.md",
+  "title": "AWS Cost Optimization Guide",
+  "section": "Auto Scaling",
+  "content": "### Auto Scaling\nAutomatically adjust capacity based on demand.\n\n**Auto Scaling Benefits:**\n- Maintain application availability\n- Reduce costs by scaling down during low demand\n- Handle traffic spikes automatically\n- Improve fault tolerance\n\n**Auto Scaling Types:**\n- **Target Tracking**: Maintain specific metric target\n- **Step Scaling**: Scale based on CloudWatch alarms\n- **Scheduled Scaling**: Scale based on predictable patterns\n- **Predictive Scaling**: Use machine learning to forecast demand\n\n**Best Practices:**\n- Set appropriate scaling policies\n- Use multiple metrics for scaling decisions\n- Implement proper health checks\n- Test scaling policies under load\n- Monitor scaling activities and costs",
+  "token_count": 134,
+  "char_count": 708,
+  "chunk_index": 9,
+  "total_chunks": 46,
+  "overlap_with_previous": false,
+  "metadata": {
+    "service_name": "Aws Cost Optimization Guide.Md",
+    "document_type": "guide",
+    "header_level": 1,
+    "file_size_chars": 20670,
+    "processing_timestamp": "2025-08-02"
+  }
+}

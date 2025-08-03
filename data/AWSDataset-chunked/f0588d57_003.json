@@ -1,0 +1,19 @@
+{
+  "chunk_id": "f0588d57_003",
+  "source_file": "amazon_s3_intro.md",
+  "title": "What is Amazon S3?",
+  "section": "Storage classes",
+  "content": "### Storage classes\n\nAmazon S3 offers a range of storage classes designed for different use cases. For\nexample, you can store mission-critical production data in S3 Standard or S3 Express One Zone for frequent\naccess, save costs by storing infrequently accessed data in S3 Standard-IA or\nS3 One Zone-IA, and archive data at the lowest costs in S3 Glacier Instant Retrieval,\nS3 Glacier Flexible Retrieval, and S3 Glacier Deep Archive.\n\nAmazon S3 Express One Zone is a high-performance, single-zone Amazon S3 storage class that is purpose-built\nto deliver consistent, single-digit millisecond data access for your most\nlatency-sensitive applications. S3 Express One Zone is the lowest latency cloud object\nstorage class available today, with data access\nspeeds\nup to 10x faster and with request costs\n50\npercent lower than S3 Standard. S3 Express One Zone is the first S3 storage class where you can select a single Availability Zone with\nthe option to co-locate your object storage with your compute resources, which provides the highest possible access speed.\nAdditionally, to further increase access speed and support hundreds of thousands of\nrequests per second, data is stored in a new bucket type: an\nAmazon S3 directory bucket.\n\nYou can store data with changing or unknown access patterns in\nS3 Intelligent-Tiering, which optimizes storage costs by automatically moving your\ndata between four access tiers when your access patterns change. These four access\ntiers include two low-latency access tiers optimized for frequent and infrequent\naccess, and two opt-in archive access tiers designed for asynchronous access for\nrarely accessed data.",
+  "token_count": 344,
+  "char_count": 1646,
+  "chunk_index": 3,
+  "total_chunks": 11,
+  "overlap_with_previous": false,
+  "metadata": {
+    "service_name": "Amazon S3",
+    "document_type": "introduction",
+    "header_level": 1,
+    "file_size_chars": 11018,
+    "processing_timestamp": "2025-08-02"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "chunk_id": "8840477f_004",
+  "source_file": "aws_iam_policies.md",
+  "title": "What is IAM?",
+  "section": "Service availability",
+  "content": "## Service availability\n\nIAM, like many other AWS services, is eventually consistent.\nIAM achieves high availability by replicating data across multiple servers within\nAmazon's data centers around the world. If a request to change some data is successful,\nthe change is committed and safely stored. However, the change must be replicated across\nIAM, which can take some time. Such changes include creating or updating users,\ngroups, roles, or policies. We recommend that you do not include such IAM changes in the\ncritical, high-availability code paths of your application. Instead, make IAM changes in\na separate initialization or setup routine that you run less frequently. Also, be sure\nto verify that the changes have been propagated before production workflows depend on\nthem.",
+  "token_count": 151,
+  "char_count": 781,
+  "chunk_index": 4,
+  "total_chunks": 12,
+  "overlap_with_previous": false,
+  "metadata": {
+    "service_name": "Aws Iam Policies.Md",
+    "document_type": "guide",
+    "header_level": 1,
+    "file_size_chars": 11549,
+    "processing_timestamp": "2025-08-02"
+  }
+}

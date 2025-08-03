@@ -1,0 +1,19 @@
+{
+  "chunk_id": "89ab2db9_035",
+  "source_file": "aws_well_architected_framework.md",
+  "title": "AWS Well-Architected Framework",
+  "section": "Conclusion",
+  "content": "## Conclusion\n\nThe AWS Well-Architected Framework provides a comprehensive approach to building and operating workloads in the cloud. By following the principles and best practices outlined in the six pillars, organizations can create systems that are secure, reliable, performant, cost-effective, operationally excellent, and sustainable.\n\nRegular application of the framework through reviews and continuous improvement helps ensure that architectures evolve with changing requirements and take advantage of new AWS capabilities. The framework is not a one-time checklist but rather a continuous journey toward architectural excellence.",
+  "token_count": 104,
+  "char_count": 637,
+  "chunk_index": 35,
+  "total_chunks": 35,
+  "overlap_with_previous": false,
+  "metadata": {
+    "service_name": "Aws Well Architected Framework.Md",
+    "document_type": "guide",
+    "header_level": 1,
+    "file_size_chars": 22435,
+    "processing_timestamp": "2025-08-02"
+  }
+}

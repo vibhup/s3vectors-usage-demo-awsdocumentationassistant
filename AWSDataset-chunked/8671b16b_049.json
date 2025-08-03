@@ -1,0 +1,19 @@
+{
+  "chunk_id": "8671b16b_049",
+  "source_file": "aws_security_best_practices.md",
+  "title": "AWS Security Best Practices Guide",
+  "section": "Security Automation",
+  "content": "### Security Automation\nAutomate security tasks to improve efficiency and consistency.\n\n**Automation Use Cases:**\n- Automated incident response\n- Security configuration remediation\n- Compliance checking and reporting\n- Threat detection and response\n- Access provisioning and deprovisioning\n- Security patch management\n\n**AWS Automation Services:**\n- AWS Lambda for serverless automation\n- AWS Systems Manager for patch management\n- AWS Config Rules for compliance automation\n- Amazon EventBridge for event-driven automation\n- AWS Step Functions for workflow orchestration",
+  "token_count": 104,
+  "char_count": 571,
+  "chunk_index": 49,
+  "total_chunks": 54,
+  "overlap_with_previous": false,
+  "metadata": {
+    "service_name": "Aws Security Best Practices.Md",
+    "document_type": "guide",
+    "header_level": 1,
+    "file_size_chars": 18249,
+    "processing_timestamp": "2025-08-02"
+  }
+}

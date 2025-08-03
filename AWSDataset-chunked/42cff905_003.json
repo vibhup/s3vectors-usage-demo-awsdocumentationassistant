@@ -1,0 +1,19 @@
+{
+  "chunk_id": "42cff905_003",
+  "source_file": "aws_services_comprehensive_overview.md",
+  "title": "Comprehensive AWS Services Overview",
+  "section": "Amazon EC2 (Elastic Compute Cloud)",
+  "content": "### Amazon EC2 (Elastic Compute Cloud)\nAmazon EC2 provides secure, resizable compute capacity in the cloud. It is designed to make web-scale cloud computing easier for developers.\n\n**Key Features:**\n- Virtual servers in the cloud\n- Multiple instance types optimized for different use cases\n- Auto Scaling capabilities\n- Elastic Load Balancing integration\n- Spot Instances for cost optimization\n- Reserved Instances for predictable workloads\n\n**Instance Types:**\n- **General Purpose**: Balanced compute, memory, and networking (t3, t4g, m5, m6i)\n- **Compute Optimized**: High-performance processors (c5, c6i, c7g)\n- **Memory Optimized**: Fast performance for memory-intensive workloads (r5, r6i, x1e)\n- **Storage Optimized**: High sequential read/write access (i3, d2, h1)\n- **Accelerated Computing**: Hardware accelerators or co-processors (p3, p4, g4)\n\n**Use Cases:**\n- Web applications and websites\n- Development and test environments\n- Backup and disaster recovery\n- High-performance computing (HPC)\n- Machine learning and AI workloads",
+  "token_count": 245,
+  "char_count": 1038,
+  "chunk_index": 3,
+  "total_chunks": 81,
+  "overlap_with_previous": false,
+  "metadata": {
+    "service_name": "Aws Services Comprehensive Overview.Md",
+    "document_type": "guide",
+    "header_level": 1,
+    "file_size_chars": 25294,
+    "processing_timestamp": "2025-08-02"
+  }
+}

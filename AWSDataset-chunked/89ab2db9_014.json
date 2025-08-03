@@ -1,0 +1,19 @@
+{
+  "chunk_id": "89ab2db9_014",
+  "source_file": "aws_well_architected_framework.md",
+  "title": "AWS Well-Architected Framework",
+  "section": "Design Principles",
+  "content": "### Design Principles\n\n**Democratize advanced technologies**\nMake advanced technology implementation easier for your team by delegating complex tasks to your cloud vendor.\n\n**Go global in minutes**\nDeploying your workload in multiple AWS Regions around the world allows you to provide lower latency and a better experience for your customers at minimal cost.\n\n**Use serverless architectures**\nServerless architectures remove the need for you to run and maintain physical servers for traditional compute activities.\n\n**Experiment more often**\nWith virtual and automatable resources, you can quickly carry out comparative testing using different types of instances, storage, or configurations.\n\n**Consider mechanical sympathy**\nUnderstand how cloud services are consumed and always use the technology approach that aligns best with your workload goals.",
+  "token_count": 145,
+  "char_count": 850,
+  "chunk_index": 14,
+  "total_chunks": 35,
+  "overlap_with_previous": false,
+  "metadata": {
+    "service_name": "Aws Well Architected Framework.Md",
+    "document_type": "guide",
+    "header_level": 1,
+    "file_size_chars": 22435,
+    "processing_timestamp": "2025-08-02"
+  }
+}

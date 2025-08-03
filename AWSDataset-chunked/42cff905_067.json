@@ -1,0 +1,19 @@
+{
+  "chunk_id": "42cff905_067",
+  "source_file": "aws_services_comprehensive_overview.md",
+  "title": "Comprehensive AWS Services Overview",
+  "section": "Amazon SQS (Simple Queue Service)",
+  "content": "### Amazon SQS (Simple Queue Service)\nAmazon SQS is a fully managed message queuing service that enables you to decouple and scale microservices, distributed systems, and serverless applications.\n\n**Queue Types:**\n- **Standard Queues**: Maximum throughput, at-least-once delivery\n- **FIFO Queues**: Exactly-once processing, first-in-first-out delivery\n\n**Key Features:**\n- Fully managed message queuing\n- Unlimited throughput and messages\n- Message retention up to 14 days\n- Dead letter queues\n- Server-side encryption",
+  "token_count": 114,
+  "char_count": 518,
+  "chunk_index": 67,
+  "total_chunks": 81,
+  "overlap_with_previous": false,
+  "metadata": {
+    "service_name": "Aws Services Comprehensive Overview.Md",
+    "document_type": "guide",
+    "header_level": 1,
+    "file_size_chars": 25294,
+    "processing_timestamp": "2025-08-02"
+  }
+}

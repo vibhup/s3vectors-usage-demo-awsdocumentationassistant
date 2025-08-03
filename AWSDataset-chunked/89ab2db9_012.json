@@ -1,0 +1,19 @@
+{
+  "chunk_id": "89ab2db9_012",
+  "source_file": "aws_well_architected_framework.md",
+  "title": "AWS Well-Architected Framework",
+  "section": "Best Practices",
+  "content": "### Best Practices\n\n**Foundations**\n- Manage service quotas and constraints\n- Plan your network topology\n- Design your workload service architecture\n- Design interactions in a distributed system to prevent failures\n- Design interactions in a distributed system to mitigate or withstand failures\n\n**Workload Architecture**\n- Design your workload to withstand component failures\n- Design your workload to withstand high-availability, multi-AZ, and multi-region scenarios\n- Implement loosely coupled dependencies\n- Design interactions in a distributed system to prevent failures\n- Design interactions in a distributed system to mitigate or withstand failures\n\n**Change Management**\n- Monitor workload resources\n- Design your workload to adapt to changes in demand\n- Implement change\n- Back up data\n- Use fault isolation to protect your workload\n\n**Failure Management**\n- Monitor workload resources\n- Design your workload to withstand component failures\n- Test reliability\n- Plan for disaster recovery (DR)\n- Implement change",
+  "token_count": 186,
+  "char_count": 1021,
+  "chunk_index": 12,
+  "total_chunks": 35,
+  "overlap_with_previous": false,
+  "metadata": {
+    "service_name": "Aws Well Architected Framework.Md",
+    "document_type": "guide",
+    "header_level": 1,
+    "file_size_chars": 22435,
+    "processing_timestamp": "2025-08-02"
+  }
+}
