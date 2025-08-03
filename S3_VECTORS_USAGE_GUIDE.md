@@ -6,7 +6,7 @@ You've successfully created a **production-ready semantic search system** for AW
 
 ## 📊 System Statistics
 
-- **✅ Vector Bucket**: `vibhup-aws-docs-vectors`
+- **✅ Vector Bucket**: `YOUR-VECTOR-BUCKET`
 - **📇 Vector Index**: `aws-documentation`
 - **🎯 Total Embeddings**: 139 AWS documentation chunks
 - **📏 Dimensions**: 1024 (Amazon Titan Text Embeddings V2)
@@ -130,7 +130,7 @@ Semantic Search API (Query + Results)
 
 ### **Key Components**
 
-1. **Vector Bucket**: `vibhup-aws-docs-vectors`
+1. **Vector Bucket**: `YOUR-VECTOR-BUCKET`
    - Purpose-built S3 bucket for vector storage
    - Automatic optimization and scaling
    - Cost-effective pay-per-use model
@@ -156,7 +156,7 @@ Semantic Search API (Query + Results)
 
 ### **Vector Storage**
 - **Service**: Amazon S3 Vectors (Preview)
-- **Bucket**: `vibhup-aws-docs-vectors`
+- **Bucket**: `YOUR-VECTOR-BUCKET`
 - **Index**: `aws-documentation`
 - **Distance Metric**: Cosine
 - **Region**: us-east-1
@@ -231,7 +231,7 @@ results = search.search_vectors(query, service_filter="s3")
 ### **Monitoring Usage**
 ```bash
 # Check vector count
-aws s3vectors list-vectors --vector-bucket-name vibhup-aws-docs-vectors --index-name aws-documentation
+aws s3vectors list-vectors --vector-bucket-name YOUR-VECTOR-BUCKET --index-name aws-documentation
 
 # Monitor costs in AWS Cost Explorer
 # Filter by S3 Vectors service
@@ -256,7 +256,7 @@ import boto3
 
 s3vectors = boto3.client('s3vectors')
 response = s3vectors.query_vectors(
-    vectorBucketName='vibhup-aws-docs-vectors',
+    vectorBucketName='YOUR-VECTOR-BUCKET',
     indexName='aws-documentation',
     queryVector={'float32': query_embedding},
     topK=5

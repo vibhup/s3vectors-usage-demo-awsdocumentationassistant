@@ -8,12 +8,12 @@ with open('/Users/vibhup/Downloads/embeddingdataset/dist-config.json', 'r') as f
 # Add custom domain to aliases
 config['Aliases'] = {
     'Quantity': 1,
-    'Items': ['s3vectorstest.vibhup.sa.aws.dev']
+    'Items': ['your-custom-domain.com']
 }
 
 # Update SSL certificate configuration
 config['ViewerCertificate'] = {
-    'ACMCertificateArn': 'arn:aws:acm:us-east-1:681007183786:certificate/3d84938f-6339-43b6-96d2-94534d43434c',
+    'ACMCertificateArn': 'arn:aws:acm:us-east-1:YOUR-ACCOUNT-ID:certificate/YOUR-CERTIFICATE-ID',
     'SSLSupportMethod': 'sni-only',
     'MinimumProtocolVersion': 'TLSv1.2_2021',
     'CertificateSource': 'acm'

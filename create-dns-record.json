@@ -1,15 +1,15 @@
 {
-  "Comment": "Create CNAME record for s3vectorstest.vibhup.sa.aws.dev pointing to CloudFront",
+  "Comment": "Create CNAME record for your-custom-domain.com pointing to CloudFront",
   "Changes": [
     {
       "Action": "CREATE",
       "ResourceRecordSet": {
-        "Name": "s3vectorstest.vibhup.sa.aws.dev",
+        "Name": "your-custom-domain.com",
         "Type": "CNAME",
         "TTL": 300,
         "ResourceRecords": [
           {
-            "Value": "d2wjslgl1ujvp5.cloudfront.net"
+            "Value": "YOUR-CLOUDFRONT-DOMAIN.cloudfront.net"
           }
         ]
       }

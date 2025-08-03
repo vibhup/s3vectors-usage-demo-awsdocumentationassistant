@@ -61,6 +61,14 @@ current-cf-config.json
 dist-config.json
 updated-dist-config.json
 
+# SECURITY: Never commit actual AWS resource configurations
+*-config.json
+*-policy.json
+*-trust-policy.json
+*-bucket-policy.json
+*-change-batch.json
+*-validation-record.json
+
 # Generated files
 *.pyc
 *.pyo

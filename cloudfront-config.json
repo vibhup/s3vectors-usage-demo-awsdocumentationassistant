@@ -6,16 +6,16 @@
     "Quantity": 1,
     "Items": [
       {
-        "Id": "S3-aws-docs-rag-ui-1754216241",
-        "DomainName": "aws-docs-rag-ui-1754216241.s3.amazonaws.com",
+        "Id": "S3-YOUR-S3-UI-BUCKET",
+        "DomainName": "YOUR-S3-UI-BUCKET.s3.amazonaws.com",
         "S3OriginConfig": {
-          "OriginAccessIdentity": "origin-access-identity/cloudfront/E2YEWR495FV5LS"
+          "OriginAccessIdentity": "origin-access-identity/cloudfront/YOUR-CLOUDFRONT-OAI-ID"
         }
       }
     ]
   },
   "DefaultCacheBehavior": {
-    "TargetOriginId": "S3-aws-docs-rag-ui-1754216241",
+    "TargetOriginId": "S3-YOUR-S3-UI-BUCKET",
     "ViewerProtocolPolicy": "redirect-to-https",
     "MinTTL": 0,
     "ForwardedValues": {

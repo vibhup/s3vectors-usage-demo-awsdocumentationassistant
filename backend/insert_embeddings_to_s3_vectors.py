@@ -219,7 +219,7 @@ class S3VectorsInserter:
 def main():
     """Main execution function."""
     # Configuration
-    VECTOR_BUCKET_NAME = "vibhup-aws-docs-vectors"
+    VECTOR_BUCKET_NAME = "YOUR-VECTOR-BUCKET"
     INDEX_NAME = "aws-documentation"
     EMBEDDINGS_DIR = "/Users/vibhup/Downloads/embeddingdataset/AWSDataset-embeddings"
     BATCH_SIZE = 25  # Optimal batch size for S3 Vectors

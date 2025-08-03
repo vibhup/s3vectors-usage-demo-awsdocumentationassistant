@@ -6,7 +6,7 @@ A comprehensive **Retrieval-Augmented Generation (RAG)** system built with **Ama
 
 ## 🌟 **Live Demo**
 
-**🔗 Try it now:** [https://s3vectorstest.vibhup.sa.aws.dev](https://s3vectorstest.vibhup.sa.aws.dev)
+**🔗 Try it now:** [https://your-custom-domain.com](https://your-custom-domain.com)
 
 ## 🏗️ **Architecture Overview**
 

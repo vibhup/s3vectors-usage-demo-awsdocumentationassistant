@@ -17,7 +17,7 @@ import {
 import './App.css';
 
 // API Configuration - Real API Gateway URL (us-east-1)
-const API_BASE_URL = process.env.REACT_APP_API_URL || 'https://vya00mpqbe.execute-api.us-east-1.amazonaws.com/prod';
+const API_BASE_URL = process.env.REACT_APP_API_URL || 'https://YOUR-API-GATEWAY-ID.execute-api.us-east-1.amazonaws.com/prod';
 
 function App() {
   const [question, setQuestion] = useState('');

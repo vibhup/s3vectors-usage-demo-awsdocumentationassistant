@@ -5,10 +5,10 @@
       "Sid": "AllowCloudFrontOAI",
       "Effect": "Allow",
       "Principal": {
-        "AWS": "arn:aws:iam::cloudfront:user/CloudFront Origin Access Identity E2YEWR495FV5LS"
+        "AWS": "arn:aws:iam::cloudfront:user/CloudFront Origin Access Identity YOUR-CLOUDFRONT-OAI-ID"
       },
       "Action": "s3:GetObject",
-      "Resource": "arn:aws:s3:::aws-docs-rag-ui-1754216241/*"
+      "Resource": "arn:aws:s3:::YOUR-S3-UI-BUCKET/*"
     }
   ]
 }

@@ -21,8 +21,8 @@
         "s3vectors:GetVectorBucket"
       ],
       "Resource": [
-        "arn:aws:s3vectors:us-east-1:681007183786:bucket/vibhup-aws-docs-vectors",
-        "arn:aws:s3vectors:us-east-1:681007183786:bucket/vibhup-aws-docs-vectors/index/*"
+        "arn:aws:s3vectors:us-east-1:YOUR-ACCOUNT-ID:bucket/YOUR-VECTOR-BUCKET",
+        "arn:aws:s3vectors:us-east-1:YOUR-ACCOUNT-ID:bucket/YOUR-VECTOR-BUCKET/index/*"
       ]
     },
     {

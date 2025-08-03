@@ -361,7 +361,7 @@ def get_rag_system():
     global rag_system
     if rag_system is None:
         rag_system = AWSDocsRAGSystem(
-            vector_bucket_name="vibhup-aws-docs-vectors",
+            vector_bucket_name="YOUR-VECTOR-BUCKET",
             index_name="aws-documentation",
             s3vectors_region="us-east-1",
             bedrock_region="us-east-1"

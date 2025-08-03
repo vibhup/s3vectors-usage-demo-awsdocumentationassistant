@@ -16,7 +16,7 @@
         "s3vectors:QueryVectors",
         "s3vectors:ListVectors"
       ],
-      "Resource": "arn:aws:s3vectors:us-east-1:681007183786:bucket/vibhup-aws-docs-vectors/*"
+      "Resource": "arn:aws:s3vectors:us-east-1:YOUR-ACCOUNT-ID:bucket/YOUR-VECTOR-BUCKET/*"
     },
     {
       "Effect": "Allow",

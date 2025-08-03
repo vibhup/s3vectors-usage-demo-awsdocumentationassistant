@@ -32,12 +32,12 @@
 ```
 
 **AWS Resources Successfully Created:**
-- **S3 Vector Bucket**: `vibhup-aws-docs-vectors`
+- **S3 Vector Bucket**: `YOUR-VECTOR-BUCKET`
   - Region: us-east-1
-  - ARN: `arn:aws:s3vectors:us-east-1:681007183786:bucket/vibhup-aws-docs-vectors`
+  - ARN: `arn:aws:s3vectors:us-east-1:YOUR-ACCOUNT-ID:bucket/YOUR-VECTOR-BUCKET`
   - Status: ✅ Active with 139 embeddings
 - **Vector Index**: `aws-documentation`
-  - ARN: `arn:aws:s3vectors:us-east-1:681007183786:bucket/vibhup-aws-docs-vectors/index/aws-documentation`
+  - ARN: `arn:aws:s3vectors:us-east-1:YOUR-ACCOUNT-ID:bucket/YOUR-VECTOR-BUCKET/index/aws-documentation`
   - Dimensions: 1024 (Titan Text Embeddings V2)
   - Distance Metric: Cosine
   - Total Vectors: 139 AWS documentation chunks
@@ -210,7 +210,7 @@ User Browser → CloudFront CDN → S3 Static Hosting (React UI)
         "s3vectors:QueryVectors",
         "s3vectors:ListVectors"
       ],
-      "Resource": "arn:aws:s3vectors:us-east-1:681007183786:bucket/vibhup-aws-docs-vectors/*"
+      "Resource": "arn:aws:s3vectors:us-east-1:YOUR-ACCOUNT-ID:bucket/YOUR-VECTOR-BUCKET/*"
     },
     {
       "Effect": "Allow",
@@ -274,7 +274,7 @@ cd lambda-deployment && zip -r ../rag-lambda.zip .
 aws lambda create-function \
   --function-name aws-docs-rag-ask-question \
   --runtime python3.11 \
-  --role arn:aws:iam::681007183786:role/lambda-rag-execution-role \
+  --role arn:aws:iam::YOUR-ACCOUNT-ID:role/lambda-rag-execution-role \
   --handler aws_docs_rag_system.lambda_handler \
   --zip-file fileb://rag-lambda.zip \
   --timeout 30 \
@@ -340,7 +340,7 @@ aws s3 sync build/ s3://aws-docs-rag-ui-bucket/ --delete
 **Key Files to Use**:
 - Main RAG System: `/Users/vibhup/Downloads/embeddingdataset/aws_docs_rag_system.py`
 - React UI: `/Users/vibhup/Downloads/embeddingdataset/react-ui/`
-- Existing S3 Vector Bucket: `vibhup-aws-docs-vectors`
+- Existing S3 Vector Bucket: `YOUR-VECTOR-BUCKET`
 - Existing Vector Index: `aws-documentation`
 
 **Expected Outcome**: Working web application where users can ask AWS questions and get intelligent answers with source attribution, deployed on AWS serverless architecture.

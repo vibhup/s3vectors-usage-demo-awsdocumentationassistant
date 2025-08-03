@@ -177,7 +177,7 @@ query_embedding = generate_query_embedding(user_question)
 ```python
 # Search S3 Vectors index for similar documents
 response = s3vectors_client.query_vectors(
-    vectorBucketName='vibhup-aws-docs-vectors',
+    vectorBucketName='YOUR-VECTOR-BUCKET',
     indexName='aws-documentation',
     queryVector={'float32': query_embedding},
     topK=5,

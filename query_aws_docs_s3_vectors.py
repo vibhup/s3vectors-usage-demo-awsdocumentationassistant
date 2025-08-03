@@ -225,7 +225,7 @@ def main():
     args = parser.parse_args()
     
     # Configuration
-    VECTOR_BUCKET_NAME = "vibhup-aws-docs-vectors"
+    VECTOR_BUCKET_NAME = "YOUR-VECTOR-BUCKET"
     INDEX_NAME = "aws-documentation"
     
     # Initialize search
